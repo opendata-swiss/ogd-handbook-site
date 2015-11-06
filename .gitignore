@@ -1,0 +1,8 @@
+env
+.venv
+*.sublime-workspace
+*.pid
+*.pyc
+
+cache/
+output/

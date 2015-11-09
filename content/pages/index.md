@@ -12,7 +12,7 @@ The Swiss Open Government Data (OGD) Handbook is being developed to support indi
 
 ![A top-down visual of the OGD Handbook](images/splash-2015-11-04.png)
 
-To get started, click on an area of interest above or in the [index overview](handbook/chapters), or start with [an overview](handbook/Home).
+To get started, click on an area of interest above or in the [index overview](handbook/Index), or start with [an overview](handbook/Home).
 
 <center style="margin-bottom:2em">
 	<a class="btn btn-primary btn-large" href="handbook/Home.html">Start reading »</a>

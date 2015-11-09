@@ -26,16 +26,9 @@ ARTICLE_SAVE_AS = '{category}/{slug}.html'
 ARTICLE_URL = '{category}/{slug}.html'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = [
-	('What is OGD?', '/handbook/introduction'),
-	('Preparing', '/handbook/preparing'),
-	('Publishing', '/handbook/publishing'),
-	('Glossary', '/handbook/glossary'),
-	('References', '/handbook/references'),
-	('Index', '/handbook/chapters'),
-	#('Blog', '/category/blog.html'),
-]
-HIDE_SIDEBAR = False
+DISPLAY_BREADCRUMBS = True
+MENUITEMS = []
+HIDE_SIDEBAR = True
 CC_LICENSE = False
 
 TIMEZONE = 'Europe/Zurich'

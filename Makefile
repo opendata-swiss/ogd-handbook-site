@@ -10,7 +10,7 @@ PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 FTP_HOST=ftp.ogdhandbook.ch
 FTP_USER=ogdhandbook
-FTP_TARGET_DIR=/_preview
+FTP_TARGET_DIR=/_beta
 
 SSH_HOST=localhost
 SSH_PORT=22

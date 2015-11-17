@@ -23,6 +23,7 @@ On this page you will find a growing set of learning resources: supporting indiv
 &#x25B6; <a href="#">What is the Swiss OGD Strategy?</a><br>
 &#x25B6; <a href="#">What is the OGD Switzerland project?</a><br>
 &#x25B6; <a href="#">How can I contact you about my data?</a><br>
+<br>
 <p><a class="btn btn-default" href="#" role="button">View more »</a></p>
 </div>
 <div class="col-md-4">

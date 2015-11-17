@@ -18,13 +18,11 @@ On this page you will find a growing set of learning resources: supporting indiv
 <div class="col-md-4">
 <i class="fa fa-question-circle fa-lg" style="font-size: 10em; color:#009688"></i>
 <h2>FAQ</h2>
-&#x25B6; <a href="#">What is opendata.swiss used for?</a><br>
-&#x25B6; <a href="#">Who is involved in opendata.swiss?</a><br>
-&#x25B6; <a href="#">What is the Swiss OGD Strategy?</a><br>
-&#x25B6; <a href="#">What is the OGD Switzerland project?</a><br>
-&#x25B6; <a href="#">How can I contact you about my data?</a><br>
-<br>
-<p><a class="btn btn-default" href="#" role="button">View more »</a></p>
+&#x25B6; <a href="#">What is opendata.swiss used for</a><br>
+&#x25B6; <a href="#">Who is involved in opendata.swiss</a><br>
+&#x25B6; <a href="#">What is the Swiss OGD Strategy</a><br>
+&#x25B6; <a href="#">What is the OGD Switzerland project</a><br>
+<p style="margin-top:0.8em"><a class="btn btn-default" href="#" role="button">View more »</a></p>
 </div>
 <div class="col-md-4">
 <i class="fa fa-book fa-lg" style="font-size: 10em; color:#009688"></i>

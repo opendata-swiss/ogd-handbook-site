@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'eGovernment Switzerland'
+AUTHOR = u'OGD Switzerland Project'
 SITENAME = u'Support'
 SITEURL = ''
 
@@ -21,7 +21,7 @@ EXTRA_PATH_METADATA = {
     'extra/.htaccess': {'path': '.htaccess'}
 }
 
-ARTICLE_PATHS = ['handbook']
+ARTICLE_PATHS = ['handbook','library']
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
 ARTICLE_URL = '{category}/{slug}.html'
 DISPLAY_PAGES_ON_MENU = False
@@ -45,11 +45,12 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Swiss OGD Portal', 'http://opendata.admin.ch/'),
          ('egovernment.ch', 'http://egovernment.ch/ogd'),
-         ('datalets.ch', 'http://datalets.ch'),)
+		)
 
 # Social widget
-SOCIAL = (('Bitbucket', 'https://bitbucket.org/loleg/ch-ogd-handbook/'),
-          ('Twitter', 'https://twitter.com/eGovCH'),)
+SOCIAL = (('GitHub', 'https://github.com/ogdch/ogd-handbook/'),
+          ('Twitter', 'https://twitter.com/eGovCH'),
+		)
 
 DEFAULT_PAGINATION = 5
 

@@ -24,6 +24,7 @@ EXTRA_PATH_METADATA = {
 ARTICLE_PATHS = ['handbook','library']
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
 ARTICLE_URL = '{category}/{slug}.html'
+SHOW_ARTICLE_AUTHOR = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_BREADCRUMBS = True

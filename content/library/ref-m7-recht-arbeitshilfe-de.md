@@ -1,5 +1,6 @@
 Title: Arbeitshilfe für Behörden
 Category: Library
+Template: library
 Tags: Prüfschritte, Datenbestand, Gesetzliche Grundlage, Personendaten, Personenschütz, Urheberrechte, Gebührenfrei, Rechtssatz, Gesetz, Normstufe, Kostenlos, Kommerziell, Quellenangabe, Anonymisieren, Weiternutzung
 Date: 2015-3-13
 Slug: ref-m7-recht-arbeitshilfe

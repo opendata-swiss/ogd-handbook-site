@@ -1,5 +1,6 @@
 Title: DCAT Distribution
 Category: Library
+Template: library
 Tags:
 Date: 2015-10-8
 Slug: ref-m8-distribution

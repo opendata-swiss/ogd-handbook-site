@@ -1,5 +1,6 @@
 Title: DCAT Catalog
 Category: Library
+Template: library
 Tags:
 Date: 2015-5-29
 Slug: ref-m8-catalog

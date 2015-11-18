@@ -1,5 +1,6 @@
 Title: Abgrenzung zwischen Leistungen
 Category: Library
+Template: library
 Tags:
 Date: 2014-12-22
 Slug: ref-m5-abgrenzung-leistungen

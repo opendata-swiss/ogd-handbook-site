@@ -1,5 +1,6 @@
 Title: DCAT Application Profile
 Category: Library
+Template: library
 Tags:
 Date: 2015-8-10
 Slug: ref-m8-dcat-application

@@ -1,5 +1,6 @@
 Title: Worksheet for government authorities
 Category: Library
+Template: library
 Tags: Test steps, Datasets, Legal basis, Personal information, Personal protection, copyrights, Free, Legal proposition, Laws, Standard levels, Commercial, Source, Anonymisation, Reuse
 Date: 2015-3-13
 Slug: ref-m7-recht-arbeitshilfe

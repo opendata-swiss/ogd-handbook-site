@@ -11,35 +11,56 @@ No knowledge exists in a vacuum: here we list results, papers and references fro
 
 ## Project results
 
-A growing number of documents have been released as part of the OGD Switzerland project, corresponding to the work areas M1-M13 of the implementation of the OGD Strategy. [The available documents](http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=en) are linked under the concepts discussed in this wiki, and tagged correspondingly:
+A growing number of documents have been released as part of the OGD Switzerland project, corresponding to the work areas of the implementation of the OGD Strategy. [The available documents](http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=en) are linked under the concepts discussed in this wiki, and tagged correspondingly:
 
-* M1 **Examination and amendment of the legal framework**
-    - [M1 Konzept zu den rechtliche Rahmenbedingungen](/ref-m1-rechtliche-rahmen-de)
-    - [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/ref-m1-entscheid-rechtsgrundlagen-de)
-* M2 *Data release procedure*
-* M3 *Data release plan*
-* M4 *Setting up an inventory of the Confederation's data sets*
+M1 **Examination and amendment of the legal framework**
+
+  - [M1 Konzept zu den rechtliche Rahmenbedingungen](/ref-m1-rechtliche-rahmen-de)
+  - [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/ref-m1-entscheid-rechtsgrundlagen-de)
+
+M2 **Data release procedure**
+
+  - [M2 Empfehlungen für OGD Formate](/ref-m2-ogd-formate)
+
+M3 **Data release plan**
+
+M4 **Setting up an inventory of the Confederation's data sets**
+
   - [M4 Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/ref-m4-datebestaende-bund-de)
-* M5 Examination of the fee-charging policy
+
+M5 **Examination of the fee-charging policy**
+
   - [M5 Für die Gebührenproblematik relevante offene Fragen](/ref-m5-gebuehrenproblematik-de)
   - [M5 Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen](/ref-m5-abgrenzung-leistungen-de)
-* M6 **Development of the OGD portal**
+
+M6 **Development of the OGD portal**
+
   - [Pre-release landing page](http://ogdch.github.io)
-* M7 **Provision of tools and instruments**
+
+M7 **Provision of tools and instruments**
+
   - [M7 Arbeitshilfe für Behörden zur Publikation von Daten als OGD](/ref-m7-recht-arbeitshilfe-de) [DE](/ref-m7-recht-arbeitshilfe-de) | [EN](/ref-m7-recht-arbeitshilfe-en)
-* M8 **Selection and definition of the OGD standards**
+
+M8 **Selection and definition of the OGD standards**
+
   - [M8 DCAT: Application Profile](/ref-m8-dcat-application-en)
   - [M8 Catalog](/ref-m8-catalog-de)
   - [M8 Dataset](/ref-m8-dataset-de)
   - [M8 Distribution](/ref-m8-distribution-de)
-* M9 **Drawing up uniform terms of use**
+
+M9 **Drawing up uniform terms of use**
+
   - [M9 Entscheidgrundlage Nutzungsbedingungen OGD Portal](/ref-m9-entscheid-nutzungsbedingungen-de)
   - [M9 Textbausteine für Standardformulierungen](/ref-m9-standardformulierungen-de)
   - [M9 Disclaimer](/ref-m9-disclaimer-de)
-* M10 Drawing up an OGD cooperation model
-* M12 Dialogue with OGD users
-* M13 Acquainting the public with the data on offer
-* M14 Evaluation of the impact of OGD
+
+M10 Drawing up an OGD cooperation model
+
+M12 Dialogue with OGD users
+
+M13 Acquainting the public with the data on offer
+
+M14 Evaluation of the impact of OGD
 
 ## Further sources
 

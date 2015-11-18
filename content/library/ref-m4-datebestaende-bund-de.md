@@ -1,5 +1,6 @@
 Title: Datenbestände des Bundes
 Category: Library
+Template: library
 Tags:
 Date: 2015-4-23
 Slug: ref-m4-datebestaende-bund

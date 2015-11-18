@@ -1,5 +1,6 @@
 Title: Standardformulierungen
 Category: Library
+Template: library
 Tags:
 Date: 2015-3-13
 Slug: ref-m9-standardformulierungen

@@ -13,9 +13,9 @@ The Swiss Open Government Data (OGD) Handbook is being developed to support indi
 <center style="margin-bottom:2em">
 	<p><i class="fa fa-book fa-lg" style="font-size: 10em; color:#009688"></i></p><br>
 	<a class="btn btn-primary btn-large" href="handbook/contents">Start reading »</a>
-	<a class="btn btn-warning btn-large" href="#" disabled>Download as PDF</a>
+	<!--<a class="btn btn-warning btn-large" href="#" disabled>Download as PDF</a>-->
 	<a class="btn btn-success btn-large" href="http://www.ogdhandbook.ch/survey">Share feedback</a>
-	<a class="btn btn-default btn-large" href="mailto:info@ogdhandbook.ch">Contact us</a>
+	<a class="btn btn-info btn-large" href="/pages/entry">More resources</a>
 </center>
 
 ## About this project

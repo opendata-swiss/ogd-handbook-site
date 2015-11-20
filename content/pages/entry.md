@@ -28,12 +28,12 @@ On this page you will find a growing set of learning resources: supporting indiv
 <i class="fa fa-book fa-lg" style="font-size: 10em; color:#009688"></i>
 <h2>Handbook</h2>
 <p>A wiki reference for actual and potential data owners, bringing together concepts and practical examples from across the OGD Switzerland project.</p>
-<p><a class="btn btn-default" href="http://beta.ogdhandbook.ch" role="button">Start reading »</a></p>
+<p><a class="btn btn-default" href="/handbook/contents" role="button">Start reading »</a></p>
 </div>
 <div class="col-md-4">
 <i class="fa fa-folder-open fa-lg" style="font-size: 10em; color:#009688"></i>
 <h2>Library</h2>
 <p>Searchable index of reference materials from the various working groups of the OGD Switzerland project and the international OGD community.</p>
-<p><a class="btn btn-default" href="http://beta.ogdhandbook.ch/library/references" role="button">Browse here »</a></p>
+<p><a class="btn btn-default" href="/library/references" role="button">Browse here »</a></p>
 </div>
 </div>

@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'OGD Switzerland Project'
-SITENAME = u'Support'
+SITENAME = u'OGD Handbook'
 SITEURL = ''
 
 PATH = 'content'

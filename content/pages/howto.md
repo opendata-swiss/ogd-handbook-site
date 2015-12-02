@@ -9,6 +9,8 @@ URL:
 
 Here you can find an overview of ways to contribute to the OGD Handbook. Notably here we will explain the editorial workflow that we have put in place to keep a high overall standard of quality. We warmly welcome comments, corrections and additions, as well as suggestions for additional topics to explore.
 
+<iframe src="/theme/topicmap/" width="100%" height="520" frameborder="0" border="0"></iframe>
+
 ### Suggestions
 
 If you have general questions or would like to send suggestions to us directly, please contribute to [the survey](http://ogdhandbook.ch/survey), or [contact us by e-mail](mailto:info@ogdhandbook.ch). As this project advances, additional ways of interacting with the moderation team and other users of the OGD Handbook will become available.

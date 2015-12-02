@@ -10,19 +10,22 @@ save_as: index.html
 
 
 The Swiss Open Government Data (OGD) Handbook is being developed on the basis of documentation and reports produced during the OGD Switzerland project. We plan to integrate it within the portal an evolving knowledge base, providing central access to learning resources supporting individuals with responsibilities for data publishing at government offices nationwide.
-There is no specific order in which the material in the OGD Handbook should be used. You can use the search function above to quickly jump to a topic of relevance, click on an area of interest in the graphic or table below, or get started quickly with [an overview](intro).
+There is no specific order in which the material in the OGD Handbook should be used. You can use the search function above to quickly jump to a topic of relevance, click on an area of interest in the graphic or table below, or get started with an introduction to collecting [data in your organisation](/handbook/inventory).
 
+<center>
 <a class="btn btn-primary btn-large" href="#contents">Table of contents »</a>
 <a class="btn btn-success" href="/en/contact" role="button">Ask a question</a>
 <!--<a class="btn btn-warning btn-large" href="#" disabled>Download as PDF</a>-->
 <a class="btn btn-info btn-large" href="http://www.ogdhandbook.ch#survey">Contribute your expertise</a>
+</center>
 
-![A top-down visual of the OGD Handbook](/images/splash-2015-11-04.png)
+<center>
+![A top-down visual of the OGD Handbook](/images/ogd-cycle-006.png)
+</center>
 
 <a name="contents"></a>
 # <i class="fa fa-book fa-sm" style="font-size: 1em; color:#009688"></i> Table of contents
 
-- [Getting started](/handbook/intro)
 - [Glossary of terms](/handbook/glossary)
 - [Reference library](/library/references)
 - [How to contribute](pages/howto)
@@ -41,7 +44,7 @@ There is no specific order in which the material in the OGD Handbook should be u
 1. [Applying correct terms of use to data](/handbook/terms)
 1. [How to correctly attribute a source](/handbook/attribution)
 
-## Providing ``A``ccessible data
+## Publish ``A``ccessible data
 
 1. [What is metadata and how to write it](/handbook/metadata)
 1. [Converting to and from data formats](/handbook/formats)

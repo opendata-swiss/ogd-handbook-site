@@ -1,11 +1,12 @@
 Title: Ready to publish open data?
-Date: 2015-01-01 08:00
+Date: 2015-01-01
 Category:
 Tags:
 Slug: index
 Authors:
 Summary: Overview of the Swiss OGD Handbook
 URL:
+Lang: en
 save_as: index.html
 
 

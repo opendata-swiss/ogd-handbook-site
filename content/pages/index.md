@@ -17,15 +17,18 @@ There is no specific order in which the material in the OGD Handbook should be u
 ![A top-down visual of the OGD Handbook](/images/OGD_Main_BG_02_2.png)
 </center>
 
+<br>
+
 <center>
-<a class="btn btn-primary btn-large" href="#contents">Table of contents »</a>
+<!-- <a class="btn btn-primary btn-large" href="#contents">Table of contents »</a> -->
 <a class="btn btn-success" href="/en/contact" role="button">Ask a question</a>
 <!--<a class="btn btn-warning btn-large" href="#" disabled>Download as PDF</a>-->
 <a class="btn btn-info btn-large" href="http://www.ogdhandbook.ch#survey">Contribute your expertise</a>
 </center>
 
 <a name="contents"></a>
-# <i class="fa fa-book fa-sm" style="font-size: 1em; color:#009688"></i> Table of contents
+<!-- # <i class="fa fa-book fa-sm" style="font-size: 1em; color:#009688"></i>  -->
+# Table of contents
 
 - [Glossary of terms](/library/glossary)
 - [Reference library](/library/references)

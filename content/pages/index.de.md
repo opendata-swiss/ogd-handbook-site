@@ -18,8 +18,8 @@ save_as: index.de.html
 
 <center>
 <!-- <a class="btn btn-primary btn-large" href="#contents">Verzeichnis »</a> -->
-<a class="btn btn-success" href="/en/contact" role="button">Fragen stellen</a>
-<a class="btn btn-info btn-large" href="http://www.ogdhandbook.ch#survey">Expertise teilen</a>
+<a class="btn btn-primary" href="/en/contact" role="button">Fragen stellen</a>
+<a class="btn btn-default" href="http://www.ogdhandbook.ch#survey">Expertise teilen</a>
 </center>
 
 <a name="contents"></a>

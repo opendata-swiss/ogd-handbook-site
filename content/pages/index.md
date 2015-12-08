@@ -18,9 +18,9 @@ save_as: index.html
 
 <center>
 <!-- <a class="btn btn-primary btn-large" href="#contents">Table of contents »</a> -->
-<a class="btn btn-success" href="/en/contact" role="button">Ask a question</a>
+<a class="btn btn-primary" href="/en/contact" role="button">Ask a question</a>
 <!--<a class="btn btn-warning btn-large" href="#" disabled>Download as PDF</a>-->
-<a class="btn btn-info btn-large" href="http://www.ogdhandbook.ch#survey">Contribute your expertise</a>
+<a class="btn btn-default" href="http://www.ogdhandbook.ch#survey">Contribute your expertise</a>
 </center>
 
 <a name="contents"></a>

@@ -20,7 +20,7 @@ Es gibt keine spezifische Reihenfolge, in der das Material in der OGD-Handbuch v
 </center>
 
 <center>
-![](/images/ogd-cycle-006.png)
+![](/images/OGD_Main_BG_02_2.png)
 </center>
 
 <a name="contents"></a>

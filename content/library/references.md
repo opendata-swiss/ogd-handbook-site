@@ -88,7 +88,7 @@ As are open data portals and documentation from the project's partners, related 
 The **Open Data Handbook** is a primary inspiration for this project, of note are the history and structure of the community effort. It was initially developed by the [Open Government Data Working Group](http://opengovernmentdata.org/) of [Open Knowledge](http://okfn.org), and is now maintained by a network of contributors:
 
 - Visit [OpenDataHandbook.org](http://opendatahandbook.org/) ([Repository](https://github.com/okfn/opendatahandbook/), [Wiki](http://wiki.okfn.org/Projects/Open_Data_Handbook), [Mailing list](https://lists.okfn.org/mailman/listinfo/open-data-handbook))
-- The [Open Definition](http://opendefinition.org/) is regularly cited in open data research, and is one of the key vision statements for OGD.
+- See [Localised Guides](http://www.w3.org/2013/share-psi/wiki/Localised_Guides) at the Share-PSI working group of W3C for links to more guides and handbooks.
 
 The **KDZ Process** is one of the main sources of reference for workflow development and continuous evaluation of OGD policy in EU E-Government projects.
 
@@ -103,6 +103,7 @@ A forerunner of OGD in Switzerland, the Swiss association for Open Data **Openda
 
 ## Citations
 
+- The [Open Definition](http://opendefinition.org/) is regularly cited in open data research, and is one of the key components for OGD.
 - The [Global Open Data Index](http://census.okfn.org) is a crowdsourced effort to evaluate open data availability across countries and major cities.
 - The [Open Data Barometer](http://www.opendataresearch.org/barometer) run by the World Wide Web Foundation is an annual expert analysis of the openness of data around the world and its critical impact on government, economy and society.
 - Tim Berner-Lee's [5 stars of linked open data](http://5stardata.info/) (unofficial site) is a loose technical definition that has nevertheless seen widespread adoption.

@@ -23,19 +23,19 @@ save_as: index.de.html
 </center>
 
 <a name="contents"></a>
-## Open data identifizieren
+### Open data identifizieren
 
 - [Welche Daten sind in meiner Organisation?](/identify/inventory)
 - [Gute Kandidaten für OGD](/identify/criteria)
 - [Entscheidungen zur Datenveröffentlichung](/identify/decisions)
 
-## Rechtsgrundlage
+### Rechtsgrundlage
 
 - [Rechtliche Entscheidgrundlage](/legal/frameworks)
 - [Anwendung richtigen Nutzungsbedingungen](/legal/terms)
 - [Korrekt Quelle benennen](/legal/attribution)
 
-## Offene Daten publizieren
+### Offene Daten publizieren
 
 - [Veröffentlichung im opendata.swiss](/publish/ogd-ch)
 - [Daten zur publizieren vorbereiten](/publish/prepare)
@@ -43,15 +43,15 @@ save_as: index.de.html
 - [Datenhosting im World Wide Web](/publish/hosting)
 - [Daten zum Herunterladen in Groß](/publish/bulk)
 
-## Unterstützung und Förderung
+### Unterstützung und Förderung
 
 - [Über offene Daten-Portale](/support/ogd-portals)
 - [Anwendungsfälle innerhalb der Organisation]
 - [Unterstützende und Auseinandersetzung mit den Benutzern](/support/support)
 - [Interesse an Ihren Daten analysieren]
 
-## Extra
+### Extra
 
-- [Glossar](/library/glossary)
 - [Bibliothek](/category/library)
+- [Glossar](/library/glossary)
 - [Wie beitragen](/pages/howto)

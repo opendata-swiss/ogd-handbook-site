@@ -24,19 +24,19 @@ save_as: index.html
 </center>
 
 <a name="contents"></a>
-## Identify open data
+### Identify data for opening
 
 - [What datasets does my organisation have?](/identify/inventory)
 - [Which datasets are good OGD candidates](/identify/criteria)
 - [Essential decisions for data publication](/identify/decisions)
 
-## Establish legal basis
+### Establish legal foundations
 
 - [Check existing legal frameworks](/legal/frameworks)
 - [Applying correct terms of use](/legal/terms)
 - [How to correctly attribute sources](/legal/attribution)
 
-## Publish open data
+### Publish as open data
 
 - [Publish on opendata.swiss](/publish/ogd-ch)
 - [Prepare data for publication](/publish/prepare)
@@ -44,15 +44,15 @@ save_as: index.html
 - [Host data on the world wide web](/publish/hosting)
 - [Support data access in bulk](/publish/bulk)
 
-## Support and promote
+### Support and promote usage
 
 - [Role of open data portals](/support/ogd-portals)
 - [Encouraging use in the organisation]
 - [Supporting and engaging with users](/support/users)
 - [Evaluating usage of your data]
 
-## Supplements
+### Supplements
 
-- [Glossary](/library/glossary)
 - [Library](/category/library)
+- [Glossary](/library/glossary)
 - [How to contribute](/pages/howto)

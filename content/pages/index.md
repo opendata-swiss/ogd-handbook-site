@@ -26,33 +26,33 @@ save_as: index.html
 <a name="contents"></a>
 # Contents
 
-- [Glossary of terms](/library/glossary)
-- [Reference library](/library/references)
+- [Glossary](/library/glossary)
+- [Library](/library/references)
 - [How to contribute](/pages/howto)
 
-## Collect datasets
+## Identify open data
 
-1. [What data does my organization have](/collect/inventory)
-1. [Which datasets are good OGD candidates](/collect/criteria)
-1. [Overcoming barriers to data release](/collect/barriers)
+1. [What datasets does my organisation have?](/identify/inventory)
+1. [Which datasets are good OGD candidates](/identify/criteria)
+1. [Essential decisions for data publication](/identify/decisions)
 
-## Establish legal bases
+## Establish legal basis
 
-1. [Legal decision points for data](/legal/decisions)
-1. [Considering possible copyright issues](/legal/copyright)
-1. [Applying correct terms of use to data](/legal/terms)
+1. [Check existing legal frameworks](/legal/frameworks)
+1. [Applying correct terms of use](/legal/terms)
 1. [How to correctly attribute sources](/legal/attribution)
-1. [Measures to ensure data protection](/legal/privacy)
 
 ## Publish open data
 
-1. [Publishing on opendata.swiss](/publish/ogd-ch)
-1. [What is metadata and how to write it](/publish/metadata)
-1. [Converting to and from data formats](/publish/formats)
-1. [Supporting data access in bulk](/publish/bulk)
+1. [Publish on opendata.swiss](/publish/ogd-ch)
+1. [Prepare data for publication](/publish/prepare)
+1. [How to manage metadata](/publish/metadata)
+1. [Host data on the world wide web](/publish/hosting)
+1. [Support data access in bulk](/publish/bulk)
 
-## Discover and support
+## Support and promote
 
-1. [Hosting data on the web](/discover/hosting)
-1. [Role of open data portals](/discover/ogd-portals)
-1. [Engaging with data users](/discover/support)
+1. [Role of open data portals](/promote/ogd-portals)
+1. [Encouraging use in the organisation]
+1. [Supporting and engaging with users](/promote/support)
+1. [Evaluating usage of your data]

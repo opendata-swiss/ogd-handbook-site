@@ -29,29 +29,29 @@ save_as: index.de.html
 - [Bibliothek](/library/references)
 - [Wie beitragen](/pages/howto)
 
-## Datensätze sammeln
+## Open data identifizieren
 
-1. [Daten in meiner Organisation](/collect/inventory)
-1. [Gute Kandidaten für OGD](/collect/criteria)
-1. [Barrieren um Datenfreigabe überwinden](/collect/barriers)
+1. [Welche Daten sind in meiner Organisation?](/identify/inventory)
+1. [Gute Kandidaten für OGD](/identify/criteria)
+1. [Entscheidungen zur Datenveröffentlichung](/identify/decisions)
 
 ## Rechtsgrundlage
 
-1. [Rechtliche Entscheidgrundlage](/legal/decisions)
-1. [Berücksichtigung Urheberrechtsfragen](/legal/copyright)
+1. [Rechtliche Entscheidgrundlage](/legal/frameworks)
 1. [Anwendung richtigen Nutzungsbedingungen](/legal/terms)
 1. [Korrekt Quelle benennen](/legal/attribution)
-1. [Maßnahmen zum Schutz persönlicher Daten](/handbook/privacy)
 
-## Datenpublikation
+## Offene Daten publizieren
 
-1. [Veröffentlichung im Swiss OGD Portal](/publish/ogd-ch)
-1. [Was sind Metadaten und wie schreiben](/publish/metadata)
-1. [Konvertierung in und aus Datenformate](/publish/formats)
+1. [Veröffentlichung im opendata.swiss](/publish/ogd-ch)
+1. [Daten zur publizieren vorbereiten](/publish/prepare)
+1. [Metadaten verwalten](/publish/metadata)
+1. [Datenhosting im World Wide Web](/publish/hosting)
 1. [Daten zum Herunterladen in Groß](/publish/bulk)
 
-## Entdeckung und engagement
+## Unterstützung und Förderung
 
-1. [Datenhosting im Web](/discover/hosting)
-1. [Über offene Daten-Portale](/discover/ogd-portals)
-1. [Unterstützende und Auseinandersetzung mit den Benutzern](/discover/support)
+1. [Über offene Daten-Portale](/promote/ogd-portals)
+1. [Anwendungsfälle innerhalb der Organisation]
+1. [Unterstützende und Auseinandersetzung mit den Benutzern](/promote/support)
+1. [Interesse an Ihren Daten analysieren]

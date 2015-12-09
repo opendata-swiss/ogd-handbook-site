@@ -11,7 +11,7 @@ save_as: index.de.html
 
 
 <center>
-![](/images/OGD_Main_BG_02_2.png)
+![](/images/OGD_Main_BG_02_3.png)
 </center>
 
 <br>
@@ -23,35 +23,35 @@ save_as: index.de.html
 </center>
 
 <a name="contents"></a>
-# Inhaltsverzeichnis
-
-- [Glossar](/library/glossary)
-- [Bibliothek](/library/references)
-- [Wie beitragen](/pages/howto)
-
 ## Open data identifizieren
 
-1. [Welche Daten sind in meiner Organisation?](/identify/inventory)
-1. [Gute Kandidaten für OGD](/identify/criteria)
-1. [Entscheidungen zur Datenveröffentlichung](/identify/decisions)
+- [Welche Daten sind in meiner Organisation?](/identify/inventory)
+- [Gute Kandidaten für OGD](/identify/criteria)
+- [Entscheidungen zur Datenveröffentlichung](/identify/decisions)
 
 ## Rechtsgrundlage
 
-1. [Rechtliche Entscheidgrundlage](/legal/frameworks)
-1. [Anwendung richtigen Nutzungsbedingungen](/legal/terms)
-1. [Korrekt Quelle benennen](/legal/attribution)
+- [Rechtliche Entscheidgrundlage](/legal/frameworks)
+- [Anwendung richtigen Nutzungsbedingungen](/legal/terms)
+- [Korrekt Quelle benennen](/legal/attribution)
 
 ## Offene Daten publizieren
 
-1. [Veröffentlichung im opendata.swiss](/publish/ogd-ch)
-1. [Daten zur publizieren vorbereiten](/publish/prepare)
-1. [Metadaten verwalten](/publish/metadata)
-1. [Datenhosting im World Wide Web](/publish/hosting)
-1. [Daten zum Herunterladen in Groß](/publish/bulk)
+- [Veröffentlichung im opendata.swiss](/publish/ogd-ch)
+- [Daten zur publizieren vorbereiten](/publish/prepare)
+- [Metadaten verwalten](/publish/metadata)
+- [Datenhosting im World Wide Web](/publish/hosting)
+- [Daten zum Herunterladen in Groß](/publish/bulk)
 
 ## Unterstützung und Förderung
 
-1. [Über offene Daten-Portale](/promote/ogd-portals)
-1. [Anwendungsfälle innerhalb der Organisation]
-1. [Unterstützende und Auseinandersetzung mit den Benutzern](/promote/support)
-1. [Interesse an Ihren Daten analysieren]
+- [Über offene Daten-Portale](/support/ogd-portals)
+- [Anwendungsfälle innerhalb der Organisation]
+- [Unterstützende und Auseinandersetzung mit den Benutzern](/support/support)
+- [Interesse an Ihren Daten analysieren]
+
+## Extra
+
+- [Glossar](/library/glossary)
+- [Bibliothek](/category/library)
+- [Wie beitragen](/pages/howto)

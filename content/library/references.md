@@ -1,13 +1,12 @@
-Title: Reference library
+Title: Overview
 Category: Library
 Tags:
 Date: 2015-11-18
 Slug: references
 Authors:
-Summary:
+Summary: The library contains results, papers and references from across the OGD Switzerland project. You can see them summarised on this page.
 Lang: en
 
-No knowledge exists in a vacuum: here we list results, papers and references from across the OGD Switzerland project, as well as additional materials that have been helpful to us in developing the project.
 
 ## Project results
 
@@ -101,7 +100,7 @@ A forerunner of OGD in Switzerland, the Swiss association for Open Data **Openda
 - [Opendata.ch News](http://opendata.ch/) (also in [French](http://fr.opendata.ch/))
 - [Swiss Open Data community wiki](http://make.opendata.ch/wiki)
 
-## Citations
+## Commonly cited
 
 - The [Open Definition](http://opendefinition.org/) is regularly cited in open data research, and is one of the key components for OGD.
 - The [Global Open Data Index](http://census.okfn.org) is a crowdsourced effort to evaluate open data availability across countries and major cities.

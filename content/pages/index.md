@@ -11,7 +11,7 @@ save_as: index.html
 
 
 <center>
-![](/images/OGD_Main_BG_02_2.png)
+![](/images/OGD_Main_BG_02_3.png)
 </center>
 
 <br>
@@ -24,35 +24,35 @@ save_as: index.html
 </center>
 
 <a name="contents"></a>
-# Contents
-
-- [Glossary](/library/glossary)
-- [Library](/library/references)
-- [How to contribute](/pages/howto)
-
 ## Identify open data
 
-1. [What datasets does my organisation have?](/identify/inventory)
-1. [Which datasets are good OGD candidates](/identify/criteria)
-1. [Essential decisions for data publication](/identify/decisions)
+- [What datasets does my organisation have?](/identify/inventory)
+- [Which datasets are good OGD candidates](/identify/criteria)
+- [Essential decisions for data publication](/identify/decisions)
 
 ## Establish legal basis
 
-1. [Check existing legal frameworks](/legal/frameworks)
-1. [Applying correct terms of use](/legal/terms)
-1. [How to correctly attribute sources](/legal/attribution)
+- [Check existing legal frameworks](/legal/frameworks)
+- [Applying correct terms of use](/legal/terms)
+- [How to correctly attribute sources](/legal/attribution)
 
 ## Publish open data
 
-1. [Publish on opendata.swiss](/publish/ogd-ch)
-1. [Prepare data for publication](/publish/prepare)
-1. [How to manage metadata](/publish/metadata)
-1. [Host data on the world wide web](/publish/hosting)
-1. [Support data access in bulk](/publish/bulk)
+- [Publish on opendata.swiss](/publish/ogd-ch)
+- [Prepare data for publication](/publish/prepare)
+- [How to manage metadata](/publish/metadata)
+- [Host data on the world wide web](/publish/hosting)
+- [Support data access in bulk](/publish/bulk)
 
 ## Support and promote
 
-1. [Role of open data portals](/promote/ogd-portals)
-1. [Encouraging use in the organisation]
-1. [Supporting and engaging with users](/promote/support)
-1. [Evaluating usage of your data]
+- [Role of open data portals](/support/ogd-portals)
+- [Encouraging use in the organisation]
+- [Supporting and engaging with users](/support/users)
+- [Evaluating usage of your data]
+
+## Supplements
+
+- [Glossary](/library/glossary)
+- [Library](/category/library)
+- [How to contribute](/pages/howto)

@@ -10,9 +10,7 @@ Lang: de
 save_as: index.de.html
 
 
-<center>
-![](/images/OGD_Main_BG_02_3.png)
-</center>
+<img src="/images/OGD_graphics-01.png" style="width:100%">
 
 <br>
 

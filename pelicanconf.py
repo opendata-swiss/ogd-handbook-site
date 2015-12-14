@@ -35,7 +35,7 @@ CC_LICENSE = False
 
 TIMEZONE = 'Europe/Zurich'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'de'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

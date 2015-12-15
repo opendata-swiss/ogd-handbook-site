@@ -5,7 +5,7 @@ Tags:
 Date: 2015-5-29
 Slug: ref-m8-catalog
 Authors: OGD Schweiz
-Summary: dcat:Catalog
+Summary: Kuratierte Sammlung von Metadaten-Records über offene Daten
 Lang: de
 
 > Ein Katalog, der dem DCAT Application Profile for Swiss data portals entspricht, ist eine kuratierte Sammlung von Metadaten-Records über offene Daten.

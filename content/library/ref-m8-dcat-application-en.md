@@ -5,7 +5,7 @@ Tags:
 Date: 2015-8-10
 Slug: ref-m8-dcat-application
 Authors: OGD Schweiz
-Summary: DCAT Application Profile for Swiss data portals
+Summary: Classes and elements of the DCAT metadata standard for Swiss data portals
 Lang: en
 
 * Classes and elements of the DCAT Application Profile for Swiss data portals

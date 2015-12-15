@@ -5,7 +5,7 @@ Tags:
 Date: 2015-10-8
 Slug: ref-m8-distribution
 Authors: OGD Schweiz
-Summary: dcat:Distribution
+Summary: Beschreibung der Publikationsform des betreffenden Datensatzes
 Lang: de
 
 > Ein Metadaten-Record der Klasse dcat:Distribution (Distribution-Metadaten-Record) beschreibt eine

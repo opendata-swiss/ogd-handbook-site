@@ -5,7 +5,7 @@ Tags:
 Date: 2015-5-29
 Slug: ref-m8-dataset
 Authors: OGD Schweiz
-Summary: dcat:Dataset
+Summary: Beschreibung eine einzelne, thematisch geschlossene Datensammlung
 Lang: de
 
 > Ein Metadaten-Record der Klasse dcat:Dataset (Dataset-Metadaten-Record) beschreibt eine einzelne,

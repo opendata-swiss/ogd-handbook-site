@@ -1,10 +1,7 @@
 Title: Bereit, daten zu publizieren?
 Date: 2015-01-01
-Category:
-Tags:
 Slug: index
 Template: front
-Authors:
 Summary: Die Swiss Open Government Data (OGD) Handbuch wird auf der Grundlage der Unterlagen und Berichte während des OGD Schweiz Projekt produziert entwickelt. Wir planen, es innerhalb des Portals zu integrieren eine sich entwickelnde Wissensbasis und bietet einen zentralen Zugang zu Lernressourcen unterstützt Personen mit Zuständigkeiten für die Datenveröffentlichung auf Regierungs Niederlassungen bundesweit.
 URL:
 Lang: de
@@ -30,17 +27,17 @@ save_as: index.de.html
 
 ### Rechtsgrundlage
 
-- [Rechtliche Entscheidgrundlage](/legal/frameworks)
-- [Anwendung richtigen Nutzungsbedingungen](/legal/terms)
-- [Korrekt Quelle benennen](/legal/attribution)
+- [Rechtliche Entscheidgrundlage](/establish/frameworks)
+- [Anwendung richtigen Nutzungsbedingungen](/establish/terms)
+- [Korrekt Quelle benennen](/establish/attribution)
 
 ### Offene Daten publizieren
 
-- [Veröffentlichung im opendata.swiss](/publish/ogd-ch)
-- [Daten zur publizieren vorbereiten](/publish/prepare)
-- [Metadaten verwalten](/publish/metadata)
-- [Datenhosting im World Wide Web](/publish/hosting)
-- [Daten zum Herunterladen in Groß](/publish/bulk)
+- [Veröffentlichung im opendata.swiss](/publizieren/ogd-ch)
+- [Daten zur publizieren vorbereiten](/publizieren/prepare)
+- [Metadaten verwalten](/publizieren/metadata)
+- [Datenhosting im World Wide Web](/publizieren/hosting)
+- [Daten zum Herunterladen in Groß](/publizieren/bulk)
 
 ### Unterstützung und Förderung
 

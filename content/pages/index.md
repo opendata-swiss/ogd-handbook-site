@@ -1,10 +1,7 @@
 Title: Ready to publish open data?
 Date: 2015-01-01
-Category:
-Tags:
 Slug: index
 Template: front
-Authors:
 Summary: The Swiss Open Government Data (OGD) Handbook is being developed on the basis of documentation and reports produced during the OGD Switzerland project. We plan to integrate it within the portal an evolving knowledge base, providing central access to learning resources supporting individuals with responsibilities for data publishing at government offices nationwide.
 URL:
 Lang: en
@@ -31,9 +28,9 @@ save_as: index.html
 
 ### Establish legal foundations
 
-- [Check existing legal frameworks](/legal/frameworks)
-- [Applying correct terms of use](/legal/terms)
-- [How to correctly attribute sources](/legal/attribution)
+- [Check existing legal frameworks](/establish/frameworks)
+- [Applying correct terms of use](/establish/terms)
+- [How to correctly attribute sources](/establish/attribution)
 
 ### Publish as open data
 

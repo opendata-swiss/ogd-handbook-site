@@ -58,20 +58,23 @@ RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['i18n_subsites', 'tipue_search']
-THEME_STATIC_DIR = 'theme'
 
 I18N_SUBSITES = {
 	'en': {
-		'LOCALE': 'en_US.utf8'
+		'LOCALE': 'en_US',
+		'THEME_STATIC_DIR': 'theme'
 		},
 	'de': {
-		'LOCALE': 'de_CH.utf8'
+		'LOCALE': 'de_CH',
+		'THEME_STATIC_DIR': 'theme'
 		},
 	'fr': {
-		'LOCALE': 'fr_CH.utf8'
+		'LOCALE': 'fr_CH',
+		'THEME_STATIC_DIR': 'theme'
 		},
 	'it': {
-		'LOCALE': 'it_CH.utf8'
+		'LOCALE': 'it_IT',
+		'THEME_STATIC_DIR': 'theme'
 		}
 }
 

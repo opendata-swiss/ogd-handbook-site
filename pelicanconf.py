@@ -57,6 +57,22 @@ DEFAULT_PAGINATION = 8
 RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['tipue_search']
+PLUGINS = ['i18n_subsites', 'tipue_search']
+THEME_STATIC_DIR = 'theme'
+
+I18N_SUBSITES = {
+	'en': {
+		'LOCALE': 'en_US.utf8'
+		},
+	'de': {
+		'LOCALE': 'de_CH.utf8'
+		},
+	'fr': {
+		'LOCALE': 'fr_CH.utf8'
+		},
+	'it': {
+		'LOCALE': 'it_CH.utf8'
+		}
+}
 
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))

@@ -1,6 +1,6 @@
 [submodule "content/handbook"]
 	path = content/handbook
-	url = https://github.com/ogdch/ogd-handbook.wiki.git
+	url = https://github.com/opendata-swiss/ogd-handbook-wiki.git
 [submodule "theme"]
 	path = theme
 	url = git@github.com:loleg/pelican-bootstrap3.git

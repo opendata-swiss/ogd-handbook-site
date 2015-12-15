@@ -33,7 +33,7 @@ save_as: index.de.html
 
 ### Offene Daten publizieren
 
-- [Veröffentlichung im opendata.swiss](/publizieren/ogd-ch)
+- [Veröffentlichung im opendata.swiss](/publizieren/opendata-swiss)
 - [Daten zur publizieren vorbereiten](/publizieren/prepare)
 - [Metadaten verwalten](/publizieren/metadata)
 - [Datenhosting im World Wide Web](/publizieren/hosting)

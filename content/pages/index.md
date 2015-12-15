@@ -34,7 +34,7 @@ save_as: index.html
 
 ### Publish as open data
 
-- [Publish on opendata.swiss](/publish/ogd-ch)
+- [Publish on opendata.swiss](/publish/opendata-swiss)
 - [Prepare data for publication](/publish/prepare)
 - [How to manage metadata](/publish/metadata)
 - [Host data on the world wide web](/publish/hosting)

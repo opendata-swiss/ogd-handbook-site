@@ -35,7 +35,7 @@ CC_LICENSE = False
 
 TIMEZONE = 'Europe/Zurich'
 
-DEFAULT_LANG = u'de'
+DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -45,19 +45,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Swiss OGD Portal', 'http://opendata.admin.ch/'),
-         ('egovernment.ch', 'http://egovernment.ch/ogd'),
+LINKS = (('egovernment.ch', 'http://egovernment.ch/ogd'),
 		)
 
 # Social widget
-SOCIAL = (('GitHub', 'https://github.com/ogdch/ogd-handbook/'),
-          ('Twitter', 'https://twitter.com/eGovCH'),
+SOCIAL = (('Twitter', 'https://twitter.com/eGovCH'),
 		)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 8
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['tipue_search']

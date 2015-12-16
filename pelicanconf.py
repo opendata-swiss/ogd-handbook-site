@@ -59,6 +59,8 @@ RELATIVE_URLS = True
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['i18n_subsites', 'tipue_search']
 
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+
 I18N_SUBSITES = {
 	'en': {
 		'LOCALE': 'en_US',

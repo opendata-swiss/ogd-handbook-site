@@ -75,6 +75,22 @@ make ftp_upload
 
 After deployment, ensure links are working in the Topics page, else you may need to re-run your publishing steps.
 
+### Translations ###
+
+Using [PyBabel](http://pythonhosted.org/Flask-Babel/#translating-applications) we can keep the theme translations up to date.
+
+```
+cd theme/translations
+pybabel extract -F babel.cfg -o messages.pot .. --omit-header
+pybabel update -i messages.pot -d .
+pybabel compile -d . -f
+```
+
+To add another language:
+```
+pybabel init -i messages.pot -d . -l de
+```
+
 ### Who do I talk to? ###
 
 Send us a note via the contacts on the [public homepage](http://www.ogdhandbook.ch) if you have a question.

@@ -20,30 +20,30 @@ Lang: en
 <a name="contents"></a>
 ### Identify data for opening
 
-- [What datasets does my organisation have?](en/identify/inventory)
-- [Which datasets are good OGD candidates](en/identify/criteria)
-- [Essential decisions for data publication](en/identify/decisions)
+- [What datasets does my organization have?](/en/identify/inventory)
+- [Which datasets are good OGD candidates](/en/identify/criteria)
+- [Essential decisions for data publication](/en/identify/decisions)
 
 ### Establish legal foundations
 
-- [Check existing legal frameworks](en/establish/frameworks)
-- [Applying correct terms of use](en/establish/terms)
-- [How to correctly attribute sources](en/establish/attribution)
+- [Check existing legal frameworks](/en/establish/frameworks)
+- [Applying correct terms of use](/en/establish/terms)
+- [How to correctly attribute sources](/en/establish/attribution)
 
 ### Publish as open data
 
-- [Publish on opendata.swiss](publish/opendata-swiss)
-- [Prepare data for publication](en/publish/prepare)
-- [How to manage metadata](en/publish/metadata)
-- [Host data on the world wide web](en/publish/hosting)
-- [Support data access in bulk](en/publish/bulk)
+- [Publish on opendata.swiss](/en/publish/opendata-swiss)
+- [Prepare data for publication](/en/publish/prepare)
+- [How to manage metadata](/en/publish/metadata)
+- [Host data on the world wide web](/en/publish/hosting)
+- [Support data access in bulk](/en/publish/bulk)
 
 ### Support and promote usage
 
-- [Role of open data portals](en/support/ogd-portals)
-- [Encouraging use in the organisation]
-- [Supporting and engaging with users](en/support/users)
-- [Evaluating usage of your data]
+- [Role of open data portals](/en/support/ogd-portals)
+- [Encouraging use in the organization](/en/support/organization)
+- [Supporting and engaging with users](/en/support/users)
+- [Evaluating usage of your data](/en/support/evaluate)
 
 ### Supplements
 

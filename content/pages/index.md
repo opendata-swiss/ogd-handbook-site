@@ -47,3 +47,4 @@ Lang: en
 
 - [Library](/category/library)
 - [Glossary](/en/library/glossary)
+- [Contribute](https://github.com/opendata-swiss/ogd-handbook-wiki/blob/master/README.md)

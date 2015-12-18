@@ -47,3 +47,4 @@ Lang: it
 
 - Biblioteca
 - Glossario
+- Come contribuire

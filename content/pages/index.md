@@ -18,13 +18,13 @@ Lang: en
 </center>
 
 <a name="contents"></a>
-### Identify data for opening
+### Identify open data
 
 - [What datasets does my organization have?](/en/identify/inventory)
 - [Which datasets are good OGD candidates](/en/identify/criteria)
-- [Essential decisions for data publication](/en/identify/decisions)
+- [Before you publish: a checklist](/en/identify/checklist)
 
-### Establish legal foundations
+### Establish legal basis
 
 - [Check existing legal frameworks](/en/establish/frameworks)
 - [Applying correct terms of use](/en/establish/terms)
@@ -34,14 +34,14 @@ Lang: en
 
 - [Publish on opendata.swiss](/en/publish/opendata-swiss)
 - [Prepare data for publication](/en/publish/prepare)
-- [How to manage metadata](/en/publish/metadata)
+- [Manage metadata](/en/publish/metadata)
 - [Host data on the world wide web](/en/publish/hosting)
 - [Support data access in bulk](/en/publish/bulk)
 
-### Support and promote usage
+### Support and promote
 
 - [Role of open data portals](/en/support/ogd-portals)
-- [Encouraging use in the organization](/en/support/organization)
+- [Promoting use and publication in your organization](/en/support/organization)
 - [Supporting and engaging with users](/en/support/users)
 - [Evaluating usage of your data](/en/support/evaluate)
 

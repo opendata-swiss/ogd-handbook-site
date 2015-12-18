@@ -12,9 +12,8 @@ Lang: en
 <br>
 
 <center>
-<a class="btn btn-primary" href="/en/pages/contact" role="button">Ask a question</a>
-<!--<a class="btn btn-warning btn-large" href="#" disabled>Download as PDF</a>-->
-<a class="btn btn-default" href="http://www.ogdhandbook.ch#survey">Contribute your expertise</a>
+<a class="btn btn-primary" href="mailto:info@ogdhandbook.ch" role="button">Ask a question</a>
+<a class="btn btn-default" href="http://www.ogdhandbook.ch">Contribute your expertise</a>
 </center>
 
 <a name="contents"></a>
@@ -36,7 +35,6 @@ Lang: en
 - [Prepare data for publication](/en/publish/prepare)
 - [Manage metadata](/en/publish/metadata)
 - [Host data on the world wide web](/en/publish/hosting)
-- [Support data access in bulk](/en/publish/bulk)
 
 ### Support and promote
 
@@ -48,5 +46,4 @@ Lang: en
 ### Supplements
 
 - [Library](/category/library)
-- [Glossary](/library/glossary)
-- [How to contribute](/pages/howto)
+- [Glossary](/en/library/glossary)

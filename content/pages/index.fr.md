@@ -12,8 +12,8 @@ Lang: fr
 <br>
 
 <center>
-<a class="btn btn-primary" href="/fr/pages/contact" role="button">Mettre en contact</a>
-<a class="btn btn-default" href="http://www.ogdhandbook.ch#survey">Participer</a>
+<a class="btn btn-primary" href="mailto:info@ogdhandbook.ch" role="button">Mettre en contact</a>
+<a class="btn btn-default" href="http://www.ogdhandbook.ch">Participer</a>
 </center>
 
 <a name="contents"></a>
@@ -35,7 +35,6 @@ Lang: fr
 - Préparer les données pour publication
 - Comment gérer les métadonnées
 - Données d'hôte sur le world wide web
-- L'accès aux données de soutien en vrac
 
 ### Soutenir et promouvoir l'utilisation
 
@@ -48,4 +47,3 @@ Lang: fr
 
 - Bibliothèque
 - Glossaire
-- Comment contribuer

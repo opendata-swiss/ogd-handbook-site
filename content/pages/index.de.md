@@ -12,9 +12,8 @@ Lang: de
 <br>
 
 <center>
-<!-- <a class="btn btn-primary btn-large" href="#contents">Verzeichnis »</a> -->
-<a class="btn btn-primary" href="/en/contact" role="button">Fragen stellen</a>
-<a class="btn btn-default" href="http://www.ogdhandbook.ch#survey">Expertise teilen</a>
+<a class="btn btn-primary" href="mailto:info@ogdhandbook.ch" role="button">Fragen stellen</a>
+<a class="btn btn-default" href="http://www.ogdhandbook.ch">Expertise teilen</a>
 </center>
 
 <a name="contents"></a>
@@ -36,17 +35,15 @@ Lang: de
 - [Daten zur publizieren vorbereiten](/de/publish/prepare)
 - [Metadaten verwalten](/de/publish/metadata)
 - [Datenhosting im World Wide Web](/de/publish/hosting)
-- [Daten zum Herunterladen in Groß](/de/publish/bulk)
 
 ### Unterstützung und Förderung
 
 - [Über offene Daten-Portale](/de/support/ogd-portals)
-- [Anwendungsfälle innerhalb der Organisation]
+- [Anwendungsfälle innerhalb der Organisation](/de/support/organization)
 - [Unterstützende und Auseinandersetzung mit den Benutzern](/de/support/support)
-- [Interesse an Ihren Daten analysieren]
+- [Interesse an Ihren Daten analysieren](/de/support/evaluate)
 
 ### Extra
 
 - [Bibliothek](/category/library)
-- [Glossar](/library/glossary)
-- [Wie beitragen](/pages/howto)
+- [Glossar](/de/library/glossary)

@@ -12,8 +12,8 @@ Lang: it
 <br>
 
 <center>
-<a class="btn btn-primary" href="/fr/pages/contact" role="button">Collegare</a>
-<a class="btn btn-default" href="http://www.ogdhandbook.ch#survey">Partecipare</a>
+<a class="btn btn-primary" href="mailto:info@ogdhandbook.ch" role="button">Collegare</a>
+<a class="btn btn-default" href="http://www.ogdhandbook.ch">Partecipare</a>
 </center>
 
 <a name="contents"></a>
@@ -35,7 +35,6 @@ Lang: it
 - Preparare i dati per la pubblicazione
 - Come gestire i metadati
 - I dati host sul world wide web
-- L'accesso ai dati di supporto alla rinfusa
 
 ### Sostenere e promuovere l'uso
 
@@ -48,4 +47,3 @@ Lang: it
 
 - Biblioteca
 - Glossario
-- Come contribuire

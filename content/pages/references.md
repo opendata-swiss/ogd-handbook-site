@@ -1,10 +1,11 @@
-Title: Overview
-Category: Library
+Title: References
+Date: 2015-01-01 08:00
+Category:
 Tags:
-Date: 2015-11-18
 Slug: references
 Authors:
 Summary: The library contains results, papers and references from across the OGD Switzerland project. You can see them summarised on this page.
+Status: hidden
 Lang: en
 
 
@@ -59,7 +60,7 @@ M12 Dialogue with OGD users
 
 M13 Acquainting the public with the data on offer
 
-M14 Evaluation of the impact of OGD
+M15 Evaluation of the impact of OGD
 
 ## Further sources
 
@@ -106,3 +107,4 @@ A forerunner of OGD in Switzerland, the Swiss association for Open Data **Openda
 - The [Global Open Data Index](http://census.okfn.org) is a crowdsourced effort to evaluate open data availability across countries and major cities.
 - The [Open Data Barometer](http://www.opendataresearch.org/barometer) run by the World Wide Web Foundation is an annual expert analysis of the openness of data around the world and its critical impact on government, economy and society.
 - Tim Berner-Lee's [5 stars of linked open data](http://5stardata.info/) (unofficial site) is a loose technical definition that has nevertheless seen widespread adoption.
+- The World Bank's [Open Government Data Toolkit](http://opendatatoolkit.worldbank.org/en/) has excellent primers and resources for Open Data initiatives.

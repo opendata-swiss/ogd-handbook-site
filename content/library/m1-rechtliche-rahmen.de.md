@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags:
 Date: 2015-3-13
-Slug: ref-m1-rechtliche-rahmen
+Slug: m1-rechtliche-rahmen
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary: Konzept - Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data
 Lang: de

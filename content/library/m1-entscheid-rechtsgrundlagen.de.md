@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags:
 Date: 2015-3-13
-Slug: ref-m1-entscheid-rechtsgrundlagen
+Slug: m1-entscheid-rechtsgrundlagen
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary: Entscheidgrundlage: Weiteres Vorgehen bezüglich Rechtsgrundlagen für die Publikation von Daten als OGD
 Lang: de

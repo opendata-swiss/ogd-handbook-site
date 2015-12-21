@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags:
 Date: 2015-3-13
-Slug: ref-m9-standardformulierungen
+Slug: m9-standardformulierungen
 Authors: Corinna Seiberth, Anne Wiedmer
 Summary: Textbausteine für Standardformulierungen
 Lang: de

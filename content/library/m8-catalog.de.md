@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags:
 Date: 2015-5-29
-Slug: ref-m8-catalog
+Slug: m8-catalog
 Authors: OGD Schweiz
 Summary: Kuratierte Sammlung von Metadaten-Records über offene Daten
 Lang: de

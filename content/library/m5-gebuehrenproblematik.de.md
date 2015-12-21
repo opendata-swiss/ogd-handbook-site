@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags: Benutzungsgebühren, Bearbeitungsgebühren
 Date: 2014-12-22
-Slug: ref-m5-gebuehrenproblematik
+Slug: m5-gebuehrenproblematik
 Authors: Adelheid Bürgi-Schmelz
 Summary: Für die Gebührenproblematik relevante offene Fragen
 Lang: de

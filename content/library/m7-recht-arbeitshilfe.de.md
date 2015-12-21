@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags: Prüfschritte, Datenbestand, Gesetzliche Grundlage, Personendaten, Personenschütz, Urheberrechte, Gebührenfrei, Rechtssatz, Gesetz, Normstufe, Kostenlos, Kommerziell, Quellenangabe, Anonymisieren, Weiternutzung
 Date: 2015-3-13
-Slug: ref-m7-recht-arbeitshilfe
+Slug: m7-recht-arbeitshilfe
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary: Arbeitshilfe für Behörden zur Publikation von Daten als OGD
 Lang: de

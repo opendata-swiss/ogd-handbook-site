@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags:
 Date: 2015-5-29
-Slug: ref-m8-dataset
+Slug: m8-dataset
 Authors: OGD Schweiz
 Summary: Beschreibung eine einzelne, thematisch geschlossene Datensammlung
 Lang: de

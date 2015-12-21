@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags: Test steps, Datasets, Legal basis, Personal information, Personal protection, copyrights, Free, Legal proposition, Laws, Standard levels, Commercial, Source, Anonymisation, Reuse
 Date: 2015-3-13
-Slug: ref-m7-recht-arbeitshilfe
+Slug: m7-recht-arbeitshilfe
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary: Worksheet for government authorities to publish data as OGD
 Lang: en

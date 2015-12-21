@@ -15,23 +15,23 @@ A growing number of documents have been released as part of the OGD Switzerland 
 
 M1 **Examination and amendment of the legal framework**
 
-  - [M1 Konzept zu den rechtliche Rahmenbedingungen](/ref-m1-rechtliche-rahmen-de)
-  - [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/ref-m1-entscheid-rechtsgrundlagen-de)
+  - [M1 Konzept zu den rechtliche Rahmenbedingungen](/m1-rechtliche-rahmen-de)
+  - [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/m1-entscheid-rechtsgrundlagen-de)
 
 M2 **Data release procedure**
 
-  - [M2 Empfehlungen für OGD Formate](/ref-m2-ogd-formate)
+  - [M2 Empfehlungen für OGD Formate](/m2-ogd-formate)
 
 M3 **Data release plan**
 
 M4 **Setting up an inventory of the Confederation's data sets**
 
-  - [M4 Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/ref-m4-datebestaende-bund-de)
+  - [M4 Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/m4-datebestaende-bund-de)
 
 M5 **Examination of the fee-charging policy**
 
-  - [M5 Für die Gebührenproblematik relevante offene Fragen](/ref-m5-gebuehrenproblematik-de)
-  - [M5 Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen](/ref-m5-abgrenzung-leistungen-de)
+  - [M5 Für die Gebührenproblematik relevante offene Fragen](/m5-gebuehrenproblematik-de)
+  - [M5 Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen](/m5-abgrenzung-leistungen-de)
 
 M6 **Development of the OGD portal**
 
@@ -39,20 +39,20 @@ M6 **Development of the OGD portal**
 
 M7 **Provision of tools and instruments**
 
-  - [M7 Arbeitshilfe für Behörden zur Publikation von Daten als OGD](/ref-m7-recht-arbeitshilfe-de) [DE](/ref-m7-recht-arbeitshilfe-de) | [EN](/ref-m7-recht-arbeitshilfe-en)
+  - [M7 Arbeitshilfe für Behörden zur Publikation von Daten als OGD](/m7-recht-arbeitshilfe-de) [DE](/m7-recht-arbeitshilfe-de) | [EN](/m7-recht-arbeitshilfe-en)
 
 M8 **Selection and definition of the OGD standards**
 
-  - [M8 DCAT: Application Profile](/ref-m8-dcat-application-en)
-  - [M8 Catalog](/ref-m8-catalog-de)
-  - [M8 Dataset](/ref-m8-dataset-de)
-  - [M8 Distribution](/ref-m8-distribution-de)
+  - [M8 DCAT: Application Profile](/m8-dcat-application-en)
+  - [M8 Catalog](/m8-catalog-de)
+  - [M8 Dataset](/m8-dataset-de)
+  - [M8 Distribution](/m8-distribution-de)
 
 M9 **Drawing up uniform terms of use**
 
-  - [M9 Entscheidgrundlage Nutzungsbedingungen OGD Portal](/ref-m9-entscheid-nutzungsbedingungen-de)
-  - [M9 Textbausteine für Standardformulierungen](/ref-m9-standardformulierungen-de)
-  - [M9 Disclaimer](/ref-m9-disclaimer-de)
+  - [M9 Entscheidgrundlage Nutzungsbedingungen OGD Portal](/m9-entscheid-nutzungsbedingungen-de)
+  - [M9 Textbausteine für Standardformulierungen](/m9-standardformulierungen-de)
+  - [M9 Disclaimer](/m9-disclaimer-de)
 
 M10 Drawing up an OGD cooperation model
 

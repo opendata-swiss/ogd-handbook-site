@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags:
 Date: 2014-12-22
-Slug: ref-m5-abgrenzung-leistungen
+Slug: m5-abgrenzung-leistungen
 Authors: Adelheid Bürgi-Schmelz
 Summary: Abgrenzung zwischen OGD und kundenspezifischen individuellen Leistungen
 Lang: de

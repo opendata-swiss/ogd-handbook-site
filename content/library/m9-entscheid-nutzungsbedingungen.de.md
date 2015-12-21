@@ -3,7 +3,7 @@ Category: Library
 Template: library
 Tags:
 Date: 2015-3-13
-Slug: ref-m9-entscheid-nutzungsbedingungen
+Slug: m9-entscheid-nutzungsbedingungen
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary: Entscheidgrundlage Nutzungsbedingungen OGD Portal
 Lang: de

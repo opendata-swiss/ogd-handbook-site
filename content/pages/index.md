@@ -45,6 +45,6 @@ Lang: en
 
 ### Supplements
 
-- [Library](/category/library)
+- [Library](/en/category/library)
 - [Glossary](/en/library/glossary)
-- [Contribute](https://github.com/opendata-swiss/ogd-handbook-wiki/blob/master/README.md)
+- [Contribute](/pages/contribute)

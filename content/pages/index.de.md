@@ -45,6 +45,6 @@ Lang: de
 
 ### Extra
 
-- [Bibliothek](/category/library)
+- [Bibliothek](/de/category/library)
 - [Glossar](/de/library/glossary)
-- [Wie beitragen](https://github.com/opendata-swiss/ogd-handbook-wiki/blob/master/README.md)
+- [Wie beitragen](/pages/contribute)

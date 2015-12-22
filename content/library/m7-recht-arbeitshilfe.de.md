@@ -1,12 +1,13 @@
-Title: Arbeitshilfe für Behörden
+Title: Arbeitshilfe für Behörden zur Publikation von Daten als OGD
 Category: Library
 Template: library
 Tags: Prüfschritte, Datenbestand, Gesetzliche Grundlage, Personendaten, Personenschütz, Urheberrechte, Gebührenfrei, Rechtssatz, Gesetz, Normstufe, Kostenlos, Kommerziell, Quellenangabe, Anonymisieren, Weiternutzung
 Date: 2015-3-13
 Slug: m7-recht-arbeitshilfe
 Authors: Anne Wiedmer, Corinna Seiberth
-Summary: Arbeitshilfe für Behörden zur Publikation von Daten als OGD
+Summary: OGD Schweiz, Bericht
 Lang: de
+
 
 > Das folgende Prüfschema soll Behörden als Arbeitshilfe zur Publikation von Datensätzen auf OGD dienen. Das Schema zeigt auf, welche Prüfschritte von den Behörden vorzunehmen sind, bevor ein Datenbestand im Rahmen von OGD publiziert wird.
 

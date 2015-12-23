@@ -2,7 +2,7 @@ Title: DCAT Catalog
 Category: Library
 Template: library
 Tags:
-Date: 2015-5-29
+Date: 2015-05-29
 Slug: m8-catalog
 Authors: OGD Schweiz
 Summary: Kuratierte Sammlung von Metadaten-Records über offene Daten

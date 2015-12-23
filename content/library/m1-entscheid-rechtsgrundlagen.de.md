@@ -2,7 +2,7 @@ Title: Weiteres Vorgehen bezüglich Rechtsgrundlagen
 Category: Library
 Template: library
 Tags:
-Date: 2015-3-13
+Date: 2015-03-13
 Slug: m1-entscheid-rechtsgrundlagen
 Authors: Anne Wiedmer, Corinna Seiberth
 Summary: Entscheidgrundlage: Weiteres Vorgehen bezüglich Rechtsgrundlagen für die Publikation von Daten als OGD

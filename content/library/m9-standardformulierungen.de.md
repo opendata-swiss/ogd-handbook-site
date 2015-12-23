@@ -2,7 +2,7 @@ Title: Standardformulierungen
 Category: Library
 Template: library
 Tags:
-Date: 2015-3-13
+Date: 2015-03-13
 Slug: m9-standardformulierungen
 Authors: Corinna Seiberth, Anne Wiedmer
 Summary: Textbausteine für Standardformulierungen

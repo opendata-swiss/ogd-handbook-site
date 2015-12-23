@@ -2,7 +2,7 @@ Title: Datenbestände des Bundes
 Category: Library
 Template: library
 Tags:
-Date: 2015-4-23
+Date: 2015-04-23
 Slug: m4-datebestaende-bund
 Authors: Adelheid Bürgi-Schmelz
 Summary: Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar

@@ -2,7 +2,7 @@ Title: Rechtliche Grundlagen Disclaimer
 Category: Library
 Template: library
 Tags:
-Date: 2015-3-13
+Date: 2015-03-13
 Slug: m9-disclaimer
 Authors: Corinna Seiberth, Anne Wiedmer
 Summary: Rechtliche Grundlagen OGD (Disclaimer)

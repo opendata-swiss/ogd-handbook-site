@@ -1,11 +1,10 @@
 Title: Library
-Date: 2015-01-01 08:00
+Date: 2016-01-01 08:00
 Category:
 Tags:
 Slug: library
 Authors:
-Summary: The library contains results, papers and references from across the OGD Switzerland project. You can see them summarised on this page.
-Status: hidden
+Summary: Results, papers and references from across the OGD Switzerland project.
 Lang: en
 
 

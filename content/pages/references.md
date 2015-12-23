@@ -4,7 +4,7 @@ Category:
 Tags:
 Slug: references
 Authors:
-Summary: The library contains results, papers and references from across the OGD Switzerland project. You can see them summarized on this page.
+Summary: References used specifically in the development of the OGD Handbook are listed here.
 Status: hidden
 Lang: en
 

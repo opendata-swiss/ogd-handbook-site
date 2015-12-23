@@ -18,6 +18,8 @@ A growing number of documents have been released as part of the OGD Switzerland 
 [Support](/en/tag/support)
 </tags>
 
+  - [Open-Government-Data-Strategie Schweiz 2014–2018](/de/library/ch-ogd-strategie)
+
 M1 **Examination and amendment of the legal framework**
 
   - [Konzept zu den rechtliche Rahmenbedingungen](/en/library/m1-rechtliche-rahmen)

@@ -1,11 +1,11 @@
-Title: Rechtliche Rahmenbedingungen zur Publikation
+Title: Konzept: Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD)
 Category: Library
 Template: library
 Tags: establish
 Date: 2015-03-13
 Slug: m1-rechtliche-rahmen
 Authors: Anne Wiedmer, Corinna Seiberth
-Summary: Konzept - Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data
+Summary: OGD Schweiz, Bericht
 Lang: de
 
 > ### Ausgangslage

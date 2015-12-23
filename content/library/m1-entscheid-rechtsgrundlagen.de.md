@@ -1,11 +1,11 @@
-Title: Weiteres Vorgehen bezüglich Rechtsgrundlagen
+Title: Entscheidgrundlage: Weiteres Vorgehen bezüglich Rechtsgrundlagen für die Publikation von Daten als OGD
 Category: Library
 Template: library
 Tags: establish
 Date: 2015-03-13
 Slug: m1-entscheid-rechtsgrundlagen
 Authors: Anne Wiedmer, Corinna Seiberth
-Summary: Entscheidgrundlage: Weiteres Vorgehen bezüglich Rechtsgrundlagen für die Publikation von Daten als OGD
+Summary: OGD Schweiz, Bericht
 Lang: de
 
 > ### Ausgangslage

@@ -1,7 +1,7 @@
 Title: Glossary
 Category: Library
 Tags:
-Date: 2015-1-1
+Date: 2016-01-01
 Slug: glossary
 Authors:
 Summary: Common terms used in the OGD Handbook, with links to references.

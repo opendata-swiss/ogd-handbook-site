@@ -6,37 +6,37 @@ Slug: library
 Authors:
 Summary: Results, papers and references from across the OGD Switzerland project.
 Lang: en
+save_as: category/library/index.html
 
 
-## Project results
+A growing number of documents have been released as part of the OGD Switzerland project, corresponding to the work areas of the implementation of the OGD Strategy. These documents are listed here according to the project working areas. You can also browse materials as they correspond to the high level areas:
 
-A growing number of documents have been released as part of the OGD Switzerland project, corresponding to the work areas of the implementation of the OGD Strategy. View the available documents in the library:
-
-<a class="btn btn-default" href="/en/category/library">Visit the Library</a>
-
-
-
-[The available documents](http://www.egovernment.ch/umsetzung/00881/00883/01112/index.html?lang=en) are linked under the concepts discussed in this wiki, and tagged correspondingly:
+<tags>
+[Identify](/en/tag/identify)
+[Establish](/en/tag/establish)
+[Publish](/en/tag/publish)
+[Support](/en/tag/support)
+</tags>
 
 M1 **Examination and amendment of the legal framework**
 
-  - [M1 Konzept zu den rechtliche Rahmenbedingungen](/m1-rechtliche-rahmen-de)
-  - [M1 Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/m1-entscheid-rechtsgrundlagen-de)
+  - [Konzept zu den rechtliche Rahmenbedingungen](/en/library/m1-rechtliche-rahmen)
+  - [Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/en/library/m1-entscheid-rechtsgrundlagen)
 
 M2 **Data release procedure**
 
-  - [M2 Empfehlungen für OGD Formate](/m2-ogd-formate)
+  - [Empfehlungen für OGD Formate](/en/library/m2-ogd-formate)
 
-M3 **Data release plan**
+<!-- M3 **Data release plan** -->
 
 M4 **Setting up an inventory of the Confederation's data sets**
 
-  - [M4 Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/m4-datebestaende-bund-de)
+  - [Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/en/library/m4-datebestaende-bund)
 
 M5 **Examination of the fee-charging policy**
 
-  - [M5 Für die Gebührenproblematik relevante offene Fragen](/m5-gebuehrenproblematik-de)
-  - [M5 Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen](/m5-abgrenzung-leistungen-de)
+  - [Für die Gebührenproblematik relevante offene Fragen](/en/library/m5-gebuehrenproblematik)
+  - [Boundaries between OGD and custom individual services](/en/library/m5-abgrenzung-leistungen)
 
 M6 **Development of the OGD portal**
 
@@ -44,25 +44,27 @@ M6 **Development of the OGD portal**
 
 M7 **Provision of tools and instruments**
 
-  - [M7 Arbeitshilfe für Behörden zur Publikation von Daten als OGD](/m7-recht-arbeitshilfe-de) [DE](/m7-recht-arbeitshilfe-de) | [EN](/m7-recht-arbeitshilfe-en)
+  - [Worksheet for government authorities](/en/library/m7-recht-arbeitshilfe)
 
 M8 **Selection and definition of the OGD standards**
 
-  - [M8 DCAT: Application Profile](/m8-dcat-application-en)
-  - [M8 Catalog](/m8-catalog-de)
-  - [M8 Dataset](/m8-dataset-de)
-  - [M8 Distribution](/m8-distribution-de)
+  - [DCAT: Application Profile](/en/library/m8-dcat-application-en)
+  - [Catalog](/en/library/m8-catalog)
+  - [Dataset](/en/library/m8-dataset)
+  - [Distribution](/en/library/m8-distribution)
 
 M9 **Drawing up uniform terms of use**
 
-  - [M9 Entscheidgrundlage Nutzungsbedingungen OGD Portal](/m9-entscheid-nutzungsbedingungen-de)
-  - [M9 Textbausteine für Standardformulierungen](/m9-standardformulierungen-de)
-  - [M9 Disclaimer](/m9-disclaimer-de)
+  - [Entscheidgrundlage Nutzungsbedingungen OGD Portal](/en/library/m9-entscheid-nutzungsbedingungen)
+  - [Textbausteine für Standardformulierungen](/en/library/m9-standardformulierungen)
+  - [Disclaimer](/en/library/m9-disclaimer)
 
+<!--
 M10 Drawing up an OGD cooperation model
 
-M12 Dialogue with OGD users
+M11 Dialogue with OGD users
 
-M13 Acquainting the public with the data on offer
+M12 Acquainting the public with the data on offer
 
-M15 Evaluation of the impact of OGD
+M13 Evaluation der Wirkung von OGD
+-->

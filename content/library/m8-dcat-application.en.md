@@ -1,7 +1,7 @@
 Title: DCAT Application Profile
 Category: Library
 Template: library
-Tags:
+Tags: publish
 Date: 2015-08-10
 Slug: m8-dcat-application
 Authors: OGD Schweiz

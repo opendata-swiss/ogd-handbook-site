@@ -1,7 +1,7 @@
 Title: DCAT Catalog
 Category: Library
 Template: library
-Tags:
+Tags: publish
 Date: 2015-05-29
 Slug: m8-catalog
 Authors: OGD Schweiz

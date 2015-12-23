@@ -1,7 +1,7 @@
 Title: Rechtliche Grundlagen Disclaimer
 Category: Library
 Template: library
-Tags:
+Tags: establish
 Date: 2015-03-13
 Slug: m9-disclaimer
 Authors: Corinna Seiberth, Anne Wiedmer

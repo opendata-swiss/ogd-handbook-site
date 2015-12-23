@@ -1,7 +1,7 @@
 Title: Entscheidgrundlage Nutzungsbedingungen
 Category: Library
 Template: library
-Tags:
+Tags: establish
 Date: 2015-03-13
 Slug: m9-entscheid-nutzungsbedingungen
 Authors: Anne Wiedmer, Corinna Seiberth

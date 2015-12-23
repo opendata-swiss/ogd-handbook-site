@@ -1,7 +1,7 @@
 Title: Datenbestände des Bundes
 Category: Library
 Template: library
-Tags:
+Tags: identify
 Date: 2015-04-23
 Slug: m4-datebestaende-bund
 Authors: Adelheid Bürgi-Schmelz

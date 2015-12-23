@@ -1,7 +1,7 @@
 Title: DCAT Dataset
 Category: Library
 Template: library
-Tags:
+Tags: publish
 Date: 2015-05-29
 Slug: m8-dataset
 Authors: OGD Schweiz

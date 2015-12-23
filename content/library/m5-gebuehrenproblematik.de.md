@@ -1,7 +1,7 @@
 Title: Offene Fragen im Gebührenproblematik
 Category: Library
 Template: library
-Tags: Benutzungsgebühren, Bearbeitungsgebühren
+Tags: Benutzungsgebühren, Bearbeitungsgebühren, establish
 Date: 2014-12-22
 Slug: m5-gebuehrenproblematik
 Authors: Adelheid Bürgi-Schmelz

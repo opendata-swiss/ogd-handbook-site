@@ -1,7 +1,7 @@
 Title: Weiteres Vorgehen bezüglich Rechtsgrundlagen
 Category: Library
 Template: library
-Tags:
+Tags: establish
 Date: 2015-03-13
 Slug: m1-entscheid-rechtsgrundlagen
 Authors: Anne Wiedmer, Corinna Seiberth

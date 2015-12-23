@@ -1,7 +1,7 @@
 Title: Rechtliche Rahmenbedingungen zur Publikation
 Category: Library
 Template: library
-Tags:
+Tags: establish
 Date: 2015-03-13
 Slug: m1-rechtliche-rahmen
 Authors: Anne Wiedmer, Corinna Seiberth

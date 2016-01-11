@@ -7,8 +7,9 @@ Authors:
 Summary: Common terms used in the OGD Handbook, with links to references.
 Lang: en
 
+##### The following Glossary is based on that of the [Open Data Handbook](http://opendatahandbook.org/en/glossary.html).
 
-The starting point for this Glossary is the one contained in the [Open Data Handbook](http://opendatahandbook.org/en/glossary.html).
+----
 
 #### Advanced Programming Interface (API)
 

@@ -8,7 +8,7 @@ The structure of the OGD Handbook will be based around visual and contextual rep
 
 We have already interviewed a number of organisations involved in the use and publication of OGD about their organisational readiness from the standpoint of knowledge sharing. The OGD Handbook team continues to gather feedback with a focus on evaluating the structure, quality and usability of learning materials. Such activities help us to be aware of best practices and facilitate knowledge sharing between stakeholders. See Goals and Needs to find out how to get involved.
 
-For more information visit http://www.ogdhandbook.ch
+For more information visit http://handbook.opendata.swiss
 
 ## Overview ##
 
@@ -93,4 +93,4 @@ pybabel init -i messages.pot -d . -l de
 
 ### Who do I talk to? ###
 
-Send us a note via the contacts on the [public homepage](http://www.ogdhandbook.ch) if you have a question.
+Send us a note via the contacts on [the homepage](http://handbook.opendata.swiss) if you have a question.

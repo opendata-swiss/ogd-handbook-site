@@ -1,8 +1,7 @@
 Title: Bibliothek
+Slug: library
 Date: 2016-01-01 08:00
 Category:
-Tags:
-Slug: library
 Authors:
 Summary: Ergebnisse, Papiere und Referenzen aus der OGD-Projekt Schweiz.
 Lang: de
@@ -42,7 +41,7 @@ M5 **Überprüfung der Gebührenpolitik**
 
 M6 **Aufbau des OGD-Portals**
 
-  - [Pre-release landing page](http://ogdch.github.io)
+  - [opendata.swiss landing page](http://opendata.swiss)
 
 M7 **Bereitstellung von Hilfsmitteln und Instrumenten für die Datenpublikation und -bereitstellung**
 

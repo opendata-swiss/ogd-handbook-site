@@ -2,6 +2,6 @@ Title: Pronti a pubblicare i dati?
 Date: 2016-01-01
 Slug: index
 Template: front
-Summary: Il Manuale Swiss Open Government Data (OGD) è stato sviluppato sulla base della documentazione e relazioni prodotte durante il progetto OGD Svizzera. Abbiamo in programma di integrare all'interno del portale di una base di conoscenze in continua evoluzione, fornendo accesso centrale alle risorse didattiche per aiutare le persone con responsabilità per la pubblicazione dei dati presso gli uffici del governo a livello nazionale.
+Summary: Questa è una risorsa per tutti i soggetti coinvolti nella preparazione, la pubblicazione e l'utilizzo di Open Government Data, sviluppato come parte di un progetto per creare un portale nazionale di serie di dati aperti da e sulla Svizzera. Supporto per la pubblicazione sul **[opendata.swiss](http://opendata.swiss)** è la missione principale di questo manuale.
 URL:
 Lang: it

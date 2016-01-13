@@ -1,8 +1,7 @@
 Title: Library
+Slug: library
 Date: 2016-01-01 08:00
 Category:
-Tags:
-Slug: library
 Authors:
 Summary: Results, papers and references from across the OGD Switzerland project.
 Lang: en
@@ -18,7 +17,7 @@ A growing number of documents have been released as part of the OGD Switzerland 
 [Support](/en/tag/support)
 </tags>
 
-  - [Open-Government-Data-Strategie Schweiz 2014–2018](/de/library/ch-ogd-strategie)
+  - [Open Government Data Strategy Switzerland 2014–2018](/de/library/ch-ogd-strategie)
 
 M1 **Examination and amendment of the legal framework**
 

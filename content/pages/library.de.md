@@ -3,12 +3,12 @@ Slug: library
 Date: 2016-01-01 08:00
 Category:
 Authors:
-Summary: Ergebnisse, Papiere und Referenzen aus der OGD-Projekt Schweiz.
+Summary: Ergebnisse, Papiere und Referenzen aus der OGD-Projekt Schweiz und von ausgewählten Dritten.
 Lang: de
 save_as: category/library/index.html
 
 
-Eine wachsende Zahl von Unterlagen als Teil des OGD Schweiz Projekt freigegeben wurde, entsprechend den Arbeitsbereichen der Umsetzung der OGD-Strategie. Diese Dokumente werden hier nach den Projektarbeitsbereiche aufgelistet. Die Materialien sind auch durch die entsprechende Hauptbereichen suchbar:
+Die Bibliothekselemente werden auch nach diesen vier Schritten Veröffentlichung tagged:
 
 <tags>
 [Identifizieren](/de/tag/identify)

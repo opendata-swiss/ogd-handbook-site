@@ -10,13 +10,14 @@ RewriteRule ^$ /fr/pages/index [L,R=301]
 RewriteCond %{HTTP:Accept-Language} ^it [NC]
 RewriteRule ^$ /it/pages/index [L,R=301]
 
-RewriteRule ^/de/$ /de/pages/index [L,R=301]
-RewriteRule ^/fr/$ /fr/pages/index [L,R=301]
-RewriteRule ^/it/$ /it/pages/index [L,R=301]
-RewriteRule ^/en/$ /en/pages/index [L,R=301]
-
 # Default language: English
 RewriteRule ^$ /en/pages/index [L,R=301]
+
+# Disable language index
+RewriteRule ^de/$ /de/pages/index [L,R=301]
+RewriteRule ^fr/$ /fr/pages/index [L,R=301]
+RewriteRule ^it/$ /it/pages/index [L,R=301]
+RewriteRule ^en/$ /en/pages/index [L,R=301]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f

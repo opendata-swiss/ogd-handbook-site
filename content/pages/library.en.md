@@ -3,19 +3,21 @@ Slug: library
 Date: 2016-01-01 08:00
 Category:
 Authors:
-Summary: Results, papers and references from across the OGD Switzerland project.
+Summary: Results, papers and references from across the OGD Switzerland project and from selected third parties.
 Lang: en
 save_as: category/library/index.html
 
 
-A growing number of documents have been released as part of the OGD Switzerland project, corresponding to the work areas of the implementation of the OGD Strategy. These documents are listed here according to the project working areas. You can also browse materials as they correspond to the high level areas:
+The library items are also tagged according to these four publication steps:
 
 <tags>
-[Identify](/en/tag/identify)
-[Establish](/en/tag/establish)
-[Publish](/en/tag/publish)
-[Support](/en/tag/support)
+[Identify data for opening](/en/tag/identify)
+[Establish legal foundations](/en/tag/establish)
+[Publish as Open Data](/en/tag/publish)
+[Support and promote usage](/en/tag/support)
 </tags>
+
+**Government strategy paper**
 
   - [Open Government Data Strategy Switzerland 2014–2018](/de/library/ch-ogd-strategie)
 

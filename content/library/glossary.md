@@ -7,7 +7,7 @@ Authors:
 Summary: Common terms used in the OGD Handbook, with links to references.
 Lang: en
 
-##### The following Glossary is based on that of the [Open Data Handbook](http://opendatahandbook.org/en/glossary.html).
+##### The starting point for this Glossary is the [Open Data Handbook](http://opendatahandbook.org/en/glossary.html). If you wish to submit or expand on the definitions, please [contact us](mailto:opendata@bar.admin.ch?subject=OGD-Handbook+Glossary).
 
 ----
 

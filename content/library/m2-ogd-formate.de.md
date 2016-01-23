@@ -4,7 +4,6 @@ Template: library
 Tags: publish
 Date: 2015-11-10
 Slug: m2-ogd-formate
-Authors: OGD Schweiz
 Summary: OGD Schweiz, Bericht
 Lang: de
 

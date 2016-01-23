@@ -4,7 +4,6 @@ Template: library
 Tags: publish
 Date: 2015-10-8
 Slug: m8-distribution
-Authors: OGD Schweiz
 Summary: Beschreibung der Publikationsform des betreffenden Datensatzes
 Lang: de
 

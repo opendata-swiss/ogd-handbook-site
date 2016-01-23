@@ -4,7 +4,6 @@ Template: library
 Tags: publish
 Date: 2015-08-10
 Slug: m8-dcat-application
-Authors: OGD Schweiz
 Summary: Classes and elements of the DCAT metadata standard for Swiss data portals
 Lang: en
 

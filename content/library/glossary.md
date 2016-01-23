@@ -3,7 +3,6 @@ Category: Library
 Tags:
 Date: 2016-01-01
 Slug: glossary
-Authors:
 Summary: Common terms used in the OGD Handbook, with links to references.
 Lang: en
 

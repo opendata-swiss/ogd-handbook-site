@@ -4,7 +4,6 @@ Template: library
 Tags: identify
 Date: 2014-05-08
 Slug: ch-ogd-strategie
-Authors: OGD Schweiz
 Summary: Vom Bundesrat am 16. April 2014 genehmigt
 Lang: de
 

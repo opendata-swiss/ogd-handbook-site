@@ -7,7 +7,7 @@ URL:
 Lang: en
 
 
-## Background
+#### About this site
 
 The project “OGD Switzerland” is conducted by the [Swiss Federal Archives SFA](http://www.bar.admin.ch/themen/01648/01968/index.html?lang=en). Different working teams are responsible for measures set out in the OGD Strategy of Switzerland - for instance: the analysis of the legal framework, the development of the [opendata.swiss](http://opendata.swiss) portal, and the creation of the OGD Handbook.
 

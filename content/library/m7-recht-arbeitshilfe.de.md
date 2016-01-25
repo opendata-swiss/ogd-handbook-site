@@ -9,7 +9,7 @@ Summary: OGD Schweiz, Bericht
 Lang: de
 
 
-> Das folgende Prüfschema soll Behörden als Arbeitshilfe zur Publikation von Datensätzen auf OGD dienen. Das Schema zeigt auf, welche Prüfschritte von den Behörden vorzunehmen sind, bevor ein Datenbestand im Rahmen von OGD publiziert wird.
+Das folgende Prüfschema soll Behörden als Arbeitshilfe zur Publikation von Datensätzen auf OGD dienen. Das Schema zeigt auf, welche Prüfschritte von den Behörden vorzunehmen sind, bevor ein Datenbestand im Rahmen von OGD publiziert wird.
 
 ![](/images/chart-arbeitshilfe-publikation.png)
 

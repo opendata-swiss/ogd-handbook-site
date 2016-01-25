@@ -9,7 +9,7 @@ Summary:
 Lang: en
 
 
-The worksheet is intended to serve as an aid agencies for publication of records, showing test steps must be carried out by the authorities before a dataset under OGD is published.
+The worksheet is intended to serve as an aid agencies for publication of records, showing test steps to be carried out by the authorities before a dataset under OGD is published.
 
 ![](/images/chart-arbeitshilfe-publikation.png)
 

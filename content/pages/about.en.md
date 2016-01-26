@@ -1,13 +1,10 @@
-Title: Ready to publish open data?
+Title: About this site
 Date: 2016-01-01
-Slug: index
-Template: front
-Summary: This is a resource for everyone involved in preparing, publishing and using Open Government Data (OGD). Supporting publishers on **[opendata.swiss](http://opendata.swiss)**, the Swiss OGD-portal, is a primary mission of the Handbook. This is a beta release: please [send in issues and suggestions](https://github.com/opendata-swiss/ogd-handbook-wiki/issues).
+Slug: about
+Summary: Overview of the OGD Handbook
 URL:
 Lang: en
 
-
-#### About this site
 
 The project “OGD Switzerland” is conducted by the [Swiss Federal Archives SFA](http://www.bar.admin.ch/themen/01648/01968/index.html?lang=en). Multiple working teams are responsible for measures set out in the OGD Strategy of Switzerland - for instance: the analysis of legal frameworks, implementation of the [opendata.swiss](http://opendata.swiss) portal, and authoring of supporting studies and documentation.
 

@@ -11,11 +11,11 @@ Lang: en
 
 ## Project results
 
-A growing number of documents have been released as part of the OGD Switzerland project, corresponding to the work areas of the implementation of the OGD Strategy. View the available documents in the library:
+A growing number of documents have been released as part of the Open Government Data (OGD) Switzerland project, corresponding to the work areas of the implementation of the national OGD Strategy. These are primary sources for the OGD Handbook, and you can view the available documents in the library:
 
 <a class="btn btn-default" href="/en/category/library">Visit the Library</a>
 
-## Further sources
+### Further background
 
 The [Swiss OGD strategy](http://www.egovernment.ch/umsetzung/00881/00883/index.html?lang=en) and supporting studies provide additional background:
 
@@ -38,6 +38,8 @@ As are open data portals and documentation from the project's partners, related 
 - [Swiss Federal Archives](http://www.bar.admin.ch/dienstleistungen/00823/01912/index.html?lang=en)
 - [Swiss National Library](http://www.nb.admin.ch/nb_professionnel/01693/index.html?lang=en)
 
+### International references
+
 The **Open Data Handbook** is a primary inspiration for this project, of note are the history and structure of the community effort. It was initially developed by the [Open Government Data Working Group](http://opengovernmentdata.org/) of [Open Knowledge](http://okfn.org), and is now maintained by a network of contributors:
 
 - Visit [OpenDataHandbook.org](http://opendatahandbook.org/) ([Repository](https://github.com/okfn/opendatahandbook/), [Wiki](http://wiki.okfn.org/Projects/Open_Data_Handbook), [Mailing list](https://lists.okfn.org/mailman/listinfo/open-data-handbook))
@@ -54,7 +56,7 @@ A forerunner of OGD in Switzerland, the Swiss association for Open Data **Openda
 - [Opendata.ch News](http://opendata.ch/) (also in [French](http://fr.opendata.ch/))
 - [Swiss Open Data community wiki](http://make.opendata.ch/wiki)
 
-## Commonly cited
+### Commonly cited
 
 - The [Open Definition](http://opendefinition.org/) is regularly cited in open data research, and is one of the key components for OGD.
 - The [Global Open Data Index](http://census.okfn.org) is a crowdsourced effort to evaluate open data availability across countries and major cities.

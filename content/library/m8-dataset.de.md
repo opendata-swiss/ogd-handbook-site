@@ -1,6 +1,6 @@
 Title: DCAT Dataset
 Category: Library
-Template: library
+Template: document
 Tags: publish
 Date: 2015-05-29
 Slug: m8-dataset

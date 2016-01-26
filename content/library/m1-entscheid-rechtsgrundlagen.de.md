@@ -1,6 +1,6 @@
 Title: Entscheidgrundlage: Weiteres Vorgehen bezüglich Rechtsgrundlagen für die Publikation von Daten als OGD
 Category: Library
-Template: library
+Template: document
 Tags: establish
 Date: 2015-03-13
 Slug: m1-entscheid-rechtsgrundlagen

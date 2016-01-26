@@ -1,6 +1,6 @@
 Title: Open-Government-Data-Strategie Schweiz 2014–2018
 Category: Library
-Template: library
+Template: document
 Tags: identify
 Date: 2014-05-08
 Slug: ch-ogd-strategie

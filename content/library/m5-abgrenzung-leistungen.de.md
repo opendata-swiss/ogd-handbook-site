@@ -1,6 +1,6 @@
 Title: Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen
 Category: Library
-Template: library
+Template: document
 Tags: identify
 Date: 2014-12-22
 Slug: m5-abgrenzung-leistungen

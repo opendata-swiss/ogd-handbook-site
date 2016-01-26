@@ -1,6 +1,6 @@
 Title: Empfehlungen für OGD Formate
 Category: Library
-Template: library
+Template: document
 Tags: publish
 Date: 2015-11-10
 Slug: m2-ogd-formate

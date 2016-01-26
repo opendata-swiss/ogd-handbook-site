@@ -1,6 +1,6 @@
 Title: DCAT Distribution
 Category: Library
-Template: library
+Template: document
 Tags: publish
 Date: 2015-10-8
 Slug: m8-distribution

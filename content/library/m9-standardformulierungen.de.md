@@ -1,6 +1,6 @@
 Title: Standardformulierungen
 Category: Library
-Template: library
+Template: document
 Tags: support
 Date: 2015-03-13
 Slug: m9-standardformulierungen

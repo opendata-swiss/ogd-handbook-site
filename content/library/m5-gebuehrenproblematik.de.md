@@ -1,6 +1,6 @@
 Title: Offene Fragen im Gebührenproblematik
 Category: Library
-Template: library
+Template: document
 Tags: Benutzungsgebühren, Bearbeitungsgebühren, establish
 Date: 2014-12-22
 Slug: m5-gebuehrenproblematik

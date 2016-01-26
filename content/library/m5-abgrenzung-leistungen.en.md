@@ -1,6 +1,6 @@
 Title: Boundaries between OGD and client specific, individual services
 Category: Library
-Template: library
+Template: document
 Tags: identify
 Date: 2014-12-22
 Slug: m5-abgrenzung-leistungen

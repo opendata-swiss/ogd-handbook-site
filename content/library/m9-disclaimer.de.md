@@ -1,6 +1,6 @@
 Title: Rechtliche Grundlagen Disclaimer
 Category: Library
-Template: library
+Template: document
 Tags: establish
 Date: 2015-03-13
 Slug: m9-disclaimer

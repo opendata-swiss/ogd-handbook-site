@@ -5,69 +5,8 @@ Category:
 Authors:
 Summary: Results, papers and references from across the OGD Switzerland project and from selected third parties.
 Lang: en
+Template: library
 save_as: category/library/index.html
 
 
-The library items are also tagged according to these four publication steps:
-
-<tags>
-[Identify data for opening](/en/tag/identify)
-[Establish legal foundations](/en/tag/establish)
-[Publish as Open Data](/en/tag/publish)
-[Support and promote usage](/en/tag/support)
-</tags>
-
-**Government strategy paper**
-
-  - [Open Government Data Strategy Switzerland 2014–2018](/de/library/ch-ogd-strategie)
-
-M1 **Examination and amendment of the legal framework**
-
-  - [Konzept zu den rechtliche Rahmenbedingungen](/en/library/m1-rechtliche-rahmen)
-  - [Entscheidungsgrundlagen bezüglich Rechtsgrundlagen](/en/library/m1-entscheid-rechtsgrundlagen)
-
-M2 **Data release procedure**
-
-  - [Empfehlungen für OGD Formate](/en/library/m2-ogd-formate)
-
-<!-- M3 **Data release plan** -->
-
-M4 **Setting up an inventory of the Confederation's data sets**
-
-  - [Bericht über Datenbestände des Bundes - Grundlagen für ein Inventar](/en/library/m4-datebestaende-bund)
-
-M5 **Examination of the fee-charging policy**
-
-  - [Für die Gebührenproblematik relevante offene Fragen](/en/library/m5-gebuehrenproblematik)
-  - [Boundaries between OGD and custom individual services](/en/library/m5-abgrenzung-leistungen)
-
-M6 **Development of the OGD portal**
-
-  - [Pre-release landing page](http://ogdch.github.io)
-
-M7 **Provision of tools and instruments**
-
-  - [Worksheet for government authorities](/en/library/m7-recht-arbeitshilfe)
-
-M8 **Selection and definition of the OGD standards**
-
-  - [DCAT: Application Profile](/en/library/m8-dcat-application-en)
-  - [Catalog](/en/library/m8-catalog)
-  - [Dataset](/en/library/m8-dataset)
-  - [Distribution](/en/library/m8-distribution)
-
-M9 **Drawing up uniform terms of use**
-
-  - [Entscheidgrundlage Nutzungsbedingungen OGD Portal](/en/library/m9-entscheid-nutzungsbedingungen)
-  - [Textbausteine für Standardformulierungen](/en/library/m9-standardformulierungen)
-  - [Disclaimer](/en/library/m9-disclaimer)
-
-<!--
-M10 Drawing up an OGD cooperation model
-
-M11 Dialogue with OGD users
-
-M12 Acquainting the public with the data on offer
-
-M13 Evaluation der Wirkung von OGD
--->
+Library references are tagged according to the four publication steps. At this time not all contents are available in all languages: visit the [library in German](/de/category/library) for a more extensive list of references.

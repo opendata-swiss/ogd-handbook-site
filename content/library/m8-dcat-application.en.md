@@ -1,6 +1,6 @@
 Title: DCAT Application Profile
 Category: Library
-Template: library
+Template: document
 Tags: publish
 Date: 2015-08-10
 Slug: m8-dcat-application

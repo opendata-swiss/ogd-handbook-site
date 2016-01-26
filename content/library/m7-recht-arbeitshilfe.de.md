@@ -1,6 +1,6 @@
 Title: Arbeitshilfe für Behörden zur Publikation von Daten als OGD
 Category: Library
-Template: library
+Template: document
 Tags: identify, Prüfschritte, Datenbestand, Gesetzliche Grundlage, Personendaten, Personenschütz, Urheberrechte, Gebührenfrei, Rechtssatz, Gesetz, Normstufe, Kostenlos, Kommerziell, Quellenangabe, Anonymisieren, Weiternutzung
 Date: 2015-03-13
 Slug: m7-recht-arbeitshilfe

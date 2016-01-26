@@ -35,4 +35,4 @@ Once you make changes in your personal fork of the OGD Handbook, and are ready f
 
 ![](/images/newpullrequest.png)
 
-In the Pull Request, please give us a little background on the intent of your changes. You will be notified via GitHub once they have been moderated and accepted for inclusion in the next release of the OGD Handbook.
+Inside the Pull Request comments, please give us a little bit of background on the intent of your changes. You will be notified via GitHub once they have been moderated and accepted for inclusion in the next release of the OGD Handbook.

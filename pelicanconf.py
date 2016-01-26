@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'OGD Switzerland Project'
+AUTHOR = u'Open Government Data Switzerland'
 SITENAME = u'OGD Handbook'
 SITEURL = ''
 

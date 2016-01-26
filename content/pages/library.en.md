@@ -3,7 +3,7 @@ Slug: library
 Date: 2016-01-01 08:00
 Category:
 Authors:
-Summary: Results, papers and references from across the OGD Switzerland project and from selected third parties.
+Summary: Results, papers and references from across Open Government Data Switzerland and from selected third parties.
 Lang: en
 Template: library
 save_as: category/library/index.html

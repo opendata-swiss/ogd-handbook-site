@@ -7,4 +7,4 @@ Summary: Häufige Begriffe verwendet in der OGD Handbuch, mit Links zu den Refer
 Lang: de
 
 
-The Glossary is currently only [available in English](/en/library/glossary).
+Das Glossar ist derzeit nur in [englischer Sprache verfügbar](/en/library/glossary).

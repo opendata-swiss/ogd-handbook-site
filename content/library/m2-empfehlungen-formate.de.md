@@ -3,7 +3,7 @@ Category: Library
 Template: document
 Tags: publish
 Date: 2015-11-10
-Slug: m13-empfehlungen-formate
+Slug: m2-empfehlungen-formate
 Authors:
 Summary:
 Lang: de

@@ -3,7 +3,7 @@ Date: 2016-01-29
 Slug: legal-notice
 Summary:
 URL:
-Lang: it
+Lang: fr
 
 
 Utilisation des jeux de données publiés sur *opendata.swiss*

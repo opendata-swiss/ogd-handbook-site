@@ -77,7 +77,9 @@ After deployment, ensure links are working in the Topics page, else you may need
 
 ### Translations ###
 
-Using [PyBabel](http://pythonhosted.org/Flask-Babel/#translating-applications) we can keep the theme translations up to date. This is installed separately to other requirements of the project (e.g. on Ubuntu, using `sudo apt-get install python-babel`).
+Using [PyBabel](http://pythonhosted.org/Flask-Babel/#translating-applications) we can keep the theme translations up to date.
+
+NOTE: this tool is installed separately to other requirements of the project (e.g. using `pip install babel`).
 
 ```
 cd theme/translations

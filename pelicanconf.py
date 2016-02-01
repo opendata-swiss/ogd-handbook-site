@@ -54,7 +54,7 @@ DEFAULT_PAGINATION = 8
 RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['i18n_subsites', 'tipue_search']
+PLUGINS = ['i18n_subsites', 'tipue_search', 'pelican-toc']
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 
@@ -75,6 +75,11 @@ I18N_SUBSITES = {
 		'LOCALE': 'it_IT',
 		'THEME_STATIC_DIR': 'theme'
 		}
+}
+
+TOC = {
+    'TOC_HEADERS' : '^h[1-4]',  # What headers should be included in the generated toc
+    'TOC_RUN'     : 'false' # Default value for toc generation
 }
 
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))

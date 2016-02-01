@@ -10,7 +10,7 @@ PATH = 'content'
 THEME = 'theme'
 
 STATIC_PATHS = [
-	'images', 'handbook/images', 'handbook/samples',
+	'images', 'handbook/images', 'samples',
 	'../extra/robots.txt',
 	'../extra/favicon.ico',
 	'../extra/.htaccess'

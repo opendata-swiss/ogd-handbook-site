@@ -1,14 +1,6 @@
-# Swiss OGD Handbook #
+# OGD Handbook Site #
 
-**opendata.swiss** is the official portal for open government data in Switzerland. All communal, cantonal, and federal authorities and businesses are called on to make data available in open, machine-readable formats, while continuing to ensure privacy and security, using the portal. For further information, visit http://opendata.swiss
-
-The OGD Handbook is being developed to support individuals with responsibilities for data publishing at their government department, as well as the wider user base of OGD in Switzerland. For these reasons we plan to integrate it within the portal as a centrally accessible, evolving knowledge base.
-
-The structure of the OGD Handbook will be based around visual and contextual representations of the process of data publishing, providing an up-to-date reference for actual and potential data owners. Relevant documentation created as part of Open Government Data Switzerland, as well as references from OGD projects around the world to be discoverable within.
-
-We have already interviewed a number of organisations involved in the use and publication of OGD about their organisational readiness from the standpoint of knowledge sharing. The OGD Handbook team continues to gather feedback with a focus on evaluating the structure, quality and usability of learning materials. Such activities help us to be aware of best practices and facilitate knowledge sharing between stakeholders. See Goals and Needs to find out how to get involved.
-
-For more information visit http://handbook.opendata.swiss
+This repository contains web application source code for the OGD Handbook. For more information, visit http://handbook.opendata.swiss
 
 ## Overview ##
 
@@ -77,9 +69,7 @@ After deployment, ensure links are working in the Topics page, else you may need
 
 ### Translations ###
 
-Using [PyBabel](http://pythonhosted.org/Flask-Babel/#translating-applications) we can keep the theme translations up to date.
-
-NOTE: this tool is installed separately to other requirements of the project (e.g. using `pip install babel`).
+Using [Babel](http://babel.pocoo.org/) for [Flask](http://pythonhosted.org/Flask-Babel/#translating-applications), we can keep the theme translations up to date:
 
 ```
 cd theme/translations

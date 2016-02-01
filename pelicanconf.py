@@ -11,14 +11,14 @@ THEME = 'theme'
 
 STATIC_PATHS = [
 	'images', 'handbook/images',
-	'extra/robots.txt',
-	'extra/favicon.ico',
-	'extra/.htaccess'
+	'../extra/robots.txt',
+	'../extra/favicon.ico',
+	'../extra/.htaccess'
 ]
 EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.ico': {'path': 'favicon.ico'},
-    'extra/.htaccess': {'path': '.htaccess'}
+    '../extra/robots.txt': {'path': 'robots.txt'},
+    '../extra/favicon.ico': {'path': 'favicon.ico'},
+    '../extra/.htaccess': {'path': '.htaccess'}
 }
 
 ARTICLE_PATHS = ['handbook','library']
@@ -45,12 +45,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('egovernment.ch', 'http://egovernment.ch/ogd'),
-		)
-
+LINKS = ()
 # Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/eGovCH'),
-		)
+SOCIAL = ()
 
 DEFAULT_PAGINATION = 8
 

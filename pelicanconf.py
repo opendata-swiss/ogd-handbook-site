@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Open Government Data Switzerland'
 SITENAME = u'OGD Handbook'
+SITEMAIL = '@'.join(['opendata', 'bar.admin.ch'])
 SITEURL = ''
 
 PATH = 'content'

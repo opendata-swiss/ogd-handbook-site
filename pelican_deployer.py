@@ -12,13 +12,12 @@ Example `deployerconf.json`:
   "repos": {
     "mysite": {
       "root": "/path/to/repo",
-      "secret": "mysecret",
       "remote": "origin",
       "ftp": {
         "user": "myusername",
         "host": "ftp.host.url",
         "pwd": "mysecretpasswd",
-        "dir": "/target/path",
+        "dir": "/target/path"
       }
     }
   }
@@ -34,8 +33,9 @@ or (with deployerconf.json as default)
 ```
 $ gunicorn pelican_deployer.py -b localhost:5000
 ```
+You will see a generated hash, use this as {mysecret}.
 
-Add http://<deployer_host>/{mysite}/{mysecret} as a webhook url and you're done
+Add http://<myhost>/<mysite>/{mysecret} as a webhook url and you're done
 """
 import logging
 import os
@@ -45,6 +45,7 @@ import sys
 from flask import Flask, json, jsonify, request
 
 app = Flask(__name__)
+myhash = ''.join('%02x' % ord(x) for x in os.urandom(16))
 
 def sh(cmd, **kwargs):
     cmd = cmd.format(**kwargs)
@@ -61,7 +62,8 @@ def sh(cmd, **kwargs):
 def deploy(repo_id, repo_secret):
     payload = json.loads(request.form['payload'])
     repo = app.config['repos'][repo_id]
-    if repo_secret != repo['secret']:
+    # if repo_secret != repo['secret']:
+    if repo_secret != myhash:
         return jsonify(dict(ok=False))
     os.chdir(repo['root'])
     sh(
@@ -103,4 +105,7 @@ if __name__ == '__main__':
     app.config.update(**json.load(f))
   app.logger.addHandler(logging.StreamHandler())
   app.logger.setLevel(logging.INFO)
+  app.logger.info("Initialising repos:")
+  for repo in app.config['repos']:
+      app.logger.info('/%s/%s' % (repo, myhash))
   app.run()

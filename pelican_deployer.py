@@ -31,7 +31,7 @@ $ python ./pelican_deployer.py deployerconf.json
 ```
 or (with deployerconf.json as default)
 ```
-$ gunicorn pelican_deployer.py -b localhost:5000
+$ gunicorn pelican_deployer:app -b localhost:5000
 ```
 You will see a generated hash, use this as {mysecret}.
 
@@ -45,7 +45,6 @@ import sys
 from flask import Flask, json, jsonify, request
 
 app = Flask(__name__)
-myhash = ''.join('%02x' % ord(x) for x in os.urandom(16))
 
 def sh(cmd, **kwargs):
     cmd = cmd.format(**kwargs)
@@ -96,16 +95,20 @@ def deploy(repo_id, repo_secret):
     return jsonify(dict(ok=True))
 
 
-if __name__ == '__main__':
-  if len(sys.argv)<1:
+myhash = ''.join('%02x' % ord(x) for x in os.urandom(16))
+
+if len(sys.argv)<1:
     fname = sys.argv[1]
-  else:
+else:
     fname = 'deployerconf.json'
-  with open(fname) as f:
+with open(fname) as f:
     app.config.update(**json.load(f))
-  app.logger.addHandler(logging.StreamHandler())
-  app.logger.setLevel(logging.INFO)
-  app.logger.info("Initialising repos:")
-  for repo in app.config['repos']:
-      app.logger.info('/%s/%s' % (repo, myhash))
-  app.run()
+
+app.logger.addHandler(logging.StreamHandler())
+app.logger.setLevel(logging.INFO)
+app.logger.info("Initialising repos:")
+for repo in app.config['repos']:
+    app.logger.info('/%s/%s' % (repo, myhash))
+
+if __name__ == '__main__':
+    app.run()

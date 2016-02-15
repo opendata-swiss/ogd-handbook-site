@@ -24,14 +24,18 @@ Example `deployerconf.json`:
 }
 ```
 
-Run it
-
+Set it up
 ```
-$ python ./pelican_deployer.py deployerconf.json
+$ pip install flask gunicorn
+```
+
+Run it
+```
+$ python ./deployer.py deployerconf.json
 ```
 or (with deployerconf.json as default)
 ```
-$ gunicorn pelican_deployer:app -b localhost:5000
+$ gunicorn deployer:app -b localhost:5000
 ```
 You will see a generated hash, use this as {mysecret}.
 

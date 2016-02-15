@@ -75,7 +75,7 @@ def deploy(repo_id, repo_secret):
         branch=repo.get('branch', 'master')
     )
     sh(
-        'git submodule foreach git pull --ff-only {remote} {branch}',
+        'git submodule foreach git pull {remote} {branch}',
         remote=repo.get('remote', 'origin'),
         branch=repo.get('branch', 'master')
     )

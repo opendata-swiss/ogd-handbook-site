@@ -1,11 +1,12 @@
 # pelican-bootstrap3
 
-This is a Bootstrap 3 theme for Pelican. It's fully responsive. Pelican-bootstrap3 is compatible with Pelican 3.3.0 and 
-higher. I will try to regularly update this theme with new features and newer versions of Bootstrap & Bootswatch.
+This is a Bootstrap 3 theme for Pelican, originally developed by [DandyDev](https://github.com/DandyDev). 
+It's fully responsive and contains sub-themes from the Bootswatch project. 
+Pelican-bootstrap3 is compatible with Pelican 3.3.0 and higher.
 
 ## CONTRIBUTING
 
-If you want to adjust this theme to your own liking, I encourage you to fork it. This theme has started to gather more
+If you want to adjust this theme to your own liking, we encourage you to fork it. This theme has started to gather more
 and more attention in the form of stars and forks. If you make improvements that are useful to others and can make the
 theme better in general **please don't hesitate to make a pull request**. For contributing guidelines, [look here](CONTRIBUTING.md)
 
@@ -298,7 +299,7 @@ SIDEBAR_IMAGES = ["/path/to/image1.png", "/path/to/image2.png"]
 
 ## Live example
 
-[This is my website](http://dandydev.net)
+[This is the website of the original author](http://dandydev.net)
 
 If you want more examples of what you could do with this theme, have a [look here](EXAMPLES.md).
 

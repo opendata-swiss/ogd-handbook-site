@@ -1,17 +1,17 @@
 Options +FollowSymLinks
 RewriteEngine on
 
-RewriteCond %{HTTP:Accept-Language} ^de [NC]
+# RewriteCond %{HTTP:Accept-Language} ^de [NC]
+# RewriteRule ^$ /de/pages/index [L,R=301]
+
+# RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+# RewriteRule ^$ /fr/pages/index [L,R=301]
+
+# RewriteCond %{HTTP:Accept-Language} ^it [NC]
+# RewriteRule ^$ /it/pages/index [L,R=301]
+
+# Default language: German
 RewriteRule ^$ /de/pages/index [L,R=301]
-
-RewriteCond %{HTTP:Accept-Language} ^fr [NC]
-RewriteRule ^$ /fr/pages/index [L,R=301]
-
-RewriteCond %{HTTP:Accept-Language} ^it [NC]
-RewriteRule ^$ /it/pages/index [L,R=301]
-
-# Default language: English
-RewriteRule ^$ /en/pages/index [L,R=301]
 
 # Disable language index
 RewriteRule ^de/$ /de/pages/index [L,R=301]

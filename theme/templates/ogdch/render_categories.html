@@ -1,0 +1,55 @@
+{% macro translations_for(category) %}
+	{% if category|trim|lower == "identify" %}
+		{% trans %}Identify{% endtrans %}
+	{% elif category|trim|lower == "establish" %}
+		{% trans %}Establish{% endtrans %}
+	{% elif category|trim|lower == "publish" %}
+		{% trans %}Publish{% endtrans %}
+	{% elif category|trim|lower == "support" %}
+		{% trans %}Support{% endtrans %}
+	{% elif category|trim|lower == "library" %}
+		{% trans %}Library{% endtrans %}
+	{% else %}
+		{{ category }}
+	{% endif %}
+{% endmacro %}
+
+{% macro next_category(category) -%}
+	{% if category|trim|lower == "identify" %}
+		Establish
+	{% elif category|trim|lower == "establish" %}
+		Publish
+	{% elif category|trim|lower == "publish" %}
+		Support
+	{% elif category|trim|lower == "support" %}
+		Identify
+	{% else %}
+		{{ category }}
+	{% endif %}
+{% endmacro -%}
+
+{% macro subheading_for(category) -%}
+	{% if category|trim|lower == "identify" %}
+		{% trans %}data for opening{% endtrans %}
+	{% elif category|trim|lower == "establish" %}
+		{% trans %}legal foundations{% endtrans %}
+	{% elif category|trim|lower == "publish" %}
+		{% trans %}as open data{% endtrans %}
+	{% elif category|trim|lower == "support" %}
+		{% trans %}and promote usage{% endtrans %}
+	{% endif %}
+{% endmacro -%}
+
+{% macro icon_for(category) -%}
+	{% if category|trim|lower == "identify" %}
+		<i class="fa fa-dot-circle-o"></i>
+	{% elif category|trim|lower == "establish" %}
+		<img src="/theme/ogdch/icon-white-establish.png">
+		<!--<i class="fa fa-institution"></i>-->
+	{% elif category|trim|lower == "publish" %}
+		<img src="/theme/ogdch/icon-white-publish.png">
+		<!--<i class="fa fa-share-alt"></i>-->
+	{% elif category|trim|lower == "support" %}
+		<i class="fa fa-comments"></i>
+	{% endif %}
+{% endmacro -%}

@@ -1,6 +1,3 @@
-[submodule "theme"]
-	path = theme
-	url = git@github.com:datalets/pelican-bootstrap3.git
 [submodule "content"]
 	path = content
 	url = git@github.com:opendata-swiss/ogd-handbook-wiki.git

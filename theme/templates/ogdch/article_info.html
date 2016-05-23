@@ -1,0 +1,70 @@
+<footer class="post-info">
+
+  <div class="article-actions">
+
+    {% include 'ogdch/annotate.html' %}
+
+  </div>
+
+    {% include 'includes/taglist.html' %}
+
+    <span class="label label-default">
+      {% trans %}Published{% endtrans %}</span>
+    <span class="published">
+      <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }}</time>
+    </span>
+    <br>
+
+    {% if SHOW_DATE_MODIFIED %}
+        {% if article.modified %}
+            <span class="label label-default">{% trans %}Modified{% endtrans %}</span>
+            <span class="modified">
+              <time datetime="{{ article.modified.isoformat() }}"> {{ article.locale_modified }}</time>
+            </span>
+            <br>
+        {% endif %}
+    {% endif %}
+
+    {% if SHOW_SERIES %}
+        {% if article.series %}
+            <span class="label label-default">Series</span>
+            <span class="series">
+              Part {{ article.series.index}} of {{ article.series.name }}
+            </span>
+            <br>
+        {% endif %}
+    {% endif %}
+
+    {% if SHOW_ARTICLE_AUTHOR %}
+        {% if article.author %}
+            <span class="label label-default">
+              {% trans %}Author(s){% endtrans %}</span>
+            <span class="author">
+              {% trans %}Open Government Data Switzerland{% endtrans %}
+              {#<a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>#}
+            </span>
+            <br>
+        {% endif %}
+    {% endif %}
+
+    {% if SHOW_ARTICLE_CATEGORY %}
+        <span class="label label-default">{% trans %}Category{% endtrans %}</span>
+        <span class="category">
+          <a href="{{ SITEURL }}/{{ article.category.url }}">
+            {% import 'categories.html' as categories with context %}
+            {{ categories.translations_for(article.category) }}
+          </a>
+        </span>
+        <br>
+    {% endif %}
+
+    {% if PDF_PROCESSOR %}
+        <span class="label label-default">
+            <a href="{{ SITEURL }}/pdf/{{ article.slug }}.pdf">PDF</a>
+        </span>
+        <br>
+    {% endif %}
+
+    {% import 'includes/translations.html' as translations with context %}
+    {{ translations.translations_for(article) }}
+</footer><!-- /.post-info -->

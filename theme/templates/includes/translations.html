@@ -1,0 +1,14 @@
+{% macro translations_for(article) %}
+{% if article.translations %}
+<span class="label label-default">
+	<i class="fa fa-globe"></i>
+	{% trans %}Translations{% endtrans %}</span>
+{% for translation in article.translations %}
+	<a class="btn btn-sm" href="{{ SITEURL }}/{{ translation.url }}">{{ translation.lang }}</a>
+{% endfor %}
+	<a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
+		<i class="fa fa-inbox"></i>
+		{% trans %}Send a request{% endtrans %}</a>
+<br>
+{% endif %}
+{% endmacro %}

@@ -1,0 +1,25 @@
+{% extends "article_list.html" %}
+{% block title %}{{ tag }} - {{ SITENAME }}{% endblock %}
+{% block meta %}
+    <meta name="author" content="{{ AUTHOR }}" />
+    <meta name="keywords" content="{{ tag }}" />
+{% endblock %}
+{% block breadcrumbs %}
+  <header class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          {% if DISPLAY_BREADCRUMBS %}
+          <ol class="breadcrumb">
+            <li class="item-home"><a class="bread-link bread-home" href="{{ SITEURL }}/pages/index" title="{{ SITENAME }}">{{ SITENAME }}</a></li>
+            <li class="item-2 active"><a href="{{ SITEURL }}/{{ TAGS_URL }}" title="Tags">Tags</a></li>
+          </ol>
+          {% endif %}
+          <h1>
+            {{ tag }}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+{% endblock %}

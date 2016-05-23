@@ -1,0 +1,25 @@
+{% extends "article_list.html" %}
+{% block title %}{{ category }} - {{ SITENAME }}{% endblock %}
+{% block meta %}
+    <meta name="author" content="{{ AUTHOR }}" />
+    <meta name="keywords" content="{{ category }}" />
+{% endblock %}
+{% block breadcrumbs %}
+    <header class="page-header">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-xs-12">
+            {% if DISPLAY_BREADCRUMBS %}
+  					<ol class="breadcrumb">
+              <li class="item-home"><a class="bread-link bread-home" href="{{ SITEURL }}/pages/index" title="{{ SITENAME }}">{{ SITENAME }}</a></li>
+  					</ol>
+            {% endif %}
+  					<h1>
+              {% import 'ogdch/render_categories.html' as render_categories with context %}
+              {{ render_categories.translations_for(category) }}
+            </h1>
+  				</div>
+  			</div>
+  		</div>
+  	</header>
+{% endblock %}

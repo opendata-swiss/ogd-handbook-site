@@ -1,0 +1,54 @@
+<footer class="container page-footer">
+	<div class="row top-buffer">
+		<div class="col-xs-12">
+			<p>
+{% trans %}The OGD Handbook is based on documentation produced by the Open Government Data Switzerland project and additional established references. As knowledge sharing platform for opendata.swiss, it supports  data publishing programs at government offices, and open data publishing best practices in general. The Swiss Federal Archives operates the OGD Handbook.{% endtrans %}
+			</p>
+			<p>
+				<i>
+					Ce site est actuellement disponible uniquement en allemand.<br>
+					Questo sito è attualmente disponibile solo in lingua tedesca.<br>
+					This website is currently only available in German.
+				</i>
+			</p>
+		</div>
+	</div>
+	<div class="row top-buffer">
+		<!--<div class="col-md-2 col-xs-12">
+			<div class="btn-group">
+				<button type="button" id="lang-button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="name">Deutsch</span> <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu" id="lang-switch">
+					<li lang="de"><a href="/de/pages/index">Deutsch</a></li>
+					<li lang="it"><a href="/it/pages/index">Italiano</a></li>
+					<li lang="fr"><a href="/fr/pages/index">Français</a></li>
+					<li lang="en"><a href="/en/pages/index">English</a></li>
+				</ul>
+			</div>
+		</div>-->
+		<div class="col-md-2 col-xs-6">
+			<ul class="list-unstyled">
+				<li><a href="/en/pages/contribute">{% trans %}Contribute{% endtrans %}</a></li>
+				<!-- <li><a href="{{ SITEURL }}/category/library">{% trans %}Library{% endtrans %}</a></li> -->
+			</ul>
+		</div>
+		<div class="col-md-2 col-xs-6">
+			<ul class="list-unstyled">
+				<li><a href="/en/pages/about">{% trans %}About{% endtrans %}</a></li>
+				<!-- <li><a href="{{ SITEURL }}/library/glossary">{% trans %}Glossary{% endtrans %}</a></li> -->
+			</ul>
+		</div>
+		<div class="col-md-4 col-xs-12">
+			<ul class="list-unstyled">
+				<li><a href="{{ SITEURL }}/pages/legal-notice">{% trans %}Legal notice{% endtrans %}</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="logos" class="row top-buffer">
+		<div class="col-xs-12">
+			<img class="logo-confederation" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/ogdch/logo-confederation.png" />
+			<img class="logo-egovernment" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/ogdch/logo-egovernment.png" />
+		</div>
+	</div>
+</footer>

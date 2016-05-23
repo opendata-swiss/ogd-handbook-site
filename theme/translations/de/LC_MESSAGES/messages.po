@@ -1,0 +1,206 @@
+# German translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-02-12 14:47+0100\n"
+"PO-Revision-Date: 2015-12-16 07:08+0100\n"
+"Last-Translator: \n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ../templates/article.html:102
+#, fuzzy
+msgid "Please consider adding your expertise to this topic."
+msgstr ""
+"Dies ist eine vor Kurzem veröffentlichte Website: klicken Sie hier, um "
+"Probleme zu melden."
+
+#: ../templates/article.html:105 ../templates/ogdch/footer.html:18
+msgid "Contribute"
+msgstr "Mitwirken"
+
+#: ../templates/article.html:106
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../templates/document.html:11 ../templates/front.html:68
+#: ../templates/ogdch/render_categories.html:11
+msgid "Library"
+msgstr "Bibliothek"
+
+#: ../templates/front.html:49
+msgid "Start reading"
+msgstr "Mit dem Lesen beginnen"
+
+#: ../templates/front.html:60
+msgid "Search topics..."
+msgstr "Themen durchsuchen..."
+
+#: ../templates/front.html:71
+msgid "Glossary"
+msgstr "Glossar"
+
+#: ../templates/includes/article_info.html:4
+#: ../templates/ogdch/article_info.html:14
+#, fuzzy
+msgid "Published"
+msgstr "Publizieren"
+
+#: ../templates/includes/article_info.html:12
+#: ../templates/ogdch/article_info.html:22
+msgid "Modified"
+msgstr "Geändert"
+
+#: ../templates/includes/article_info.html:22
+msgid "Series"
+msgstr "Serie"
+
+#: ../templates/includes/article_info.html:34
+#: ../templates/ogdch/article_info.html:43
+msgid "Author(s)"
+msgstr "Author/en"
+
+#: ../templates/includes/article_info.html:43
+#: ../templates/ogdch/article_info.html:53
+msgid "Category"
+msgstr "Kategorie"
+
+#: ../templates/includes/translations.html:5
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: ../templates/includes/translations.html:11
+msgid "Send a request"
+msgstr "Eine Anfrage senden"
+
+#: ../templates/ogdch/annotate.html:4 ../templates/ogdch/annotate.html:10
+msgid "Annotate"
+msgstr "Kommentieren"
+
+#: ../templates/ogdch/annotate.html:14
+msgid ""
+"The ability to annotate and comment on this content is provided using an "
+"external, third party service. The maintainers of this website take no "
+"responsibility for any content that appears therein. You must review and "
+"accept the applicable Terms and Conditions of Use."
+msgstr ""
+"Die Fähigkeit, mit Anmerkungen versehen und Kommentar zu diesem Inhalt "
+"wird mit Hilfe eines externen, externe Dienstleister zur Verfügung "
+"gestellt. Die Betreuer dieser Website übernehmen keine Verantwortung für "
+"Inhalte, die darin angezeigt. Sie müssen die geltenden "
+"Geschäftsbedingungen der Verwendung lesen und akzeptieren."
+
+#: ../templates/ogdch/annotate.html:15
+msgid ""
+"Please mark your annotations and comments as public if you wish for any "
+"other people to see them."
+msgstr ""
+"Bitte markieren Sie Ihre Anmerkungen und Kommentare als öffentlich, wenn "
+"Sie möchten für alle anderen Menschen um sie zu sehen."
+
+#: ../templates/ogdch/annotate.html:18
+msgid "Cancel"
+msgstr "Schliessen"
+
+#: ../templates/ogdch/annotate.html:19
+msgid "Accept and continue"
+msgstr "Akzeptieren und fortfahren"
+
+#: ../templates/ogdch/article_info.html:45
+msgid "Open Government Data Switzerland"
+msgstr "OGD Projekt Schweiz"
+
+#: ../templates/ogdch/downloads.html:4
+msgid "Paper"
+msgstr "Bericht"
+
+#: ../templates/ogdch/downloads.html:10
+msgid "Document"
+msgstr "Dokument"
+
+#: ../templates/ogdch/downloads.html:16
+msgid "Presentation"
+msgstr "Präsentation"
+
+#: ../templates/ogdch/footer.html:23
+msgid "About"
+msgstr "Impressum"
+
+#: ../templates/ogdch/footer.html:28
+msgid "Legal notice"
+msgstr "Rechtlicher Hinweis"
+
+#: ../templates/ogdch/footer.html:35
+msgid ""
+"The OGD Handbook is based on documentation produced by the Open "
+"Government Data Switzerland project and additional established "
+"references. As knowledge sharing platform for opendata.swiss, it supports"
+"  data publishing programs at government offices, and open data "
+"publishing best practices in general. The Swiss Federal Archives operates"
+" the OGD Handbook."
+msgstr ""
+"handbook.opendata.swiss bietet Unterstützung für Personen und Organisationen, die Open Government Data veröffentlichen wollen. Das Handbuch fördert den Wissensaustausch: Beiträge von Personen mit Erfahrungen im Bereich open data sind explizit erwünscht. Das Schweizerische Bundesarchiv betreibt handbook.opendata.swiss."
+
+#: ../templates/ogdch/navbar.html:7
+msgid "This is a newly released website: click here to report issues"
+msgstr ""
+"BETA - handbook.opendata.swiss steht in einer Beta-Version zur Verfügung. Klicken Sie hier, um Probleme zu melden."
+
+#: ../templates/ogdch/navbar.html:32
+#: ../templates/ogdch/render_categories.html:3
+#: ../templates/ogdch/render_categories.html:25
+msgid "Identify"
+msgstr "Identifizieren"
+
+#: ../templates/ogdch/navbar.html:35
+#: ../templates/ogdch/render_categories.html:5
+#: ../templates/ogdch/render_categories.html:19
+msgid "Establish"
+msgstr "Etablieren"
+
+#: ../templates/ogdch/navbar.html:38
+#: ../templates/ogdch/render_categories.html:7
+#: ../templates/ogdch/render_categories.html:21
+msgid "Publish"
+msgstr "Publizieren"
+
+#: ../templates/ogdch/navbar.html:41
+#: ../templates/ogdch/render_categories.html:9
+#: ../templates/ogdch/render_categories.html:23
+msgid "Support"
+msgstr "Supporten"
+
+#: ../templates/ogdch/render_categories.html:33
+msgid "data for opening"
+msgstr "Daten zur Freigabe ermitteln"
+
+#: ../templates/ogdch/render_categories.html:35
+msgid "legal foundations"
+msgstr "Rechtliche Grundlagen"
+
+#: ../templates/ogdch/render_categories.html:37
+msgid "as open data"
+msgstr "Als Open Data veröffentlichen"
+
+#: ../templates/ogdch/render_categories.html:39
+msgid "and promote usage"
+msgstr "Die Verwendung unterstützen und fördern"
+
+#~ msgid "Next"
+#~ msgstr "Nächstes"
+
+#~ msgid "References"
+#~ msgstr "Referenzen"
+
+#~ msgid "Contact us"
+#~ msgstr "Kontakt"

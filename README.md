@@ -10,7 +10,7 @@ The Handbook content is written using [Markdown](https://bitbucket.org/tutorials
 
 The Python-based wiki [realms.io](http://realms.io) was used to create a collaborative environment for editing content, see [deployment instructions](https://github.com/scragg0x/realms-wiki). We are using our own fork with Docker-based [customizations](https://github.com/loleg/realms-wiki/tree/postgres/docker).
 
-We are using the [Pelican Bootstrap 3](https://github.com/datalets/pelican-bootstrap3/) theme submoduled under `theme`. For more information see the project's homepage, Pelican's documentation [on themes](http://docs.getpelican.com/en/3.5.0/themes.html), and the [Bootstrap](http://getbootstrap.com/) site.
+We are using the [Pelican Bootstrap 3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3) theme. For more information see the project's homepage, Pelican's documentation [on themes](http://docs.getpelican.com/en/3.5.0/themes.html), and the [Bootstrap](http://getbootstrap.com/) site.
 
 The following documentation deals with installation of the web frontend.
 

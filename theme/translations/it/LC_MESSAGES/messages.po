@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-12 14:47+0100\n"
+"POT-Creation-Date: 2016-05-25 09:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
 
-#: ../templates/article.html:102
+#: ../templates/article.html:103
 #, fuzzy
 msgid "Please consider adding your expertise to this topic."
 msgstr ""
@@ -27,38 +27,39 @@ msgstr ""
 "Si prega di prendere in considerazione l'aggiunta di la tua esperienza "
 "qui."
 
-#: ../templates/article.html:105 ../templates/ogdch/footer.html:18
+#: ../templates/article.html:107 ../templates/ogdch/footer.html:32
 msgid "Contribute"
 msgstr "Contribuisci"
 
-#: ../templates/article.html:106
+#: ../templates/article.html:108
 msgid "Edit"
 msgstr "Modifica"
 
 #: ../templates/document.html:11 ../templates/front.html:68
+#: ../templates/ogdch/footer.html:33
 #: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr "Biblioteca"
 
-#: ../templates/front.html:49
-msgid "Start reading"
-msgstr "Inizio lettura"
-
-#: ../templates/front.html:60
+#: ../templates/front.html:58
 msgid "Search topics..."
 msgstr "Ricerca argomenti..."
 
-#: ../templates/front.html:71
+#: ../templates/front.html:64
+msgid "Start reading"
+msgstr "Inizio lettura"
+
+#: ../templates/front.html:71 ../templates/ogdch/footer.html:39
 msgid "Glossary"
 msgstr "Glossario"
 
 #: ../templates/includes/article_info.html:4
-#: ../templates/ogdch/article_info.html:14
+#: ../templates/ogdch/article_info.html:12
 msgid "Published"
 msgstr "Pubblicato"
 
 #: ../templates/includes/article_info.html:12
-#: ../templates/ogdch/article_info.html:22
+#: ../templates/ogdch/article_info.html:20
 msgid "Modified"
 msgstr "Modificato"
 
@@ -67,12 +68,12 @@ msgid "Series"
 msgstr "Serie"
 
 #: ../templates/includes/article_info.html:34
-#: ../templates/ogdch/article_info.html:43
+#: ../templates/ogdch/article_info.html:41
 msgid "Author(s)"
 msgstr "Autor(i)"
 
 #: ../templates/includes/article_info.html:43
-#: ../templates/ogdch/article_info.html:53
+#: ../templates/ogdch/article_info.html:51
 msgid "Category"
 msgstr "Categoria"
 
@@ -118,31 +119,28 @@ msgstr "Annulla"
 msgid "Accept and continue"
 msgstr "Accetta e continua"
 
-#: ../templates/ogdch/article_info.html:45
+#: ../templates/ogdch/article_info.html:43
 msgid "Open Government Data Switzerland"
 msgstr "Il progetto Open Government Data Svizzera"
 
-#: ../templates/ogdch/downloads.html:4
+#: ../templates/ogdch/downloads.html:5
 msgid "Paper"
 msgstr "Rapporto"
 
-#: ../templates/ogdch/downloads.html:10
+#: ../templates/ogdch/downloads.html:9 ../templates/ogdch/downloads.html:22
+#: ../templates/ogdch/downloads.html:35
+msgid "Download"
+msgstr ""
+
+#: ../templates/ogdch/downloads.html:18
 msgid "Document"
 msgstr "Documento"
 
-#: ../templates/ogdch/downloads.html:16
+#: ../templates/ogdch/downloads.html:31
 msgid "Presentation"
 msgstr "Presentazione"
 
-#: ../templates/ogdch/footer.html:23
-msgid "About"
-msgstr "Impronta"
-
-#: ../templates/ogdch/footer.html:28
-msgid "Legal notice"
-msgstr "Note legali"
-
-#: ../templates/ogdch/footer.html:35
+#: ../templates/ogdch/footer.html:5
 msgid ""
 "The OGD Handbook is based on documentation produced by the Open "
 "Government Data Switzerland project and additional established "
@@ -159,6 +157,14 @@ msgstr ""
 "pubblicazione di dati aperti in generale. L'Archivio federale svizzero "
 "sostiene il Manuale OGD."
 
+#: ../templates/ogdch/footer.html:38
+msgid "About"
+msgstr "Impronta"
+
+#: ../templates/ogdch/footer.html:44
+msgid "Legal notice"
+msgstr "Note legali"
+
 #: ../templates/ogdch/navbar.html:7
 msgid "This is a newly released website: click here to report issues"
 msgstr ""
@@ -167,25 +173,21 @@ msgstr ""
 
 #: ../templates/ogdch/navbar.html:32
 #: ../templates/ogdch/render_categories.html:3
-#: ../templates/ogdch/render_categories.html:25
 msgid "Identify"
 msgstr "Identificare"
 
 #: ../templates/ogdch/navbar.html:35
 #: ../templates/ogdch/render_categories.html:5
-#: ../templates/ogdch/render_categories.html:19
 msgid "Establish"
 msgstr "Stabilire"
 
 #: ../templates/ogdch/navbar.html:38
 #: ../templates/ogdch/render_categories.html:7
-#: ../templates/ogdch/render_categories.html:21
 msgid "Publish"
 msgstr "Pubblicare"
 
 #: ../templates/ogdch/navbar.html:41
 #: ../templates/ogdch/render_categories.html:9
-#: ../templates/ogdch/render_categories.html:23
 msgid "Support"
 msgstr "Sostenere"
 

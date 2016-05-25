@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-12 14:47+0100\n"
+"POT-Creation-Date: 2016-05-25 09:16+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -18,46 +18,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
 
-#: ../templates/article.html:102
+#: ../templates/article.html:103
 #, fuzzy
 msgid "Please consider adding your expertise to this topic."
 msgstr ""
 "Dies ist eine vor Kurzem veröffentlichte Website: klicken Sie hier, um "
 "Probleme zu melden."
 
-#: ../templates/article.html:105 ../templates/ogdch/footer.html:18
+#: ../templates/article.html:107 ../templates/ogdch/footer.html:32
 msgid "Contribute"
 msgstr "Mitwirken"
 
-#: ../templates/article.html:106
+#: ../templates/article.html:108
 msgid "Edit"
 msgstr "Bearbeiten"
 
 #: ../templates/document.html:11 ../templates/front.html:68
+#: ../templates/ogdch/footer.html:33
 #: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr "Bibliothek"
 
-#: ../templates/front.html:49
-msgid "Start reading"
-msgstr "Mit dem Lesen beginnen"
-
-#: ../templates/front.html:60
+#: ../templates/front.html:58
 msgid "Search topics..."
 msgstr "Themen durchsuchen..."
 
-#: ../templates/front.html:71
+#: ../templates/front.html:64
+msgid "Start reading"
+msgstr "Weiterlesen"
+
+#: ../templates/front.html:71 ../templates/ogdch/footer.html:39
 msgid "Glossary"
 msgstr "Glossar"
 
 #: ../templates/includes/article_info.html:4
-#: ../templates/ogdch/article_info.html:14
+#: ../templates/ogdch/article_info.html:12
 #, fuzzy
 msgid "Published"
 msgstr "Publizieren"
 
 #: ../templates/includes/article_info.html:12
-#: ../templates/ogdch/article_info.html:22
+#: ../templates/ogdch/article_info.html:20
 msgid "Modified"
 msgstr "Geändert"
 
@@ -66,12 +67,12 @@ msgid "Series"
 msgstr "Serie"
 
 #: ../templates/includes/article_info.html:34
-#: ../templates/ogdch/article_info.html:43
+#: ../templates/ogdch/article_info.html:41
 msgid "Author(s)"
 msgstr "Author/en"
 
 #: ../templates/includes/article_info.html:43
-#: ../templates/ogdch/article_info.html:53
+#: ../templates/ogdch/article_info.html:51
 msgid "Category"
 msgstr "Kategorie"
 
@@ -116,31 +117,28 @@ msgstr "Schliessen"
 msgid "Accept and continue"
 msgstr "Akzeptieren und fortfahren"
 
-#: ../templates/ogdch/article_info.html:45
+#: ../templates/ogdch/article_info.html:43
 msgid "Open Government Data Switzerland"
 msgstr "OGD Projekt Schweiz"
 
-#: ../templates/ogdch/downloads.html:4
+#: ../templates/ogdch/downloads.html:5
 msgid "Paper"
 msgstr "Bericht"
 
-#: ../templates/ogdch/downloads.html:10
+#: ../templates/ogdch/downloads.html:9 ../templates/ogdch/downloads.html:22
+#: ../templates/ogdch/downloads.html:35
+msgid "Download"
+msgstr ""
+
+#: ../templates/ogdch/downloads.html:18
 msgid "Document"
 msgstr "Dokument"
 
-#: ../templates/ogdch/downloads.html:16
+#: ../templates/ogdch/downloads.html:31
 msgid "Presentation"
 msgstr "Präsentation"
 
-#: ../templates/ogdch/footer.html:23
-msgid "About"
-msgstr "Impressum"
-
-#: ../templates/ogdch/footer.html:28
-msgid "Legal notice"
-msgstr "Rechtlicher Hinweis"
-
-#: ../templates/ogdch/footer.html:35
+#: ../templates/ogdch/footer.html:5
 msgid ""
 "The OGD Handbook is based on documentation produced by the Open "
 "Government Data Switzerland project and additional established "
@@ -149,34 +147,43 @@ msgid ""
 "publishing best practices in general. The Swiss Federal Archives operates"
 " the OGD Handbook."
 msgstr ""
-"handbook.opendata.swiss bietet Unterstützung für Personen und Organisationen, die Open Government Data veröffentlichen wollen. Das Handbuch fördert den Wissensaustausch: Beiträge von Personen mit Erfahrungen im Bereich open data sind explizit erwünscht. Das Schweizerische Bundesarchiv betreibt handbook.opendata.swiss."
+"handbook.opendata.swiss bietet Unterstützung für Personen und "
+"Organisationen, die Open Government Data veröffentlichen wollen. Das "
+"Handbuch fördert den Wissensaustausch: Beiträge von Personen mit "
+"Erfahrungen im Bereich open data sind explizit erwünscht. Das "
+"Schweizerische Bundesarchiv betreibt handbook.opendata.swiss."
+
+#: ../templates/ogdch/footer.html:38
+msgid "About"
+msgstr "Impressum"
+
+#: ../templates/ogdch/footer.html:44
+msgid "Legal notice"
+msgstr "Rechtlicher Hinweis"
 
 #: ../templates/ogdch/navbar.html:7
 msgid "This is a newly released website: click here to report issues"
 msgstr ""
-"BETA - handbook.opendata.swiss steht in einer Beta-Version zur Verfügung. Klicken Sie hier, um Probleme zu melden."
+"BETA - handbook.opendata.swiss steht in einer Beta-Version zur Verfügung."
+" Klicken Sie hier, um Probleme zu melden."
 
 #: ../templates/ogdch/navbar.html:32
 #: ../templates/ogdch/render_categories.html:3
-#: ../templates/ogdch/render_categories.html:25
 msgid "Identify"
 msgstr "Identifizieren"
 
 #: ../templates/ogdch/navbar.html:35
 #: ../templates/ogdch/render_categories.html:5
-#: ../templates/ogdch/render_categories.html:19
 msgid "Establish"
 msgstr "Etablieren"
 
 #: ../templates/ogdch/navbar.html:38
 #: ../templates/ogdch/render_categories.html:7
-#: ../templates/ogdch/render_categories.html:21
 msgid "Publish"
 msgstr "Publizieren"
 
 #: ../templates/ogdch/navbar.html:41
 #: ../templates/ogdch/render_categories.html:9
-#: ../templates/ogdch/render_categories.html:23
 msgid "Support"
 msgstr "Supporten"
 
@@ -204,3 +211,4 @@ msgstr "Die Verwendung unterstützen und fördern"
 
 #~ msgid "Contact us"
 #~ msgstr "Kontakt"
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-05-25 09:16+0200\n"
+"POT-Creation-Date: 2016-05-25 10:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Please consider adding your expertise to this topic."
 msgstr "Brouillon: N’hésitez pas à apporter votre expertise à ce sujet."
 
-#: ../templates/article.html:107 ../templates/ogdch/footer.html:32
+#: ../templates/article.html:107 ../templates/ogdch/footer.html:18
 msgid "Contribute"
 msgstr "Contribuer"
 
@@ -32,21 +32,21 @@ msgstr "Contribuer"
 msgid "Edit"
 msgstr "Modifier"
 
-#: ../templates/document.html:11 ../templates/front.html:68
-#: ../templates/ogdch/footer.html:33
+#: ../templates/document.html:11 ../templates/front.html:67
+#: ../templates/ogdch/footer.html:19
 #: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr "Bibliothèque"
 
-#: ../templates/front.html:58
-msgid "Search topics..."
-msgstr "Rechercher des sujets..."
-
-#: ../templates/front.html:64
+#: ../templates/front.html:50
 msgid "Start reading"
 msgstr "Commencer à lire"
 
-#: ../templates/front.html:71 ../templates/ogdch/footer.html:39
+#: ../templates/front.html:60
+msgid "Search topics..."
+msgstr "Rechercher des sujets..."
+
+#: ../templates/front.html:70 ../templates/ogdch/footer.html:25
 msgid "Glossary"
 msgstr "Glossaire"
 
@@ -136,27 +136,11 @@ msgstr "Document"
 msgid "Presentation"
 msgstr "Présentation"
 
-#: ../templates/ogdch/footer.html:5
-msgid ""
-"The OGD Handbook is based on documentation produced by the Open "
-"Government Data Switzerland project and additional established "
-"references. As knowledge sharing platform for opendata.swiss, it supports"
-"  data publishing programs at government offices, and open data "
-"publishing best practices in general. The Swiss Federal Archives operates"
-" the OGD Handbook."
-msgstr ""
-"Le manuel des OGD est basé sur la documentation produite par le projet "
-"OGD Suisse et des références établies supplémentaires. En tant que plate-"
-"forme de partage des connaissances pour opendata.swiss, il soutient des "
-"programmes de publication de données dans les bureaux du gouvernement, et"
-" de meilleures pratiques de publication des données ouvertes en général. "
-"Les Archives fédérales suisses soutiennent le manuel des OGD."
-
-#: ../templates/ogdch/footer.html:38
+#: ../templates/ogdch/footer.html:24
 msgid "About"
 msgstr "Empreinte"
 
-#: ../templates/ogdch/footer.html:44
+#: ../templates/ogdch/footer.html:30
 msgid "Legal notice"
 msgstr "Mention juridique"
 
@@ -210,4 +194,29 @@ msgstr "et promouvoir l'utilisation"
 
 #~ msgid "Contact us"
 #~ msgstr "Nous contacter"
+
+#~ msgid ""
+#~ "The OGD Handbook is based on "
+#~ "documentation produced by the Open "
+#~ "Government Data Switzerland project and "
+#~ "additional established references. As "
+#~ "knowledge sharing platform for opendata.swiss,"
+#~ " it supports  data publishing programs "
+#~ "at government offices, and open data "
+#~ "publishing best practices in general. "
+#~ "The Swiss Federal Archives operates the"
+#~ " OGD Handbook."
+#~ msgstr ""
+#~ "Le manuel des OGD est basé sur "
+#~ "la documentation produite par le projet"
+#~ " OGD Suisse et des références "
+#~ "établies supplémentaires. En tant que "
+#~ "plate-forme de partage des connaissances"
+#~ " pour opendata.swiss, il soutient des "
+#~ "programmes de publication de données "
+#~ "dans les bureaux du gouvernement, et "
+#~ "de meilleures pratiques de publication "
+#~ "des données ouvertes en général. Les "
+#~ "Archives fédérales suisses soutiennent le "
+#~ "manuel des OGD."
 

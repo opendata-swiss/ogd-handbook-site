@@ -2,7 +2,7 @@
 msgid "Please consider adding your expertise to this topic."
 msgstr ""
 
-#: ../templates/article.html:107 ../templates/ogdch/footer.html:32
+#: ../templates/article.html:107 ../templates/ogdch/footer.html:18
 msgid "Contribute"
 msgstr ""
 
@@ -10,21 +10,21 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: ../templates/document.html:11 ../templates/front.html:68
-#: ../templates/ogdch/footer.html:33
+#: ../templates/document.html:11 ../templates/front.html:67
+#: ../templates/ogdch/footer.html:19
 #: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr ""
 
-#: ../templates/front.html:58
-msgid "Search topics..."
-msgstr ""
-
-#: ../templates/front.html:64
+#: ../templates/front.html:50
 msgid "Start reading"
 msgstr ""
 
-#: ../templates/front.html:71 ../templates/ogdch/footer.html:39
+#: ../templates/front.html:60
+msgid "Search topics..."
+msgstr ""
+
+#: ../templates/front.html:70 ../templates/ogdch/footer.html:25
 msgid "Glossary"
 msgstr ""
 
@@ -107,21 +107,11 @@ msgstr ""
 msgid "Presentation"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:5
-msgid ""
-"The OGD Handbook is based on documentation produced by the Open "
-"Government Data Switzerland project and additional established "
-"references. As knowledge sharing platform for opendata.swiss, it supports"
-"  data publishing programs at government offices, and open data "
-"publishing best practices in general. The Swiss Federal Archives operates"
-" the OGD Handbook."
-msgstr ""
-
-#: ../templates/ogdch/footer.html:38
+#: ../templates/ogdch/footer.html:24
 msgid "About"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:44
+#: ../templates/ogdch/footer.html:30
 msgid "Legal notice"
 msgstr ""
 

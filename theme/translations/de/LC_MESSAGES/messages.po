@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-05-25 10:56+0200\n"
+"POT-Creation-Date: 2016-05-30 15:29+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -41,7 +41,7 @@ msgstr "Bibliothek"
 
 #: ../templates/front.html:50
 msgid "Start reading"
-msgstr "Weiterlesen"
+msgstr "Zum Handbuch"
 
 #: ../templates/front.html:60
 msgid "Search topics..."
@@ -149,8 +149,8 @@ msgstr "Rechtlicher Hinweis"
 #: ../templates/ogdch/navbar.html:7
 msgid "This is a newly released website: click here to report issues"
 msgstr ""
-"BETA - handbook.opendata.swiss steht in einer Beta-Version zur Verfügung."
-" Klicken Sie hier, um Probleme zu melden."
+"handbook.opendata.swiss steht in einer Beta-Version zur Verfügung. "
+"Klicken Sie hier, um Probleme zu melden."
 
 #: ../templates/ogdch/navbar.html:32
 #: ../templates/ogdch/render_categories.html:3
@@ -198,23 +198,5 @@ msgstr "Die Verwendung unterstützen und fördern"
 #~ msgstr "Kontakt"
 
 #~ msgid ""
-#~ "The OGD Handbook is based on "
-#~ "documentation produced by the Open "
-#~ "Government Data Switzerland project and "
-#~ "additional established references. As "
-#~ "knowledge sharing platform for opendata.swiss,"
-#~ " it supports  data publishing programs "
-#~ "at government offices, and open data "
-#~ "publishing best practices in general. "
-#~ "The Swiss Federal Archives operates the"
-#~ " OGD Handbook."
 #~ msgstr ""
-#~ "handbook.opendata.swiss bietet Unterstützung für "
-#~ "Personen und Organisationen, die Open "
-#~ "Government Data veröffentlichen wollen. Das"
-#~ " Handbuch fördert den Wissensaustausch: "
-#~ "Beiträge von Personen mit Erfahrungen im"
-#~ " Bereich open data sind explizit "
-#~ "erwünscht. Das Schweizerische Bundesarchiv "
-#~ "betreibt handbook.opendata.swiss."
 

@@ -13,6 +13,14 @@ RewriteEngine on
 # Default language: German
 RewriteRule ^$ /de/pages/index [L,R=301]
 
+# Disable other languages
+RewriteRule ^/en/pages/.*$ /de/pages/index [L,R=301]
+RewriteRule ^/fr/pages/.*$ /de/pages/index [L,R=301]
+RewriteRule ^/it/pages/.*$ /de/pages/index [L,R=301]
+RewriteRule ^/en/category/.*$ /de/pages/index [L,R=301]
+RewriteRule ^/fr/category/.*$ /de/pages/index [L,R=301]
+RewriteRule ^/it/category/.*$ /de/pages/index [L,R=301]
+
 # Disable language index
 RewriteRule ^de/$ /de/pages/index [L,R=301]
 RewriteRule ^fr/$ /fr/pages/index [L,R=301]

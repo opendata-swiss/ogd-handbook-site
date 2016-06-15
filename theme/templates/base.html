@@ -53,11 +53,10 @@
     {# Twitter Cards tags #}
     {% include 'includes/twitter_cards.html' %}
 
-    <!-- Custom Bootstrap theme -->
+    <!-- Opendata.swiss Bootstrap theme -->
     <link rel='stylesheet' id='font_source_sans_pro-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' type='text/css' media='all' />
     <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/ogdch/app.css" rel="stylesheet">
-    <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/ogdch/custom.css" rel="stylesheet">
-    
+
     <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/pygments/{{ PYGMENTS_STYLE|default('native') }}.css" rel="stylesheet">
     {% if 'tipue_search' in PLUGINS %}
     <link href="{{ SITEURL}}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch.css" rel="stylesheet">
@@ -68,7 +67,6 @@
     {% if TYPOGRIFY %}
         <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/typogrify.css" rel="stylesheet">
     {% endif %}
-    <!-- <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" type="text/css"/> -->
     {% if CUSTOM_CSS %}
         <link href="{{ SITEURL }}/{{ CUSTOM_CSS }}" rel="stylesheet">
     {% endif %}

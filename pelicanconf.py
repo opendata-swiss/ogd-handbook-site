@@ -9,6 +9,7 @@ SITEURL = ''
 
 PATH = 'content'
 THEME = 'theme'
+CUSTOM_CSS = 'theme/css/custom.css'
 
 STATIC_PATHS = [
 	'images', 'handbook/images', 'samples',

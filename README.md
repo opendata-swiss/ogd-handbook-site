@@ -69,17 +69,15 @@ After deployment, ensure links are working in the Topics page, else you may need
 
 ### Translations ###
 
-Using [Babel](http://babel.pocoo.org/) for [Flask](http://pythonhosted.org/Flask-Babel/#translating-applications), we can keep the theme translations up to date:
+Using [Babel](http://babel.pocoo.org/) for [Flask](http://pythonhosted.org/Flask-Babel/#translating-applications), we can keep the theme translations up to date. Use the script in the root folder:
 
 ```
-cd theme/translations
-pybabel extract -F babel.cfg -o messages.pot .. --omit-header
-pybabel update -i messages.pot -d .
-pybabel compile -d . -f
+./update_translations.sh
 ```
 
 To add another language:
 ```
+cd theme/translations
 pybabel init -i messages.pot -d . -l de
 ```
 

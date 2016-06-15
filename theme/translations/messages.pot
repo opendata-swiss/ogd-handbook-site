@@ -56,7 +56,7 @@ msgstr ""
 msgid "Translations"
 msgstr ""
 
-#: ../templates/includes/translations.html:11
+#: ../templates/includes/translations.html:12
 msgid "Send a request"
 msgstr ""
 

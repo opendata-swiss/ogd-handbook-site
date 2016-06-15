@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-05-30 15:29+0200\n"
+"POT-Creation-Date: 2016-06-15 11:05+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -22,8 +22,8 @@ msgstr ""
 #, fuzzy
 msgid "Please consider adding your expertise to this topic."
 msgstr ""
-"Dies ist eine vor Kurzem veröffentlichte Website: klicken Sie hier, um "
-"Probleme zu melden."
+"Bitte denken Sie darüber nach, dieses Thema mit Ihrer Sachkenntnis zu "
+"ergänzen."
 
 #: ../templates/article.html:107 ../templates/ogdch/footer.html:18
 msgid "Contribute"
@@ -80,7 +80,7 @@ msgstr "Kategorie"
 msgid "Translations"
 msgstr "Übersetzungen"
 
-#: ../templates/includes/translations.html:11
+#: ../templates/includes/translations.html:12
 msgid "Send a request"
 msgstr "Eine Anfrage senden"
 
@@ -123,12 +123,12 @@ msgstr "OGD Projekt Schweiz"
 
 #: ../templates/ogdch/downloads.html:5
 msgid "Paper"
-msgstr "Bericht"
+msgstr "Unterlage"
 
 #: ../templates/ogdch/downloads.html:9 ../templates/ogdch/downloads.html:22
 #: ../templates/ogdch/downloads.html:35
 msgid "Download"
-msgstr ""
+msgstr "Herunterladen"
 
 #: ../templates/ogdch/downloads.html:18
 msgid "Document"

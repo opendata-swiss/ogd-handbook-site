@@ -67,6 +67,17 @@ make ftp_upload
 
 After deployment, ensure links are working in the Topics page, else you may need to re-run your publishing steps.
 
+#### Document export ####
+
+To generate LibreOffice and Word versions of the Handbook pages, we use pandoc. The latest version (1.15+ is required) can be installed by downloading a binary [from this page](https://github.com/jgm/pandoc/releases/).
+
+The files will be generated in the `/export` folder of output using
+
+```
+make publish
+make doc_export
+```
+
 ### Translations ###
 
 Using [Babel](http://babel.pocoo.org/) for [Flask](http://pythonhosted.org/Flask-Babel/#translating-applications), we can keep the theme translations up to date. Use the script in the root folder:

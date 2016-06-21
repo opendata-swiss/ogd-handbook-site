@@ -69,12 +69,13 @@ After deployment, ensure links are working in the Topics page, else you may need
 
 #### Document export ####
 
-To generate LibreOffice and Word versions of the Handbook pages, we use pandoc. The latest version (1.15+ is required) can be installed by downloading a binary [from this page](https://github.com/jgm/pandoc/releases/).
+To generate document versions of the Handbook pages, we use pandoc. The latest version (1.15+ is required) can be installed by downloading a binary [from this page](https://github.com/jgm/pandoc/releases/).
 
-The files will be generated in the `/export` folder of output using
+To also create Word (DOCX) files, you need to install LibreOffice (i.e. `sudo apt-get install libreoffice -y`)
+
+The files will then be generated in the `/export` folder of output using:
 
 ```
-make publish
 make doc_export
 ```
 

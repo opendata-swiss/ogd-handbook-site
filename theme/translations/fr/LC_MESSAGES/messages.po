@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-15 11:05+0200\n"
+"POT-Creation-Date: 2016-06-22 21:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Please consider adding your expertise to this topic."
 msgstr "Brouillon: N’hésitez pas à apporter votre expertise à ce sujet."
 
-#: ../templates/article.html:107 ../templates/ogdch/footer.html:18
+#: ../templates/article.html:107 ../templates/ogdch/footer.html:23
 msgid "Contribute"
 msgstr "Contribuer"
 
@@ -33,20 +33,20 @@ msgid "Edit"
 msgstr "Modifier"
 
 #: ../templates/document.html:11 ../templates/front.html:67
-#: ../templates/ogdch/footer.html:19
+#: ../templates/ogdch/footer.html:24
 #: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr "Bibliothèque"
 
 #: ../templates/front.html:50
-msgid "Start reading"
+msgid "To the handbook"
 msgstr "Commencer à lire"
 
 #: ../templates/front.html:60
 msgid "Search topics..."
 msgstr "Rechercher des sujets..."
 
-#: ../templates/front.html:70 ../templates/ogdch/footer.html:25
+#: ../templates/front.html:70 ../templates/ogdch/footer.html:30
 msgid "Glossary"
 msgstr "Glossaire"
 
@@ -119,14 +119,14 @@ msgstr "Accepter et continuer"
 msgid "Open Government Data Switzerland"
 msgstr "Projet Open Government Data Suisse"
 
+#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:9
+#: ../templates/ogdch/downloads.html:22 ../templates/ogdch/downloads.html:35
+msgid "Download"
+msgstr ""
+
 #: ../templates/ogdch/downloads.html:5
 msgid "Paper"
 msgstr "Dossier"
-
-#: ../templates/ogdch/downloads.html:9 ../templates/ogdch/downloads.html:22
-#: ../templates/ogdch/downloads.html:35
-msgid "Download"
-msgstr ""
 
 #: ../templates/ogdch/downloads.html:18
 msgid "Document"
@@ -136,11 +136,26 @@ msgstr "Document"
 msgid "Presentation"
 msgstr "Présentation"
 
-#: ../templates/ogdch/footer.html:24
+#: ../templates/ogdch/footer.html:4
+msgid ""
+"The OGD Handbook provides support for individuals and organizations "
+"wishing to publish open government data. It is designed as a wiki: "
+"contributions from organizations and individuals that have experience "
+"with open data are explicitly welcomed. handbook.opendata.swiss is "
+"operated by the Swiss Federal Archives."
+msgstr ""
+"Le manuel OGD apporte une aide aux personnes et aux organisations "
+"souhaitant publier en libre accès des données de l’administration "
+"publique. Il est conçu comme un Wiki: les contributions d’organisations "
+"et de personnes expérimentées dans le domaine des OGD sont expressément "
+"recherchées. handbook.opendata.swiss est administré par les Archives "
+"fédérales suisses."
+
+#: ../templates/ogdch/footer.html:29
 msgid "About"
 msgstr "Empreinte"
 
-#: ../templates/ogdch/footer.html:30
+#: ../templates/ogdch/footer.html:35
 msgid "Legal notice"
 msgstr "Mention juridique"
 
@@ -165,7 +180,6 @@ msgstr "Établir"
 msgid "Publish"
 msgstr "Publier"
 
-#: ../templates/ogdch/navbar.html:41
 #: ../templates/ogdch/render_categories.html:9
 msgid "Support"
 msgstr "Soutenir"

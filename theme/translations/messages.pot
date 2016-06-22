@@ -2,7 +2,7 @@
 msgid "Please consider adding your expertise to this topic."
 msgstr ""
 
-#: ../templates/article.html:107 ../templates/ogdch/footer.html:18
+#: ../templates/article.html:107 ../templates/ogdch/footer.html:23
 msgid "Contribute"
 msgstr ""
 
@@ -11,20 +11,20 @@ msgid "Edit"
 msgstr ""
 
 #: ../templates/document.html:11 ../templates/front.html:67
-#: ../templates/ogdch/footer.html:19
+#: ../templates/ogdch/footer.html:24
 #: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr ""
 
 #: ../templates/front.html:50
-msgid "Start reading"
+msgid "To the handbook"
 msgstr ""
 
 #: ../templates/front.html:60
 msgid "Search topics..."
 msgstr ""
 
-#: ../templates/front.html:70 ../templates/ogdch/footer.html:25
+#: ../templates/front.html:70 ../templates/ogdch/footer.html:30
 msgid "Glossary"
 msgstr ""
 
@@ -90,13 +90,13 @@ msgstr ""
 msgid "Open Government Data Switzerland"
 msgstr ""
 
-#: ../templates/ogdch/downloads.html:5
-msgid "Paper"
+#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:9
+#: ../templates/ogdch/downloads.html:22 ../templates/ogdch/downloads.html:35
+msgid "Download"
 msgstr ""
 
-#: ../templates/ogdch/downloads.html:9 ../templates/ogdch/downloads.html:22
-#: ../templates/ogdch/downloads.html:35
-msgid "Download"
+#: ../templates/ogdch/downloads.html:5
+msgid "Paper"
 msgstr ""
 
 #: ../templates/ogdch/downloads.html:18
@@ -107,11 +107,20 @@ msgstr ""
 msgid "Presentation"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:24
+#: ../templates/ogdch/footer.html:4
+msgid ""
+"The OGD Handbook provides support for individuals and organizations "
+"wishing to publish open government data. It is designed as a wiki: "
+"contributions from organizations and individuals that have experience "
+"with open data are explicitly welcomed. handbook.opendata.swiss is "
+"operated by the Swiss Federal Archives."
+msgstr ""
+
+#: ../templates/ogdch/footer.html:29
 msgid "About"
 msgstr ""
 
-#: ../templates/ogdch/footer.html:30
+#: ../templates/ogdch/footer.html:35
 msgid "Legal notice"
 msgstr ""
 
@@ -134,7 +143,6 @@ msgstr ""
 msgid "Publish"
 msgstr ""
 
-#: ../templates/ogdch/navbar.html:41
 #: ../templates/ogdch/render_categories.html:9
 msgid "Support"
 msgstr ""

@@ -40,6 +40,18 @@
 	{% endif %}
 {% endmacro -%}
 
+{% macro leads_for(category) -%}
+	{% if category|trim|lower == "identify" %}
+		{% trans %}In order to publish OGD, you need to know which data are suitable. This chapter will help you select the right datasets and advise you on what you need to check.{% endtrans %}
+	{% elif category|trim|lower == "establish" %}
+		{% trans %}(Establish lead){% endtrans %}
+	{% elif category|trim|lower == "publish" %}
+		{% trans %}(Publish lead){% endtrans %}
+	{% elif category|trim|lower == "support" %}
+		{% trans %}(Support lead){% endtrans %}
+	{% endif %}
+{% endmacro -%}
+
 {% macro icon_for(category) -%}
 	{% if category|trim|lower == "identify" %}
 		<i class="fa fa-dot-circle-o"></i>

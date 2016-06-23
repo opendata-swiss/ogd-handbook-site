@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-23 15:04+0200\n"
+"POT-Creation-Date: 2016-06-23 15:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -177,7 +177,7 @@ msgstr "est disponible en version bêta. Cliquez ici pour signaler un problème.
 #: ../templates/ogdch/navbar.html:32
 #: ../templates/ogdch/render_categories.html:3
 msgid "Identify"
-msgstr "Identifier"
+msgstr "Sélection"
 
 #: ../templates/ogdch/navbar.html:35
 #: ../templates/ogdch/render_categories.html:5
@@ -208,6 +208,31 @@ msgstr "en tant que données ouvertes"
 #: ../templates/ogdch/render_categories.html:39
 msgid "and promote usage"
 msgstr "et promouvoir l'utilisation"
+
+#: ../templates/ogdch/render_categories.html:45
+msgid ""
+"In order to publish OGD, you need to know which data are suitable. This "
+"chapter will help you select the right datasets and advise you on what "
+"you need to check."
+msgstr ""
+"Avant de publier des données publiques, vous devez déterminer les jeux de"
+" données adéquats. Le présent chapitre vous guidera dans la sélection et "
+"vous livrera des pistes quant aux travaux à effectuer avant une "
+"publication."
+
+#: ../templates/ogdch/render_categories.html:47
+#, fuzzy
+msgid "(Establish lead)"
+msgstr "Établir"
+
+#: ../templates/ogdch/render_categories.html:49
+#, fuzzy
+msgid "(Publish lead)"
+msgstr "Publié"
+
+#: ../templates/ogdch/render_categories.html:51
+msgid "(Support lead)"
+msgstr ""
 
 #~ msgid "Next"
 #~ msgstr "Sujet suivant"

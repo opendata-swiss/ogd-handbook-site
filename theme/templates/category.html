@@ -14,10 +14,13 @@
               <li class="item-home"><a class="bread-link bread-home" href="{{ SITEURL }}/pages/index" title="{{ SITENAME }}">{{ SITENAME }}</a></li>
   					</ol>
             {% endif %}
+            {% import 'ogdch/render_categories.html' as render_categories with context %}
   					<h1>
-              {% import 'ogdch/render_categories.html' as render_categories with context %}
               {{ render_categories.translations_for(category) }}
             </h1>
+            <div class="lead"><p>
+              {{ render_categories.leads_for(category) }}
+            </p></div>
   				</div>
   			</div>
   		</div>

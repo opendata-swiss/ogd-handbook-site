@@ -173,3 +173,22 @@ msgstr ""
 msgid "and promote usage"
 msgstr ""
 
+#: ../templates/ogdch/render_categories.html:45
+msgid ""
+"In order to publish OGD, you need to know which data are suitable. This "
+"chapter will help you select the right datasets and advise you on what "
+"you need to check."
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:47
+msgid "(Establish lead)"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:49
+msgid "(Publish lead)"
+msgstr ""
+
+#: ../templates/ogdch/render_categories.html:51
+msgid "(Support lead)"
+msgstr ""
+

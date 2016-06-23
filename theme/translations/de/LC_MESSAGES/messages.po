@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-23 15:04+0200\n"
+"POT-Creation-Date: 2016-06-23 15:23+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
@@ -211,6 +211,30 @@ msgstr "Als Open Data veröffentlichen"
 #: ../templates/ogdch/render_categories.html:39
 msgid "and promote usage"
 msgstr "Die Verwendung unterstützen und fördern"
+
+#: ../templates/ogdch/render_categories.html:45
+msgid ""
+"In order to publish OGD, you need to know which data are suitable. This "
+"chapter will help you select the right datasets and advise you on what "
+"you need to check."
+msgstr ""
+"Damit Sie OGD publizieren können, müssen Sie wissen, welche Daten dafür "
+"geeignet sind. Dieses Kapitel unterstützt Sie bei der Auswahl der "
+"Datensätze und enthält Hilfestellungen zu den dazu nötigen Abklärungen."
+
+#: ../templates/ogdch/render_categories.html:47
+#, fuzzy
+msgid "(Establish lead)"
+msgstr "Etablieren"
+
+#: ../templates/ogdch/render_categories.html:49
+#, fuzzy
+msgid "(Publish lead)"
+msgstr "Veröffentlicht"
+
+#: ../templates/ogdch/render_categories.html:51
+msgid "(Support lead)"
+msgstr ""
 
 #~ msgid "Next"
 #~ msgstr "Nächstes"

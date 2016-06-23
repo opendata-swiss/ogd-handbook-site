@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-23 14:54+0200\n"
+"POT-Creation-Date: 2016-06-23 15:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: it <LL@li.org>\n"
@@ -32,6 +32,14 @@ msgstr "Contribuisci"
 #: ../templates/article.html:108
 msgid "Edit"
 msgstr "Elabora"
+
+#: ../templates/article.html:111
+msgid ""
+"This topic has not yet been translated. Please contact us if you need "
+"this content in your language."
+msgstr ""
+"Il contenuto di questo tema non è ancora tradotto – chi ne avesse bisogno"
+" in un’altra lingua è pregato di contattarci."
 
 #: ../templates/document.html:11 ../templates/front.html:67
 #: ../templates/ogdch/footer.html:24
@@ -214,3 +222,4 @@ msgstr "e promuovere l'utilizzo"
 
 #~ msgid ""
 #~ msgstr ""
+

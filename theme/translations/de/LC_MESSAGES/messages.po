@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-23 14:54+0200\n"
+"POT-Creation-Date: 2016-06-23 15:00+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
@@ -31,6 +31,14 @@ msgstr "Anleitung"
 #: ../templates/article.html:108
 msgid "Edit"
 msgstr "Bearbeiten"
+
+#: ../templates/article.html:111
+msgid ""
+"This topic has not yet been translated. Please contact us if you need "
+"this content in your language."
+msgstr ""
+"Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen"
+" Inhalt in Ihrer Sprache benötigen."
 
 #: ../templates/document.html:11 ../templates/front.html:67
 #: ../templates/ogdch/footer.html:24
@@ -215,3 +223,4 @@ msgstr "Die Verwendung unterstützen und fördern"
 
 #~ msgid ""
 #~ msgstr ""
+

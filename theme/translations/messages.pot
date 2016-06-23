@@ -10,6 +10,12 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
+#: ../templates/article.html:111
+msgid ""
+"This topic has not yet been translated. Please contact us if you need "
+"this content in your language."
+msgstr ""
+
 #: ../templates/document.html:11 ../templates/front.html:67
 #: ../templates/ogdch/footer.html:24
 #: ../templates/ogdch/render_categories.html:11
@@ -166,3 +172,4 @@ msgstr ""
 #: ../templates/ogdch/render_categories.html:39
 msgid "and promote usage"
 msgstr ""
+

@@ -28,6 +28,10 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
+#: ../templates/tags.html:8
+msgid "Tags"
+msgstr ""
+
 #: ../templates/includes/article_info.html:4
 #: ../templates/ogdch/article_info.html:12
 msgid "Published"
@@ -57,7 +61,7 @@ msgid "Translations"
 msgstr ""
 
 #: ../templates/includes/translations.html:12
-msgid "Send a request"
+msgid "Topic enquiry"
 msgstr ""
 
 #: ../templates/ogdch/annotate.html:4 ../templates/ogdch/annotate.html:10

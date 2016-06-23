@@ -30,7 +30,7 @@ msgstr "Contribuer"
 
 #: ../templates/article.html:108
 msgid "Edit"
-msgstr "Modifier"
+msgstr "Traiter"
 
 #: ../templates/document.html:11 ../templates/front.html:67
 #: ../templates/ogdch/footer.html:24
@@ -160,10 +160,9 @@ msgid "Legal notice"
 msgstr "Mention juridique"
 
 #: ../templates/ogdch/navbar.html:7
-msgid "This is a newly released website: click here to report issues"
+msgid "is currently available as a beta version. Click here to report problems."
 msgstr ""
-"C'est un site Web nouvellement publié: cliquez ici pour signaler des "
-"problèmes."
+"est disponible en version bêta. Cliquez ici pour signaler un problème."
 
 #: ../templates/ogdch/navbar.html:32
 #: ../templates/ogdch/render_categories.html:3
@@ -211,4 +210,3 @@ msgstr "et promouvoir l'utilisation"
 
 #~ msgid ""
 #~ msgstr ""
-

@@ -125,7 +125,7 @@ msgid "Legal notice"
 msgstr ""
 
 #: ../templates/ogdch/navbar.html:7
-msgid "This is a newly released website: click here to report issues"
+msgid "is currently available as a beta version. Click here to report problems."
 msgstr ""
 
 #: ../templates/ogdch/navbar.html:32
@@ -162,4 +162,3 @@ msgstr ""
 #: ../templates/ogdch/render_categories.html:39
 msgid "and promote usage"
 msgstr ""
-

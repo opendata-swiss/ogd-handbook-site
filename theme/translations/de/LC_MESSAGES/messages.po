@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-23 15:00+0200\n"
+"POT-Creation-Date: 2016-06-23 15:04+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr "Anleitung"
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: ../templates/article.html:111
+#: ../templates/article.html:113
 msgid ""
 "This topic has not yet been translated. Please contact us if you need "
 "this content in your language."

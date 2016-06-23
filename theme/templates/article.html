@@ -106,12 +106,13 @@
               {% endif %}
               <a class="btn btn-primary btn-sm" href="{{ SITEURL }}/pages/contribute">{% trans %}Contribute{% endtrans %}</a>
               <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">{% trans %}Edit{% endtrans %}</a>
-              {% if article.untranslated %}
-              <p>
-                {% trans %}This topic has not yet been translated. Please contact us if you need this content in your language.{% endtrans %}
-              </p>
-              {% endif %}
             </div>
+
+            {% if article.untranslated %}
+            <div class="untranslated alert alert-info" role="alert">
+              {% trans %}This topic has not yet been translated. Please contact us if you need this content in your language.{% endtrans %}
+            </div>
+            {% endif %}
 
             <div class="entry-content">
                 {{ article.content }}

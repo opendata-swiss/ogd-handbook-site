@@ -20,7 +20,7 @@
 {% endmacro %}
 
 {% block content %}
-  {% for category_name in ["identify", "establish", "publish", "support"] %}
+  {% for category_name in ["identify", "prepare", "publish", "support"] %}
     {% for category, articles in categories %}
       {% if category|trim|lower == category_name %}
         {{ print_articles(articles) }}

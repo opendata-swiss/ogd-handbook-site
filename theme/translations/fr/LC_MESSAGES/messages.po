@@ -181,7 +181,7 @@ msgstr "Sélection"
 
 #: ../templates/ogdch/navbar.html:35
 #: ../templates/ogdch/render_categories.html:5
-msgid "Establish"
+msgid "Prepare"
 msgstr "Établir"
 
 #: ../templates/ogdch/navbar.html:38
@@ -222,7 +222,7 @@ msgstr ""
 
 #: ../templates/ogdch/render_categories.html:47
 #, fuzzy
-msgid "(Establish lead)"
+msgid "(Prepare lead)"
 msgstr "Établir"
 
 #: ../templates/ogdch/render_categories.html:49

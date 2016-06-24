@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../templates/ogdch/navbar.html:35
 #: ../templates/ogdch/render_categories.html:5
-msgid "Establish"
+msgid "Prepare"
 msgstr ""
 
 #: ../templates/ogdch/navbar.html:38
@@ -181,7 +181,7 @@ msgid ""
 msgstr ""
 
 #: ../templates/ogdch/render_categories.html:47
-msgid "(Establish lead)"
+msgid "(Prepare lead)"
 msgstr ""
 
 #: ../templates/ogdch/render_categories.html:49
@@ -191,4 +191,3 @@ msgstr ""
 #: ../templates/ogdch/render_categories.html:51
 msgid "(Support lead)"
 msgstr ""
-

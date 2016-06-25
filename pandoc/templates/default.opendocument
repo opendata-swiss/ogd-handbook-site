@@ -78,6 +78,10 @@
    <style:paragraph-properties fo:margin-top="0.847cm" fo:margin-bottom="0.423cm" loext:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false" fo:keep-together="always" fo:keep-with-next="always"/>
    <style:text-properties fo:color="#345a8a" style:font-name="Calibri1" fo:font-family="Calibri" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" fo:font-weight="bold" style:font-name-asian="Cambria1" style:font-family-asian="Cambria" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-weight-asian="bold" style:font-name-complex="Tahoma" style:font-family-complex="Tahoma" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-weight-complex="bold"/>
   </style:style>
+  <style:style style:name="Summary" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Standard" style:default-outline-level="" style:class="chapter">
+   <style:paragraph-properties fo:margin-top="0.847cm" fo:margin-bottom="0.423cm" loext:contextual-spacing="false" fo:text-align="left" style:justify-single-word="false" fo:keep-together="always" fo:keep-with-next="always"/>
+   <style:text-properties fo:color="#000000" style:font-name="Calibri1" fo:font-family="Calibri" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:font-weight="bold" style:font-name-asian="Cambria1" style:font-family-asian="Cambria" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:font-weight-asian="bold" style:font-name-complex="Tahoma" style:font-family-complex="Tahoma" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="12pt" style:font-weight-complex="bold"/>
+  </style:style>
   <style:style style:name="Authors" style:family="paragraph" style:next-style-name="Standard" style:default-outline-level="">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.353cm" loext:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false" fo:keep-together="always" fo:orphans="2" fo:widows="2" fo:keep-with-next="always" style:writing-mode="lr-tb"/>
    <style:text-properties fo:color="#00000a" style:font-name="Cambria" fo:font-family="Cambria" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:language="en" fo:country="US" style:font-name-asian="Cambria1" style:font-family-asian="Cambria" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="en" style:country-asian="US" style:font-name-complex="Tahoma" style:font-family-complex="Tahoma" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="12pt" style:language-complex="ar" style:country-complex="SA"/>
@@ -543,8 +547,8 @@ $if(abstract)$
 <text:p text:style-name="Abstract"><text:span text:style-name="Bold">Abstract:</text:span> $abstract$</text:p>
 $endif$
 
-$if(summary)$
-<text:p text:style-name="Summary">$summary$</text:p>
+$if(Summary)$
+<text:p text:style-name="Summary">$Summary$</text:p>
 $endif$
 
 $if(epigraph)$

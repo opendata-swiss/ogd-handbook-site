@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-24 17:14+0200\n"
+"POT-Creation-Date: 2016-06-25 18:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -20,7 +19,6 @@ msgstr ""
 "Generated-By: Babel 2.2.0\n"
 
 #: ../templates/article.html:103
-#, fuzzy
 msgid "Please consider adding your expertise to this topic."
 msgstr "Brouillon: N’hésitez pas à apporter votre expertise à ce sujet."
 
@@ -91,7 +89,6 @@ msgid "Translations"
 msgstr "Traductions"
 
 #: ../templates/includes/translations.html:12
-#, fuzzy
 msgid "Topic enquiry"
 msgstr "Question sur le sujet"
 
@@ -222,18 +219,41 @@ msgstr ""
 "publication."
 
 #: ../templates/ogdch/render_categories.html:47
-#, fuzzy
-msgid "(Prepare lead)"
-msgstr "Établir"
+msgid ""
+"During the first phase, you identified the data that you want to publish "
+"as OGD. Before preparing the data technically for publication, you must "
+"establish under what conditions the datasets can be used. This chapter "
+"contains a simple diagram to help you select the right conditions of use."
+msgstr ""
+"Vous avez identifié les données que vous souhaitez publier comme données "
+"publiques en libre accès. Avant de pouvoir les préparer à la publication "
+"sur le plan technique, vous devez déterminer à quelles conditions les "
+"jeux de données peuvent être utilisés. Le présent chapitre contient un "
+"schéma simple qui vous aidera à choisir les conditions d’utilisation "
+"adéquates."
 
 #: ../templates/ogdch/render_categories.html:49
-#, fuzzy
-msgid "(Publish lead)"
-msgstr "Publié"
+msgid ""
+"opendata.swiss is the central point of access to Swiss Open Government "
+"Data (OGD). This section explains how to publish your data on "
+"opendata.swiss."
+msgstr ""
+"opendata.swiss est le portail centralisé pour le libre accès aux données "
+"publiques (OGD) en Suisse. Dans le présent chapitre, nous vous expliquons"
+" comment publier vos données sur opendata.swiss."
 
 #: ../templates/ogdch/render_categories.html:51
-msgid "(Support lead)"
+msgid ""
+"By publishing your data on opendata.swiss you’ve completed the most "
+"important step. However, users will have questions about the data and "
+"require support. Here you will find an overview of the most frequently "
+"asked questions about published OGD."
 msgstr ""
+"Avec la publication de vos données sur opendata.swiss vous avez réussi "
+"l’étape la plus importante. Cependant, les utilisateurs pouvent avoir des"
+" questions au sujet des données et avoir besoin d’aide. Vous trouverez "
+"ici une vue d’ensemble des questions courantes autour des données "
+"publiées."
 
 #~ msgid "Next"
 #~ msgstr "Sujet suivant"

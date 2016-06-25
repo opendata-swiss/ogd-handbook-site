@@ -44,11 +44,11 @@
 	{% if category|trim|lower == "identify" %}
 		{% trans %}In order to publish OGD, you need to know which data are suitable. This chapter will help you select the right datasets and advise you on what you need to check.{% endtrans %}
 	{% elif category|trim|lower == "prepare" %}
-		{% trans %}(Prepare lead){% endtrans %}
+		{% trans %}During the first phase, you identified the data that you want to publish as OGD. Before preparing the data technically for publication, you must establish under what conditions the datasets can be used. This chapter contains a simple diagram to help you select the right conditions of use.{% endtrans %}
 	{% elif category|trim|lower == "publish" %}
-		{% trans %}(Publish lead){% endtrans %}
+		{% trans %}opendata.swiss is the central point of access to Swiss Open Government Data (OGD). This section explains how to publish your data on opendata.swiss.{% endtrans %}
 	{% elif category|trim|lower == "support" %}
-		{% trans %}(Support lead){% endtrans %}
+		{% trans %}By publishing your data on opendata.swiss you’ve completed the most important step. However, users will have questions about the data and require support. Here you will find an overview of the most frequently asked questions about published OGD.{% endtrans %}
 	{% endif %}
 {% endmacro -%}
 

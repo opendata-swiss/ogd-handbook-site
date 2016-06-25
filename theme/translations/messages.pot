@@ -181,14 +181,25 @@ msgid ""
 msgstr ""
 
 #: ../templates/ogdch/render_categories.html:47
-msgid "(Prepare lead)"
+msgid ""
+"During the first phase, you identified the data that you want to publish "
+"as OGD. Before preparing the data technically for publication, you must "
+"establish under what conditions the datasets can be used. This chapter "
+"contains a simple diagram to help you select the right conditions of use."
 msgstr ""
 
 #: ../templates/ogdch/render_categories.html:49
-msgid "(Publish lead)"
+msgid ""
+"opendata.swiss is the central point of access to Swiss Open Government "
+"Data (OGD). This section explains how to publish your data on "
+"opendata.swiss."
 msgstr ""
 
 #: ../templates/ogdch/render_categories.html:51
-msgid "(Support lead)"
+msgid ""
+"By publishing your data on opendata.swiss you’ve completed the most "
+"important step. However, users will have questions about the data and "
+"require support. Here you will find an overview of the most frequently "
+"asked questions about published OGD."
 msgstr ""
 

@@ -1,16 +1,16 @@
-#: ../templates/article.html:103
+#: ../templates/article.html:86
 msgid "Please consider adding your expertise to this topic."
 msgstr ""
 
-#: ../templates/article.html:107 ../templates/ogdch/footer.html:23
+#: ../templates/article.html:91 ../templates/ogdch/footer.html:23
 msgid "Contribute"
 msgstr ""
 
-#: ../templates/article.html:108
+#: ../templates/article.html:94 ../templates/includes/translations.html:15
 msgid "Edit"
 msgstr ""
 
-#: ../templates/article.html:113
+#: ../templates/article.html:99
 msgid ""
 "This topic has not yet been translated. Please contact us if you need "
 "this content in your language."

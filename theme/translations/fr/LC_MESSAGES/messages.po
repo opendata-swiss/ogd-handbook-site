@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-25 18:33+0200\n"
+"POT-Creation-Date: 2016-06-25 20:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
 
-#: ../templates/article.html:103
+#: ../templates/article.html:86
 msgid "Please consider adding your expertise to this topic."
 msgstr "Brouillon: N’hésitez pas à apporter votre expertise à ce sujet."
 
-#: ../templates/article.html:107 ../templates/ogdch/footer.html:23
+#: ../templates/article.html:91 ../templates/ogdch/footer.html:23
 msgid "Contribute"
 msgstr "Contribuer"
 
-#: ../templates/article.html:108
+#: ../templates/article.html:94 ../templates/includes/translations.html:15
 msgid "Edit"
 msgstr "Traiter"
 
-#: ../templates/article.html:113
+#: ../templates/article.html:99
 msgid ""
 "This topic has not yet been translated. Please contact us if you need "
 "this content in your language."

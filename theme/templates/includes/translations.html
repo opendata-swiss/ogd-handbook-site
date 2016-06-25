@@ -7,9 +7,12 @@
 	<a class="btn btn-sm" href="{{ SITEURL }}/{{ translation.url }}">{{ translation.lang }}</a>
 {% endfor %}
 <br>
-	<a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
-		<i class="fa fa-inbox"></i>
-		{% trans %}Topic enquiry{% endtrans %}</a>
+<a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
+	<i class="fa fa-inbox"></i>
+	{% trans %}Topic enquiry{% endtrans %}</a>
+<a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">
+	<i class="fa fa-edit"></i>
+	{% trans %}Edit{% endtrans %}</a>
 <br>
 {% endif %}
 {% endmacro %}

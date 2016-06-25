@@ -80,6 +80,27 @@
 
 {% block content %}
 
+  <div class="please-contribute alert alert-default" role="alert">
+    {% if article.draft %}
+    <em>
+      {% trans %}Please consider adding your expertise to this topic.{% endtrans %}
+    </em>
+    &nbsp;
+    {% endif %}
+    <a class="btn btn-primary btn-sm" href="{{ SITEURL }}/pages/contribute">
+      <i class="fa fa-info-circle"></i>
+      {% trans %}Contribute{% endtrans %}</a>
+    <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">
+      <i class="fa fa-edit"></i>
+      {% trans %}Edit{% endtrans %}</a>
+  </div>
+
+  {% if article.untranslated %}
+  <div class="untranslated alert alert-info" role="alert">
+    {% trans %}This topic has not yet been translated. Please contact us if you need this content in your language.{% endtrans %}
+  </div>
+  {% endif %}
+
   {% if article.handbook %}
     <a href="{{ SITEURL }}/category/{{ article.category|lower }}">
       <span class="category-banner category-{{ article.category|lower }}"></span>
@@ -89,29 +110,12 @@
     <section id="content" class="body">
         <article>
             {% if article.summary %}
-              <div class="entry-summary">
-                  {{ article.summary }}
-              </div>
+            <div class="entry-summary">
+              {{ article.summary }}
+            </div>
             {% endif %}
             {% if article.toc %}
-              {{article.toc}}
-            {% endif %}
-
-            <div class="please-contribute alert alert-default" role="alert">
-              {% if article.draft %}
-              <em>
-                {% trans %}Please consider adding your expertise to this topic.{% endtrans %}
-              </em>
-              &nbsp;
-              {% endif %}
-              <a class="btn btn-primary btn-sm" href="{{ SITEURL }}/pages/contribute">{% trans %}Contribute{% endtrans %}</a>
-              <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">{% trans %}Edit{% endtrans %}</a>
-            </div>
-
-            {% if article.untranslated %}
-            <div class="untranslated alert alert-info" role="alert">
-              {% trans %}This topic has not yet been translated. Please contact us if you need this content in your language.{% endtrans %}
-            </div>
+            {{article.toc}}
             {% endif %}
 
             <div class="entry-content">

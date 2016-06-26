@@ -277,6 +277,7 @@ article .entry-content > p > img {
     max-height: 150px;
 }
 article .entry-content img.zoomed-in {
+  background: #ffffff;
   max-height: 95%;
   max-width: 95%;
   position: fixed;

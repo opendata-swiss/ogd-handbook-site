@@ -153,6 +153,7 @@ msgstr ""
 msgid "Publish"
 msgstr ""
 
+#: ../templates/ogdch/navbar.html:41
 #: ../templates/ogdch/render_categories.html:9
 msgid "Support"
 msgstr ""
@@ -200,6 +201,7 @@ msgid ""
 "By publishing your data on opendata.swiss you’ve completed the most "
 "important step. However, users will have questions about the data and "
 "require support. Here you will find an overview of the most frequently "
-"asked questions about published OGD."
+"asked questions about published OGD. Please note: This chapter is still a"
+" work in progress. Contact us if you would like to suggest content."
 msgstr ""
 

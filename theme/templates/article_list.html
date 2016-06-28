@@ -36,21 +36,23 @@
       </div>
 
       {% if category %}
-      <br clear="all">
-      <div class="row topicmap" style="margin-top:1em">
         {% set next_category = render_categories.next_category(category) -%}
-        <div class="col-md-9"></div>
-        <div class="col-md-3">
-          <a href="{{ SITEURL }}/category/{{ next_category|lower }}">
-            <div class="category-icon">
-              {{ render_categories.icon_for(next_category) }}
-            </div>
-            <div class="category-title">
-              {{ render_categories.translations_for(next_category) }}
-            </div>
-          </a>
+        {% if next_category %}
+        <br clear="all">
+        <div class="row topicmap" style="margin-top:1em">
+          <div class="col-md-9"></div>
+          <div class="col-md-3">
+            <a href="{{ SITEURL }}/category/{{ next_category|lower }}">
+              <div class="category-icon">
+                {{ render_categories.icon_for(next_category) }}
+              </div>
+              <div class="category-title">
+                {{ render_categories.translations_for(next_category) }}
+              </div>
+            </a>
+          </div>
         </div>
-      </div>
+        {% endif %}
       {% endif %}
 
     {% endif %}

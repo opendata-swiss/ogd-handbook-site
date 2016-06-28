@@ -20,11 +20,6 @@
 	{% elif category|trim|lower == "prepare" %}
 		Publish
 	{% elif category|trim|lower == "publish" %}
-		Support
-	{% elif category|trim|lower == "support" %}
-		Identify
-	{% else %}
-		{{ category }}
 	{% endif %}
 {% endmacro -%}
 

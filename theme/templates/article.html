@@ -107,16 +107,19 @@
     </a>
   {% endif %}
 
-    <section id="content" class="body">
+    <section id="content" class="body body-article">
         <article>
-            {% if article.summary %}
+          <ul class="resource-list list-unstyled">
+            {% include 'ogdch/downloads.html' %}
+          </ul>
+          {% if article.summary %}
             <div class="entry-summary">
               {{ article.summary }}
             </div>
-            {% endif %}
-            {% if article.toc %}
+          {% endif %}
+          {% if article.toc %}
             {{article.toc}}
-            {% endif %}
+          {% endif %}
 
             <div class="entry-content">
                 {{ article.content }}

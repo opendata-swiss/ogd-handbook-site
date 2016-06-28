@@ -102,6 +102,7 @@ msgstr ""
 
 #: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:9
 #: ../templates/ogdch/downloads.html:22 ../templates/ogdch/downloads.html:35
+#: ../templates/ogdch/downloads.html:48
 msgid "Download"
 msgstr ""
 
@@ -115,6 +116,10 @@ msgstr ""
 
 #: ../templates/ogdch/downloads.html:31
 msgid "Presentation"
+msgstr ""
+
+#: ../templates/ogdch/downloads.html:44
+msgid "Metadata"
 msgstr ""
 
 #: ../templates/ogdch/footer.html:4

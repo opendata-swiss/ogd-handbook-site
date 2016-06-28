@@ -37,3 +37,16 @@
   </div>
 </li>
 {% endif %}
+{% if article.link_rdf %}
+<li class="resource-item">
+  <small><span class="label label-default" title="application/rdf+xml">APPLICATION/RDF+XML</span></small>
+  <a class="heading" href="{{ article.link_rdf }}">
+    {% trans %}Metadata{% endtrans %}
+  </a>
+  <div class="actions hidden-sm hidden-xs">
+    <a href="{{ article.link_rdf }}" class="btn btn-primary btn-xs" role="button" target="_blank">
+      <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %}
+    </a>
+  </div>
+</li>
+{% endif %}

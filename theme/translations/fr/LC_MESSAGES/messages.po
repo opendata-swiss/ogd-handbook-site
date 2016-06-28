@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-27 16:26+0200\n"
+"POT-Creation-Date: 2016-06-28 11:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -130,6 +130,7 @@ msgstr "Projet Open Government Data Suisse"
 
 #: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:9
 #: ../templates/ogdch/downloads.html:22 ../templates/ogdch/downloads.html:35
+#: ../templates/ogdch/downloads.html:48
 msgid "Download"
 msgstr ""
 
@@ -144,6 +145,10 @@ msgstr "Document"
 #: ../templates/ogdch/downloads.html:31
 msgid "Presentation"
 msgstr "Présentation"
+
+#: ../templates/ogdch/downloads.html:44
+msgid "Metadata"
+msgstr "Métadonnées"
 
 #: ../templates/ogdch/footer.html:4
 msgid ""

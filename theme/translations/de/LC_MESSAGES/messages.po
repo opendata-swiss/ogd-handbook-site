@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-28 11:39+0200\n"
+"POT-Creation-Date: 2016-06-28 11:48+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -169,7 +169,7 @@ msgstr ""
 
 #: ../templates/ogdch/footer.html:29
 msgid "About"
-msgstr "Impressum"
+msgstr "Über uns"
 
 #: ../templates/ogdch/footer.html:35
 msgid "Legal notice"

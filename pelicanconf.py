@@ -9,6 +9,7 @@ SITEURL = ''
 
 PATH = 'content'
 THEME = 'theme'
+CUSTOM_CSS = 'theme/ogdch/custom.css'
 
 STATIC_PATHS = [
 	'images', 'handbook/images', 'samples',
@@ -79,7 +80,7 @@ I18N_SUBSITES = {
 }
 
 TOC = {
-    'TOC_HEADERS' : '^h[1-4]',  # What headers should be included in the generated toc
+    'TOC_HEADERS' : '^h[1-3]',  # What headers should be included in the generated toc
     'TOC_RUN'     : 'false' # Default value for toc generation
 }
 

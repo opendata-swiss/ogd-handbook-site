@@ -1,7 +1,7 @@
 # pelican-bootstrap3
 
-This is a Bootstrap 3 theme for Pelican, originally developed by [DandyDev](https://github.com/DandyDev). 
-It's fully responsive and contains sub-themes from the Bootswatch project. 
+This is a Bootstrap 3 theme for Pelican, originally developed by [DandyDev](https://github.com/DandyDev).
+It's fully responsive and contains sub-themes from the Bootswatch project.
 Pelican-bootstrap3 is compatible with Pelican 3.3.0 and higher.
 
 ## CONTRIBUTING
@@ -284,7 +284,7 @@ All you have to do, is:
 - enable the plugin, and the theme will add a search box on the right
   side of the menu
 - Add `'search'` to the `DIRECT_TEMPLATES` in your `pelicanconf.py`. E.g. `DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search').
-By default, the Tipue search page is configured at "/search.html", but you can override that with the `SEARCH_URL` 
+By default, the Tipue search page is configured at "/search.html", but you can override that with the `SEARCH_URL`
 setting, which comes in handy if you have fancy rewrite rules in your Apache or Nginx configuration.
 
 ### Footer
@@ -305,8 +305,6 @@ If you want more examples of what you could do with this theme, have a [look her
 
 ## Screenshot
 
-![](screenshot.png)
+![Screenshot](screenshot.png)
 
-![](screenshot-article.png)
-
-
+![Screenshot of article](screenshot-article.png)

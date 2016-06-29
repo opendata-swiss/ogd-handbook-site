@@ -18,6 +18,11 @@
   							{{ SITENAME }}
   		        {% endif %}
   					</h1>
+            {% if article.summary %}
+              <div class="lead"><p>
+                {{ article.summary }}
+              </p></div>
+            {% endif %}
   				</div>
   			</div>
   		</div>
@@ -25,16 +30,16 @@
 {% endblock %}
 
 {% block content %}
-    <section id="content" class="body">
+    <section id="content" class="body body-document">
         <article>
-            <ul class="resource-list list-unstyled">
-              {% include 'ogdch/downloads.html' %}
-            </ul>
             <div class="panel library-info">
                 <div class="panel-body">
                   {% include 'ogdch/article_info.html' %}
                 </div>
             </div>
+            <ul class="resource-list list-unstyled">
+              {% include 'ogdch/downloads.html' %}
+            </ul>
             {% if article.toc %}
               {{article.toc}}
             {% endif %}

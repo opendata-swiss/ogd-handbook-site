@@ -67,19 +67,29 @@ make ftp_upload
 
 After deployment, ensure links are working in the Topics page, else you may need to re-run your publishing steps.
 
-### Translations ###
+#### Document export ####
 
-Using [Babel](http://babel.pocoo.org/) for [Flask](http://pythonhosted.org/Flask-Babel/#translating-applications), we can keep the theme translations up to date:
+To generate document versions of the Handbook pages, we use pandoc. The latest version (1.15+ is required) can be installed by downloading a binary [from this page](https://github.com/jgm/pandoc/releases/).
+
+To also create Word (DOCX) files, you need to install LibreOffice (i.e. `sudo apt-get install libreoffice -y`)
+
+The files will then be generated in the `/export` folder of output using:
 
 ```
-cd theme/translations
-pybabel extract -F babel.cfg -o messages.pot .. --omit-header
-pybabel update -i messages.pot -d .
-pybabel compile -d . -f
+make doc_export
+```
+
+### Translations ###
+
+Using [Babel](http://babel.pocoo.org/) for [Flask](http://pythonhosted.org/Flask-Babel/#translating-applications), we can keep the theme translations up to date. Use the script in the root folder:
+
+```
+./update_translations.sh
 ```
 
 To add another language:
 ```
+cd theme/translations
 pybabel init -i messages.pot -d . -l de
 ```
 

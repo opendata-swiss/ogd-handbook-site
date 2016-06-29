@@ -11,6 +11,7 @@ span.logo-color { color: #009688; }
 }
 .alert-floating .alert { margin: 0px; }
 .alert-floating .alert a { color: #444; }
+.alert-floating .alert a:hover { border-bottom: 1px dashed #444; }
 .alert-floating .alert-dismissible .close { position: initial; }
 
 /* Custom article_list formatting */
@@ -61,10 +62,14 @@ span.logo-color { color: #009688; }
 }
 
 /* Hide first level of TOC */
-#toc { clear: both; margin-bottom: 1em; }
+#toc { margin-bottom: 1em; }
 #toc > ul { margin: 0px }
 #toc > ul > li { list-style: none }
 #toc > ul > li > a { display: none }
+
+/* Start article contents under the logo */
+.body-article #toc,
+.body-article .entry-content { clear: both; }
 
 /* Wizard microapp */
 #wizard {
@@ -91,6 +96,7 @@ span.logo-color { color: #009688; }
 .category-banner {
   float: left;
   margin-right: 20px;
+  margin-bottom: 20px;
   display: inline-block;
   width: 128px; height: 128px;
   background-size: contain;
@@ -98,7 +104,7 @@ span.logo-color { color: #009688; }
   background-position: center;
 }
 .category-banner.category-identify { background-image: url(/theme/ogdch/category-identify.png); }
-.category-banner.category-establish { background-image: url(/theme/ogdch/category-establish.png); }
+.category-banner.category-prepare { background-image: url(/theme/ogdch/category-prepare.png); }
 .category-banner.category-publish { background-image: url(/theme/ogdch/category-publish.png); }
 .category-banner.category-support { background-image: url(/theme/ogdch/category-support.png); }
 .category-banner.category-library { background-image: url(/theme/ogdch/category-library.png); }
@@ -248,3 +254,48 @@ img { max-width: 100%; }
   margin-right: 2em;
 }
 /* --- Page-specific styles */
+
+/* for list-group-items nested within a list-group-item, reset the bottom
+padding of the last item, b/c the containing item has paddimg already
+*/
+.list-group-item .list-group-item:last-child {
+  padding-bottom: 0px;
+}
+.list-group-item {
+  border: none;
+}
+
+/* Align buttons like Download to the left of the resource bar */
+.resource-item .actions {
+  float: left;
+  margin-right: 8pt;
+}
+
+/* Simple zoomable thumbnails */
+article .entry-content > p > img {
+  border: 1px solid #aaa;
+  box-shadow: 4px 4px 4px #ddd;
+  max-height: 150px;
+}
+article .entry-content img.zoomed-in {
+  background: #ffffff;
+  max-height: 95%;
+  max-width: 95%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  border: 20px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14px #aaa;
+  z-index: 9999;
+}
+
+/* Optimise layout on larger screens  */
+@media (min-width: 800px) {
+  article .library-info {
+    float: right;
+    margin-left: 1em;
+  }
+}

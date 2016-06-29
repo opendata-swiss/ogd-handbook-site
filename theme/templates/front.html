@@ -46,10 +46,8 @@
             {% if page.summary %}
               <div class="lead">{{ page.summary }}</div>
             {% endif %}
-            {% if START_READING_ENABLED %}
-              <a class="btn btn-default-inverted" href="/category/identify" role="button">
-                {% trans %}Start reading{% endtrans %}</a>
-            {% endif %}
+            <!--<a class="btn btn-default-inverted" href="{{ SITEURL }}/category/identify" role="button">
+              {% trans %}To the handbook{% endtrans %}</a>-->
   				</div>
           <div class="col-md-5 text-md-right text-xs-center">
   					<div class="headline">
@@ -64,15 +62,12 @@
                 </div>
               </form>
             {% endif %}
-            <a class="btn btn-default-inverted btn-lg" href="{{ SITEURL }}/category/identify" role="button">
-              {% trans %}Start reading{% endtrans %}</a>
-            &nbsp;
             <a class="btn btn-primary btn-lg" href="{{ SITEURL }}/category/library" role="button">
               <i class="fa fa-book"></i>
               {% trans %}Library{% endtrans %}</a>
-            <a class="btn btn-primary btn-lg" href="{{ SITEURL }}/library/glossary" role="button">
+            <!--<a class="btn btn-primary btn-lg" href="{{ SITEURL }}/library/glossary" role="button">
               <i class="fa fa-puzzle-piece"></i>
-              {% trans %}Glossary{% endtrans %}</a>
+              {% trans %}Glossary{% endtrans %}</a>-->
           </div>
   			</div>
   		</div>
@@ -97,7 +92,7 @@
 
 {% block content %}
   <div class="row topicmap">
-    {% for category_name in ["identify", "establish", "publish", "support"] %}
+    {% for category_name in ["identify", "prepare", "publish", "support"] %}
     <div class="col-md-3">
       <a href="{{ SITEURL }}/category/{{ category_name }}">
         <div class="category-icon">
@@ -117,6 +112,7 @@
       {% endfor %}
     </div>
     {% endfor %}
+    <div style="margin:3em">&nbsp;</div>
   </div>
 
   <section id="content" class="body">

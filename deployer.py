@@ -13,6 +13,7 @@ Example `deployerconf.json`:
     "mysite": {
       "root": "/path/to/repo",
       "remote": "origin",
+      "payload": "{mysecret}",
       "ftp": {
         "user": "myusername",
         "host": "ftp.host.url",
@@ -65,8 +66,8 @@ def sh(cmd, **kwargs):
 def deploy(repo_id, repo_secret):
     payload = json.loads(request.form['payload'])
     repo = app.config['repos'][repo_id]
-    # if repo_secret != repo['secret']:
-    if repo_secret != myhash:
+    #if repo_secret != myhash:
+    if repo_secret != repo['payload']:
         return jsonify(dict(ok=False))
     os.chdir(repo['root'])
     sh(
@@ -85,7 +86,7 @@ def deploy(repo_id, repo_secret):
     if 'Error' in publish_output:
         return jsonify(dict(ok=False, error=publish_output))
     sh (
-        'lftp -u {ftp_user},{ftp_pwd} {ftp_host} -e "mirror --no-perms -R {root_dir}/output {ftp_dir}; quit"',
+        'lftp -u {ftp_user},{ftp_pwd} {ftp_host} -e "mirror --no-perms -R {root_dir}/output {ftp_dir}; quit" &',
         ftp_user=repo['ftp'].get('user'),
         ftp_pwd=repo['ftp'].get('pwd'),
         ftp_host=repo['ftp'].get('host'),
@@ -112,7 +113,7 @@ app.logger.addHandler(logging.StreamHandler())
 app.logger.setLevel(logging.INFO)
 app.logger.info("Initialising repos:")
 for repo in app.config['repos']:
-    app.logger.info('/%s/%s' % (repo, myhash))
+    app.logger.info('/%s/%s' % (repo, app.config['repos'][repo]['payload'])) # myhash))
 
 if __name__ == '__main__':
     app.run()

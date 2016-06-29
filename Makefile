@@ -8,9 +8,9 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-FTP_HOST=ftp.ogdhandbook.ch
-FTP_USER=handbook-beta
-FTP_TARGET_DIR=/_proof
+FTP_HOST=handbook.opendata.swiss
+FTP_USER=handbook
+FTP_TARGET_DIR=/
 
 SSH_HOST=localhost
 SSH_PORT=22

@@ -101,7 +101,7 @@
   </div>
   {% endif %}
 
-  {% if article.handbook %}
+  {% if article.handbook and article.summary %}
     <a href="{{ SITEURL }}/category/{{ article.category|lower }}">
       <span class="category-banner category-{{ article.category|lower }}"></span>
     </a>
@@ -109,14 +109,14 @@
 
     <section id="content" class="body body-article">
         <article>
-          <ul class="resource-list list-unstyled">
-            {% include 'ogdch/downloads.html' %}
-          </ul>
           {% if article.summary %}
             <div class="entry-summary">
               {{ article.summary }}
             </div>
           {% endif %}
+          <ul class="resource-list list-unstyled">
+            {% include 'ogdch/downloads.html' %}
+          </ul>
           {% if article.toc %}
             {{article.toc}}
           {% endif %}

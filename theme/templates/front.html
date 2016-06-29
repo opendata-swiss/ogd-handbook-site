@@ -92,8 +92,8 @@
 
 {% block content %}
   <div class="row topicmap">
-    {% for category_name in ["identify", "prepare", "publish"] %}
-    <div class="col-md-4">
+    {% for category_name in ["identify", "prepare", "publish", "support"] %}
+    <div class="col-md-3">
       <a href="{{ SITEURL }}/category/{{ category_name }}">
         <div class="category-icon">
           {{ render_categories.icon_for(category_name) }}

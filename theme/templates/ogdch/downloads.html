@@ -1,11 +1,8 @@
 {% if article.link_pdf %}
 <li class="resource-item">
   <small><span class="label label-default" title="application/zip">APPLICATION/PDF</span></small>
-  <a class="heading" href="{{ article.link_pdf }}">
-    {% trans %}Paper{% endtrans %}
-  </a>
   <div class="actions hidden-sm hidden-xs">
-      <a href="{{ article.link_pdf }}" class="btn btn-primary btn-xs" role="button" target="_blank">
+      <a href="{{ article.link_pdf }}" class="btn btn-primary btn-xs" role="button" target="_blank" title="{% trans %}Paper{% endtrans %}">
         <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %}
       </a>
   </div>
@@ -14,11 +11,8 @@
 {% if article.link_doc %}
 <li class="resource-item">
   <small><span class="label label-default" title="application/zip">APPLICATION/DOC</span></small>
-  <a class="heading" href="{{ article.link_doc }}">
-    {% trans %}Document{% endtrans %}
-  </a>
   <div class="actions hidden-sm hidden-xs">
-      <a href="{{ article.link_doc }}" class="btn btn-primary btn-xs" role="button" target="_blank">
+      <a href="{{ article.link_doc }}" class="btn btn-primary btn-xs" role="button" target="_blank" title="{% trans %}Document{% endtrans %}">
         <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %}
       </a>
   </div>
@@ -27,11 +21,8 @@
 {% if article.link_ppt %}
 <li class="resource-item">
   <small><span class="label label-default" title="application/zip">APPLICATION/PPT</span></small>
-  <a class="heading" href="{{ article.link_ppt }}">
-    {% trans %}Presentation{% endtrans %}
-  </a>
   <div class="actions hidden-sm hidden-xs">
-      <a href="{{ article.link_ppt }}" class="btn btn-primary btn-xs" role="button" target="_blank">
+      <a href="{{ article.link_ppt }}" class="btn btn-primary btn-xs" role="button" target="_blank" title="{% trans %}Presentation{% endtrans %}">
         <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %}
       </a>
   </div>
@@ -40,11 +31,8 @@
 {% if article.link_rdf %}
 <li class="resource-item">
   <small><span class="label label-default" title="application/rdf+xml">APPLICATION/RDF+XML</span></small>
-  <a class="heading" href="{{ article.link_rdf }}">
-    {% trans %}Metadata{% endtrans %}
-  </a>
   <div class="actions hidden-sm hidden-xs">
-    <a href="{{ article.link_rdf }}" class="btn btn-primary btn-xs" role="button" target="_blank">
+    <a href="{{ article.link_rdf }}" class="btn btn-primary btn-xs" role="button" target="_blank" title="{% trans %}Metadata{% endtrans %}">
       <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %}
     </a>
   </div>

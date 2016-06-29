@@ -18,6 +18,11 @@
   							{{ SITENAME }}
   		        {% endif %}
   					</h1>
+            {% if article.summary %}
+              <div class="lead"><p>
+                {{ article.summary }}
+              </p></div>
+            {% endif %}
   				</div>
   			</div>
   		</div>

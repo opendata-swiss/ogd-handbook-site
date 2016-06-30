@@ -3,7 +3,7 @@ msgid "Please consider adding your expertise to this topic."
 msgstr ""
 
 #: ../templates/article.html:92 ../templates/ogdch/footer.html:23
-msgid "Contribute"
+msgid "Instructions"
 msgstr ""
 
 #: ../templates/article.html:95 ../templates/includes/translations.html:15
@@ -100,9 +100,9 @@ msgstr ""
 msgid "Open Government Data Switzerland"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:9
-#: ../templates/ogdch/downloads.html:22 ../templates/ogdch/downloads.html:35
-#: ../templates/ogdch/downloads.html:48
+#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:6
+#: ../templates/ogdch/downloads.html:16 ../templates/ogdch/downloads.html:26
+#: ../templates/ogdch/downloads.html:36
 msgid "Download"
 msgstr ""
 
@@ -110,15 +110,15 @@ msgstr ""
 msgid "Paper"
 msgstr ""
 
-#: ../templates/ogdch/downloads.html:18
+#: ../templates/ogdch/downloads.html:15
 msgid "Document"
 msgstr ""
 
-#: ../templates/ogdch/downloads.html:31
+#: ../templates/ogdch/downloads.html:25
 msgid "Presentation"
 msgstr ""
 
-#: ../templates/ogdch/downloads.html:44
+#: ../templates/ogdch/downloads.html:35
 msgid "Metadata"
 msgstr ""
 
@@ -132,7 +132,7 @@ msgid ""
 msgstr ""
 
 #: ../templates/ogdch/footer.html:29
-msgid "About"
+msgid "About us"
 msgstr ""
 
 #: ../templates/ogdch/footer.html:35
@@ -163,30 +163,30 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:33
+#: ../templates/ogdch/render_categories.html:30
 msgid "data for opening"
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:35
+#: ../templates/ogdch/render_categories.html:32
 msgid "legal foundations"
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:37
+#: ../templates/ogdch/render_categories.html:34
 msgid "as open data"
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:39
+#: ../templates/ogdch/render_categories.html:36
 msgid "and promote usage"
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:45
+#: ../templates/ogdch/render_categories.html:42
 msgid ""
 "In order to publish OGD, you need to know which data are suitable. This "
 "chapter will help you select the right datasets and advise you on what "
 "you need to check."
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:47
+#: ../templates/ogdch/render_categories.html:44
 msgid ""
 "During the first phase, you identified the data that you want to publish "
 "as OGD. Before preparing the data technically for publication, you must "
@@ -194,14 +194,14 @@ msgid ""
 "contains a simple diagram to help you select the right conditions of use."
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:49
+#: ../templates/ogdch/render_categories.html:46
 msgid ""
 "opendata.swiss is the central point of access to Swiss Open Government "
 "Data (OGD). This section explains how to publish your data on "
 "opendata.swiss."
 msgstr ""
 
-#: ../templates/ogdch/render_categories.html:51
+#: ../templates/ogdch/render_categories.html:48
 msgid ""
 "By publishing your data on opendata.swiss you’ve completed the most "
 "important step. However, users will have questions about the data and "

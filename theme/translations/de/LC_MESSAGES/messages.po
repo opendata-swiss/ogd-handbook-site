@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-28 11:48+0200\n"
+"POT-Creation-Date: 2016-06-30 15:36+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -25,7 +25,7 @@ msgstr ""
 "ergänzen."
 
 #: ../templates/article.html:92 ../templates/ogdch/footer.html:23
-msgid "Contribute"
+msgid "Instructions"
 msgstr "Anleitung"
 
 #: ../templates/article.html:95 ../templates/includes/translations.html:15
@@ -131,9 +131,9 @@ msgstr "Akzeptieren und fortfahren"
 msgid "Open Government Data Switzerland"
 msgstr "OGD Projekt Schweiz"
 
-#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:9
-#: ../templates/ogdch/downloads.html:22 ../templates/ogdch/downloads.html:35
-#: ../templates/ogdch/downloads.html:48
+#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:6
+#: ../templates/ogdch/downloads.html:16 ../templates/ogdch/downloads.html:26
+#: ../templates/ogdch/downloads.html:36
 msgid "Download"
 msgstr "Herunterladen"
 
@@ -141,15 +141,15 @@ msgstr "Herunterladen"
 msgid "Paper"
 msgstr "Unterlage"
 
-#: ../templates/ogdch/downloads.html:18
+#: ../templates/ogdch/downloads.html:15
 msgid "Document"
 msgstr "Dokument"
 
-#: ../templates/ogdch/downloads.html:31
+#: ../templates/ogdch/downloads.html:25
 msgid "Presentation"
 msgstr "Präsentation"
 
-#: ../templates/ogdch/downloads.html:44
+#: ../templates/ogdch/downloads.html:35
 msgid "Metadata"
 msgstr "Metadaten"
 
@@ -168,7 +168,7 @@ msgstr ""
 "Bundesarchiv betreibt handbook.opendata.swiss"
 
 #: ../templates/ogdch/footer.html:29
-msgid "About"
+msgid "About us"
 msgstr "Über uns"
 
 #: ../templates/ogdch/footer.html:35
@@ -201,23 +201,23 @@ msgstr "Publizieren"
 msgid "Support"
 msgstr "Supporten"
 
-#: ../templates/ogdch/render_categories.html:33
+#: ../templates/ogdch/render_categories.html:30
 msgid "data for opening"
 msgstr "Daten zur Freigabe ermitteln"
 
-#: ../templates/ogdch/render_categories.html:35
+#: ../templates/ogdch/render_categories.html:32
 msgid "legal foundations"
 msgstr "Rechtliche Grundlagen"
 
-#: ../templates/ogdch/render_categories.html:37
+#: ../templates/ogdch/render_categories.html:34
 msgid "as open data"
 msgstr "Als Open Data veröffentlichen"
 
-#: ../templates/ogdch/render_categories.html:39
+#: ../templates/ogdch/render_categories.html:36
 msgid "and promote usage"
-msgstr "Die Verwendung unterstützen und fördern"
+msgstr "Die Verwendung unterstützen"
 
-#: ../templates/ogdch/render_categories.html:45
+#: ../templates/ogdch/render_categories.html:42
 msgid ""
 "In order to publish OGD, you need to know which data are suitable. This "
 "chapter will help you select the right datasets and advise you on what "
@@ -227,7 +227,7 @@ msgstr ""
 "geeignet sind. Dieses Kapitel unterstützt Sie bei der Auswahl der "
 "Datensätze und enthält Hilfestellungen zu den dazu nötigen Abklärungen."
 
-#: ../templates/ogdch/render_categories.html:47
+#: ../templates/ogdch/render_categories.html:44
 msgid ""
 "During the first phase, you identified the data that you want to publish "
 "as OGD. Before preparing the data technically for publication, you must "
@@ -240,7 +240,7 @@ msgstr ""
 "Datensätze genutzt werden können. Dieses Kapitel enthält ein einfaches "
 "Schema, um die richtigen Nutzungsbedingungen auszuwählen."
 
-#: ../templates/ogdch/render_categories.html:49
+#: ../templates/ogdch/render_categories.html:46
 msgid ""
 "opendata.swiss is the central point of access to Swiss Open Government "
 "Data (OGD). This section explains how to publish your data on "
@@ -250,7 +250,7 @@ msgstr ""
 "(OGD). Hier wird Ihnen erklärt, wie Sie Ihre Daten auf opendata.swiss "
 "publizieren."
 
-#: ../templates/ogdch/render_categories.html:51
+#: ../templates/ogdch/render_categories.html:48
 msgid ""
 "By publishing your data on opendata.swiss you’ve completed the most "
 "important step. However, users will have questions about the data and "

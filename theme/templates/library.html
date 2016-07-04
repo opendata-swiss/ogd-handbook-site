@@ -25,19 +25,19 @@
       </div>
     </section>
 
-    {% for category in ["Identify", "Prepare", "Publish", "Support", "Library"] %}
+    {% for collection in ["Identify", "Prepare", "Publish", "Support"] %}
     <div class="row article-list">
       <div class="col-md-1">
         <div class="wrapper">
-          <span class="category-banner category-{{ category|lower }}"></span>
+          <span class="category-banner category-{{ collection|lower }}"></span>
         </div>
       </div>
       <div class="col-md-11">
         <h2>
-          {{ render_categories.translations_for(category) }}
+          {{ render_categories.translations_for(collection) }}
         </h2>
         {% for tag, articles in tags %}
-          {% if tag|trim|lower == category|lower %}
+          {% if tag|trim|lower == collection|lower %}
             {{ list_documents(articles) }}
           {% endif %}
         {% endfor %}

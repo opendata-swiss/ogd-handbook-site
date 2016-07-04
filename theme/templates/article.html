@@ -89,8 +89,8 @@
     {% endif %}
     <a class="btn btn-primary btn-sm" href="{{ SITEURL }}/pages/contribute">
       <i class="fa fa-info-circle"></i>
-      {% trans %}Contribute{% endtrans %}</a>
-    <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">
+      {% trans %}Instructions{% endtrans %}</a>
+    <a href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.category|lower }}/{{ article.slug }}.{{ DEFAULT_LANG }}.md" class="btn btn-success btn-sm" target="_blank">
       <i class="fa fa-edit"></i>
       {% trans %}Edit{% endtrans %}</a>
   </div>
@@ -101,7 +101,7 @@
   </div>
   {% endif %}
 
-  {% if article.handbook and article.summary %}
+  {% if article.handbook %}
     <a href="{{ SITEURL }}/category/{{ article.category|lower }}">
       <span class="category-banner category-{{ article.category|lower }}"></span>
     </a>

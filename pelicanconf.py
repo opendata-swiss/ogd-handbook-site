@@ -12,7 +12,8 @@ THEME = 'theme'
 CUSTOM_CSS = 'theme/ogdch/custom.css'
 
 STATIC_PATHS = [
-	'images', 'handbook/images', 'samples',
+	'images', 'handbook/images',
+	'samples', 'export',
 	'../extra/robots.txt',
 	'../extra/favicon.ico',
 	'../extra/.htaccess'

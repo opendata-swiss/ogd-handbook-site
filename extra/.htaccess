@@ -33,6 +33,11 @@ RewriteRule ^$ /de/pages/index [L,R=301]
 #RewriteRule ^it/$ /it/pages/index [L,R=301]
 #RewriteRule ^en/$ /en/pages/index [L,R=301]
 
+# Redirect moved pages
+RewriteRule ^/(..)/publish/harvester.*$ /$1/support/harvester [L,R=301]
+RewriteRule ^/(..)/publish/userguide.*$ /$1/library/opendataswiss-userguide [L,R=301]
+
+# Finally, direct to appropriate html file
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html

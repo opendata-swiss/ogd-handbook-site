@@ -1,5 +1,5 @@
-Babel==2.3.4
-Jinja2==2.9.5
+Babel==2.4.0
+Jinja2==2.9.6
 Markdown==2.6.8
 MarkupSafe==1.0
 Pygments==2.2.0
@@ -11,5 +11,5 @@ docutils==0.13.1
 feedgenerator==1.9
 pelican==3.7.1
 python-dateutil==2.6.0
-pytz==2016.10
+pytz==2017.2
 six==1.10.0

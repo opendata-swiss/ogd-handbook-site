@@ -51,8 +51,8 @@
         <span class="label label-default">{% trans %}Category{% endtrans %}</span>
         <span class="category">
           <a href="{{ SITEURL }}/{{ article.category.url }}">
-            {% import 'categories.html' as categories with context %}
-            {{ categories.translations_for(article.category) }}
+            {% import 'render_categories.html' as render_categories %}
+            {{ render_categories.translations_for(article.category) }}
           </a>
         </span>
         <br>
@@ -77,5 +77,5 @@
     <br>
 
     {% import 'includes/translations.html' as translations with context %}
-    {{ translations.translations_for(article) }}
+    {{ translations.languages_box(article) }}
 </footer><!-- /.post-info -->

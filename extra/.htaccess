@@ -1,0 +1,40 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+RewriteCond %{HTTP:Accept-Language} ^de [NC]
+RewriteRule ^$ /de/pages/index [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^$ /fr/pages/index [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^it [NC]
+RewriteRule ^$ /it/pages/index [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ /en/pages/index [L,R=301]
+
+# Default language: German
+RewriteRule ^$ /de/pages/index [L,R=301]
+
+# Disable other languages
+#RewriteRule ^/en/pages/.*$ /de/pages/index [L,R=301]
+#RewriteRule ^/fr/pages/.*$ /de/pages/index [L,R=301]
+#RewriteRule ^/it/pages/.*$ /de/pages/index [L,R=301]
+#RewriteRule ^/en/category/.*$ /de/pages/index [L,R=301]
+#RewriteRule ^/fr/category/.*$ /de/pages/index [L,R=301]
+#RewriteRule ^/it/category/.*$ /de/pages/index [L,R=301]
+
+# Disable language index
+#RewriteRule ^de/$ /de/pages/index [L,R=301]
+#RewriteRule ^fr/$ /fr/pages/index [L,R=301]
+#RewriteRule ^it/$ /it/pages/index [L,R=301]
+#RewriteRule ^en/$ /en/pages/index [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+
+Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch

@@ -1,0 +1,45 @@
+<footer class="container page-footer">
+	<div class="row top-buffer">
+		<div class="col-xs-12">
+			<p>{% trans %}The OGD Handbook provides support for individuals and organizations wishing to publish open government data. It is designed as a wiki: contributions from organizations and individuals that have experience with open data are explicitly welcomed. handbook.opendata.swiss is operated by the Swiss Federal Archives.{% endtrans %}</p>
+		</div>
+	</div>
+	<div class="row top-buffer">
+		<div class="col-md-2 col-xs-12">
+			<div class="btn-group">
+				<button type="button" id="lang-button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="name">Deutsch</span> <span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu" id="lang-switch">
+					<li lang="de"><a href="/de/pages/index">Deutsch</a></li>
+					<li lang="it"><a href="/it/pages/index">Italiano</a></li>
+					<li lang="fr"><a href="/fr/pages/index">Français</a></li>
+					<li lang="en"><a href="/en/pages/index">English</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-2 col-xs-6">
+			<ul class="list-unstyled">
+				<li><a href="{{ SITEURL }}/pages/contribute">{% trans %}Instructions{% endtrans %}</a></li>
+				<!-- <li><a href="{{ SITEURL }}/category/library">{% trans %}Library{% endtrans %}</a></li> -->
+			</ul>
+		</div>
+		<div class="col-md-2 col-xs-6">
+			<ul class="list-unstyled">
+				<li><a href="{{ SITEURL }}/pages/about">{% trans %}About us{% endtrans %}</a></li>
+				<!-- <li><a href="{{ SITEURL }}/library/glossary">{% trans %}Glossary{% endtrans %}</a></li> -->
+			</ul>
+		</div>
+		<div class="col-md-4 col-xs-12">
+			<ul class="list-unstyled">
+				<li><a href="{{ SITEURL }}/pages/legal-notice">{% trans %}Legal notice{% endtrans %}</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="logos" class="row top-buffer">
+		<div class="col-xs-12">
+			<img class="logo-confederation" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/ogdch/logo-confederation.png" />
+			<img class="logo-egovernment" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/ogdch/Logo-TF-{{ DEFAULT_LANG }}.png" />
+		</div>
+	</div>
+</footer>

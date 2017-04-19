@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} - {{ SITENAME }}{% endblock %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+
+{% import 'ogdch/render_categories.html' as render_categories with context %}
+
+{% macro print_articles(articles) %}
+  {% for article in articles %}
+    <article class="print-view">
+      <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
+      <div class="entry-summary">
+          {{ article.summary }}
+      </div>
+      <div class="entry-content">
+        {{ article.content }}
+      </div>
+    </article>
+  {% endfor %}
+  <hr>
+{% endmacro %}
+
+{% block content %}
+  {% for category_name in ["identify", "prepare", "publish", "support"] %}
+    {% for category, articles in categories %}
+      {% if category|trim|lower == category_name %}
+        {{ print_articles(articles) }}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endblock %}

@@ -38,6 +38,13 @@ pip install -r requirements.txt
 
 You can now access the website on http://localhost:8080
 
+If you see a "Directory listing", then restart the server - this is a known Pelican weirdness:
+
+```
+./develop_server.sh stop
+./develop_server.sh start 8080
+```
+
 ### Configuration ###
 
 Please see [Pelican documentation](http://docs.getpelican.com/en/latest/settings.html) for information on configuring for deployment.

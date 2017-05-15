@@ -63,6 +63,7 @@ span.logo-color { color: #009688; }
 
 /* Hide first level of TOC */
 #toc { margin-bottom: 1em; }
+#toc > ul { padding: 0px }
 #toc > ul > li > ul,
 #toc > ul { margin: 0px }
 #toc > ul > li > ul > li,
@@ -122,8 +123,8 @@ span.logo-color { color: #009688; }
 
 /* Styles for library articles */
 .library-info {
-  border: 1px solid #aaa;
-  border-radius: 10px;
+  border-left: 1px solid #aaa;
+  box-shadow: none;
 }
 .library-info .label-default {
   border: none;

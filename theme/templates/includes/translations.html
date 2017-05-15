@@ -1,4 +1,4 @@
-{% macro translations_for(article) %}
+{% macro languages_box(article) %}
 {% if article.translations %}
 <span class="label label-default">
 	<i class="fa fa-globe"></i>
@@ -13,6 +13,5 @@
 <a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">
 	<i class="fa fa-edit"></i>
 	{% trans %}Edit{% endtrans %}</a>
-<br>
 {% endif %}
 {% endmacro %}

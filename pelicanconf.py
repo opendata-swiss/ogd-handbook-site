@@ -12,7 +12,8 @@ THEME = 'theme'
 CUSTOM_CSS = 'theme/ogdch/custom.css'
 
 STATIC_PATHS = [
-	'images', 'handbook/images', 'samples',
+	'images', 'handbook/images',
+	'samples', 'export',
 	'../extra/robots.txt',
 	'../extra/favicon.ico',
 	'../extra/.htaccess'
@@ -58,7 +59,7 @@ RELATIVE_URLS = True
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['i18n_subsites', 'tipue_search', 'pelican-toc']
 
-JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 I18N_SUBSITES = {
 	'en': {

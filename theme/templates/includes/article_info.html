@@ -56,5 +56,8 @@
 
     {% import 'includes/translations.html' as translations with context %}
     {{ translations.languages_box(article) }}
+
+    {{ translations.editing_box(article) }}
+
     {% include 'includes/taglist.html' %}
 </footer><!-- /.post-info -->

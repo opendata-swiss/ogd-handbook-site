@@ -90,7 +90,7 @@
     <a class="btn btn-primary btn-sm" href="{{ SITEURL }}/pages/contribute">
       <i class="fa fa-info-circle"></i>
       {% trans %}Instructions{% endtrans %}</a>
-    <a href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.category|lower }}/{{ article.slug }}.{{ DEFAULT_LANG }}.md" class="btn btn-success btn-sm" target="_blank">
+    <a href="{{ EDITSOURCE }}handbook/{{ article.category|lower }}/{{ article.slug }}.{{ DEFAULT_LANG }}.md" class="btn btn-success btn-sm" target="_blank">
       <i class="fa fa-edit"></i>
       {% trans %}Edit{% endtrans %}</a>
   </div>

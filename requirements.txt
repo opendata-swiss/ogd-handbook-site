@@ -5,7 +5,7 @@ MarkupSafe==1.0
 Pygments==2.2.0
 Unidecode==0.4.20
 argparse==1.4.0
-beautifulsoup4==4.5.3
+beautifulsoup4==4.6.0
 blinker==1.4
 docutils==0.13.1
 feedgenerator==1.9

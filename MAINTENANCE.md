@@ -67,9 +67,11 @@ The service can be reinstated through:
 
 To ensure the system is working as expected, the following checks should be made:
 
-- [] Ensure that the generated web site looks and works as expected
-- [] Check that there are no errors in the site generator logs
-- [] Make a modification to the content and check that it is published
+- [ ] Ensure that the generated web site looks and works as expected
+- [ ] Make a modification to the content, and check that it is published
+- [ ] Check that there are no errors in the site generator logs
+- [ ] Check that there are no errors in the browser error console
+- [ ] Check that there are no errors in the web administration console (Plesk)
 
 The complete and current source code and content can be downloaded at anytime from the GitHub repositories.
 
@@ -90,3 +92,5 @@ Data loss concerns are minimal for a site whose contents are completely stored i
 No particular data protection mechanisms are necessary in this project, as none of the content has personal information. Protection of user account data for content editing is handled by GitHub, with more information on the mechanisms in place available at https://help.github.com/articles/about-github-s-use-of-your-data/
 
 No security reviews have been done of the code base, however the site generator project dependencies are being validated for security issues using automatic vulnerability alerts. There is no mechanism in place for ensuring the safety of contributed content, this is done through a manual review of every change to the content. It would be reasonable to augment this with automatic checks of the resulting frontend site in the future.
+
+The public website is secured using SSL and a Let's Encrypt certificate automatically renewed by the Plesk console.

@@ -76,15 +76,17 @@ After deployment, ensure links are working in the Topics page, else you may need
 
 #### Document export ####
 
-To generate document versions of the Handbook pages, we use pandoc. The latest version (1.15+ is required) can be installed by downloading a binary [from this page](https://github.com/jgm/pandoc/releases/).
+To generate document versions of the Handbook pages, we use **pandoc**. The latest version (1.15+ is required) can be installed by downloading a binary [from this page](https://github.com/jgm/pandoc/releases/).
 
-To also create Word (DOCX) files, you need to install LibreOffice (i.e. `sudo apt-get install libreoffice -y`)
+To also create Word (DOCX) files, you need to install **LibreOffice** and **[unoconv](https://github.com/dagwieers/unoconv)** (i.e. `sudo apt-get install libreoffice unoconv`).
 
 The files will then be generated in the `/export` folder of output using:
 
 ```
 make doc_export
 ```
+
+**Note:** if you are seeing an `ERROR: No module named 'uno'` error: copy `/usr/bin/unoconv` to `/usr/local/bin/unoconv`, and replace `#!/usr/bin/env python3` to just `#!/usr/bin/python3` in this file.
 
 ### Translations ###
 

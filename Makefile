@@ -85,6 +85,7 @@ stopserver:
 
 doc_export:
 	pandoc/docexport.sh $(INPUTDIR) $(OUTPUTDIR)
+	pandoc/doconvert.sh $(INPUTDIR) $(OUTPUTDIR)
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)

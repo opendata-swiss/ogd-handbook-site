@@ -13,7 +13,8 @@ convert_to_odt()
 convert_to_docx()
 {
   for f in $(find . -name '*.odt'); do
-    unoconv -f docx -o ${f##*/}.docx ${f##*/}.odt
+    echo ${f%.*}
+    unoconv -f docx -o "${f%.*}.docx" "${f%.*}.odt"
   done;
 }
 
@@ -29,10 +30,10 @@ else
   echo "------------------------------------------"
   DIR="$( pwd )/pandoc"
   mkdir -p $2/export
-  convert_to_odt $1 $2 'de'
-  convert_to_odt $1 $2 'fr'
-  convert_to_odt $1 $2 'en'
-  convert_to_odt $1 $2 'it'
+  #convert_to_odt $1 $2 'de'
+  #convert_to_odt $1 $2 'fr'
+  #convert_to_odt $1 $2 'en'
+  #convert_to_odt $1 $2 'it'
 
   echo "-------------------------------------"
   echo "Converting to Microsoft (DOCX) format"

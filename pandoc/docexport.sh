@@ -30,10 +30,10 @@ else
   echo "------------------------------------------"
   DIR="$( pwd )/pandoc"
   mkdir -p $2/export
-  #convert_to_odt $1 $2 'de'
-  #convert_to_odt $1 $2 'fr'
-  #convert_to_odt $1 $2 'en'
-  #convert_to_odt $1 $2 'it'
+  convert_to_odt $1 $2 'de'
+  convert_to_odt $1 $2 'fr'
+  convert_to_odt $1 $2 'en'
+  convert_to_odt $1 $2 'it'
 
   echo "-------------------------------------"
   echo "Converting to Microsoft (DOCX) format"

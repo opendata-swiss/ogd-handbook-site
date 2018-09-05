@@ -1,5 +1,5 @@
-Babel==2.5.3
-beautifulsoup4==4.6.0
+Babel==2.6.0
+beautifulsoup4==4.6.3
 blinker==1.4
 docutils==0.14
 feedgenerator==1.9
@@ -8,7 +8,7 @@ Markdown==2.6.11
 MarkupSafe==1.0
 pelican==3.7.1
 Pygments==2.2.0
-python-dateutil==2.7.0
-pytz==2018.3
+python-dateutil==2.7.3
+pytz==2018.5
 six==1.11.0
 Unidecode==1.0.22

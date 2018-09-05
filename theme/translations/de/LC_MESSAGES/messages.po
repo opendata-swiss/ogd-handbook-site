@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-05 21:51+0200\n"
+"POT-Creation-Date: 2018-09-05 22:22+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -18,27 +18,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../templates/article.html:86
-msgid "Please consider adding your expertise to this topic."
-msgstr ""
-"Bitte denken Sie darüber nach, dieses Thema mit Ihrer Sachkenntnis zu "
-"ergänzen."
-
-#: ../templates/article.html:92 ../templates/ogdch/footer.html:23
-msgid "Instructions"
-msgstr "Anleitung"
-
-#: ../templates/article.html:95 ../templates/includes/translations.html:25
-msgid "Edit"
-msgstr "Bearbeiten"
-
-#: ../templates/article.html:100
+#: ../templates/article.html:85
 msgid ""
 "This topic has not yet been translated. Please contact us if you need "
 "this content in your language."
 msgstr ""
 "Dieses Thema ist noch nicht übersetzt - melden Sie sich, falls Sie diesen"
 " Inhalt in Ihrer Sprache benötigen."
+
+#: ../templates/article.html:105
+msgid "Please consider adding your expertise to this topic."
+msgstr ""
+"Bitte denken Sie darüber nach, dieses Thema mit Ihrer Sachkenntnis zu "
+"ergänzen."
+
+#: ../templates/article.html:110 ../templates/includes/translations.html:32
+msgid "Topic enquiry"
+msgstr "Anfrage zum Thema"
 
 #: ../templates/document.html:11 ../templates/front.html:67
 #: ../templates/ogdch/footer.html:24
@@ -94,9 +90,14 @@ msgstr "Kategorie"
 msgid "Translations"
 msgstr "Übersetzungen"
 
-#: ../templates/includes/translations.html:20
-msgid "Topic enquiry"
-msgstr "Anfrage zum Thema"
+#: ../templates/includes/translations.html:21
+#: ../templates/includes/translations.html:25
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../templates/includes/translations.html:29 ../templates/ogdch/footer.html:23
+msgid "Instructions"
+msgstr "Anleitung"
 
 #: ../templates/ogdch/annotate.html:4 ../templates/ogdch/annotate.html:10
 msgid "Annotate"
@@ -135,7 +136,8 @@ msgstr "Akzeptieren und fortfahren"
 msgid "Open Government Data Switzerland"
 msgstr "OGD Projekt Schweiz"
 
-#: ../templates/ogdch/article_info.html:72 ../templates/ogdch/downloads.html:6
+#: ../templates/ogdch/article_info.html:73
+#: ../templates/ogdch/article_info.html:76 ../templates/ogdch/downloads.html:6
 #: ../templates/ogdch/downloads.html:16 ../templates/ogdch/downloads.html:26
 #: ../templates/ogdch/downloads.html:36
 msgid "Download"
@@ -282,3 +284,4 @@ msgstr ""
 
 #~ msgid "To the handbook"
 #~ msgstr "Zum Handbuch"
+

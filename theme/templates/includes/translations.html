@@ -15,15 +15,21 @@
 {% macro editing_box(article) %}
 {% if article.slug %}
 
-<a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
-	<i class="fa fa-inbox"></i>
-	{% trans %}Topic enquiry{% endtrans %}</a>
-
 {% if article.category == "Library" %}
 <a class="btn btn-success btn-sm" target="_blank" href="{{ EDITSOURCE }}library/{{ article.slug }}.{{ DEFAULT_LANG }}.md">
 	<i class="fa fa-edit"></i>
 	{% trans %}Edit{% endtrans %}</a>
+{% else %}
+<a href="{{ EDITSOURCE }}handbook/{{ article.category|lower }}/{{ article.slug }}.{{ DEFAULT_LANG }}.md" class="btn btn-success btn-sm" target="_blank">
+	<i class="fa fa-edit"></i>
+	{% trans %}Edit{% endtrans %}</a>
 {% endif %}
+<a class="btn btn-primary btn-sm" href="{{ SITEURL }}/pages/contribute">
+	<i class="fa fa-info-circle"></i>
+	{% trans %}Instructions{% endtrans %}</a>
+<a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
+	<i class="fa fa-inbox"></i>
+	{% trans %}Topic enquiry{% endtrans %}</a>
 
 {% endif %}
 {% endmacro %}

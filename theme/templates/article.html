@@ -86,13 +86,10 @@
       {% trans %}Please consider adding your expertise to this topic.{% endtrans %}
     </em>
     &nbsp;
+    <a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
+    	<i class="fa fa-inbox"></i>
+    	{% trans %}Topic enquiry{% endtrans %}</a>
     {% endif %}
-    <a class="btn btn-primary btn-sm" href="{{ SITEURL }}/pages/contribute">
-      <i class="fa fa-info-circle"></i>
-      {% trans %}Instructions{% endtrans %}</a>
-    <a href="{{ EDITSOURCE }}handbook/{{ article.category|lower }}/{{ article.slug }}.{{ DEFAULT_LANG }}.md" class="btn btn-success btn-sm" target="_blank">
-      <i class="fa fa-edit"></i>
-      {% trans %}Edit{% endtrans %}</a>
   </div>
 
   {% if article.untranslated %}

@@ -6,7 +6,7 @@ msgstr ""
 msgid "Instructions"
 msgstr ""
 
-#: ../templates/article.html:95 ../templates/includes/translations.html:15
+#: ../templates/article.html:95 ../templates/includes/translations.html:25
 msgid "Edit"
 msgstr ""
 
@@ -23,7 +23,7 @@ msgid "Library"
 msgstr ""
 
 #: ../templates/front.html:50
-msgid "To the handbook"
+msgid "Start here..."
 msgstr ""
 
 #: ../templates/front.html:60
@@ -34,17 +34,21 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
+#: ../templates/front.html:121
+msgid "Latest updates"
+msgstr ""
+
 #: ../templates/tags.html:8
 msgid "Tags"
 msgstr ""
 
 #: ../templates/includes/article_info.html:4
-#: ../templates/ogdch/article_info.html:12
+#: ../templates/ogdch/article_info.html:10
 msgid "Published"
 msgstr ""
 
 #: ../templates/includes/article_info.html:12
-#: ../templates/ogdch/article_info.html:20
+#: ../templates/ogdch/article_info.html:18
 msgid "Modified"
 msgstr ""
 
@@ -53,20 +57,20 @@ msgid "Series"
 msgstr ""
 
 #: ../templates/includes/article_info.html:34
-#: ../templates/ogdch/article_info.html:41
+#: ../templates/ogdch/article_info.html:39
 msgid "Author(s)"
 msgstr ""
 
 #: ../templates/includes/article_info.html:43
-#: ../templates/ogdch/article_info.html:51
+#: ../templates/ogdch/article_info.html:49
 msgid "Category"
 msgstr ""
 
-#: ../templates/includes/translations.html:5
+#: ../templates/includes/translations.html:6
 msgid "Translations"
 msgstr ""
 
-#: ../templates/includes/translations.html:12
+#: ../templates/includes/translations.html:20
 msgid "Topic enquiry"
 msgstr ""
 
@@ -96,11 +100,11 @@ msgstr ""
 msgid "Accept and continue"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:43
+#: ../templates/ogdch/article_info.html:41
 msgid "Open Government Data Switzerland"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:6
+#: ../templates/ogdch/article_info.html:72 ../templates/ogdch/downloads.html:6
 #: ../templates/ogdch/downloads.html:16 ../templates/ogdch/downloads.html:26
 #: ../templates/ogdch/downloads.html:36
 msgid "Download"

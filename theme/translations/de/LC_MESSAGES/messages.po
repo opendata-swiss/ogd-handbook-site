@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-03-22 14:31+0100\n"
+"POT-Creation-Date: 2018-09-05 21:51+0200\n"
 "PO-Revision-Date: 2015-12-16 07:08+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../templates/article.html:86
 msgid "Please consider adding your expertise to this topic."
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Instructions"
 msgstr "Anleitung"
 
-#: ../templates/article.html:95 ../templates/includes/translations.html:15
+#: ../templates/article.html:95 ../templates/includes/translations.html:25
 msgid "Edit"
 msgstr "Bearbeiten"
 
@@ -47,8 +47,8 @@ msgid "Library"
 msgstr "Bibliothek"
 
 #: ../templates/front.html:50
-msgid "To the handbook"
-msgstr "Zum Handbuch"
+msgid "Start here..."
+msgstr "Weiter lesen..."
 
 #: ../templates/front.html:60
 msgid "Search topics..."
@@ -58,17 +58,21 @@ msgstr "Themen durchsuchen..."
 msgid "Glossary"
 msgstr "Glossar"
 
+#: ../templates/front.html:121
+msgid "Latest updates"
+msgstr "Aktuelles"
+
 #: ../templates/tags.html:8
 msgid "Tags"
 msgstr "Tags"
 
 #: ../templates/includes/article_info.html:4
-#: ../templates/ogdch/article_info.html:12
+#: ../templates/ogdch/article_info.html:10
 msgid "Published"
 msgstr "Veröffentlicht"
 
 #: ../templates/includes/article_info.html:12
-#: ../templates/ogdch/article_info.html:20
+#: ../templates/ogdch/article_info.html:18
 msgid "Modified"
 msgstr "Geändert"
 
@@ -77,20 +81,20 @@ msgid "Series"
 msgstr "Serie"
 
 #: ../templates/includes/article_info.html:34
-#: ../templates/ogdch/article_info.html:41
+#: ../templates/ogdch/article_info.html:39
 msgid "Author(s)"
 msgstr "Author(en)"
 
 #: ../templates/includes/article_info.html:43
-#: ../templates/ogdch/article_info.html:51
+#: ../templates/ogdch/article_info.html:49
 msgid "Category"
 msgstr "Kategorie"
 
-#: ../templates/includes/translations.html:5
+#: ../templates/includes/translations.html:6
 msgid "Translations"
 msgstr "Übersetzungen"
 
-#: ../templates/includes/translations.html:12
+#: ../templates/includes/translations.html:20
 msgid "Topic enquiry"
 msgstr "Anfrage zum Thema"
 
@@ -127,11 +131,11 @@ msgstr "Schliessen"
 msgid "Accept and continue"
 msgstr "Akzeptieren und fortfahren"
 
-#: ../templates/ogdch/article_info.html:43
+#: ../templates/ogdch/article_info.html:41
 msgid "Open Government Data Switzerland"
 msgstr "OGD Projekt Schweiz"
 
-#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:6
+#: ../templates/ogdch/article_info.html:72 ../templates/ogdch/downloads.html:6
 #: ../templates/ogdch/downloads.html:16 ../templates/ogdch/downloads.html:26
 #: ../templates/ogdch/downloads.html:36
 msgid "Download"
@@ -276,3 +280,5 @@ msgstr ""
 #~ msgid ""
 #~ msgstr ""
 
+#~ msgid "To the handbook"
+#~ msgstr "Zum Handbuch"

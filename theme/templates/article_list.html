@@ -18,7 +18,10 @@
             <a href="{{ SITEURL }}/{{ article.url }}">
             <article>
               <div class="wrapper">
-                <h2>{{ article.title }}</h2>
+                <h2>
+                  <i class="fa fa-book"></i>&nbsp;
+                  {{ article.title }}
+                </h2>
                 {% if DISPLAY_ARTICLE_INFO_ON_INDEX %}
                     <div class="well well-sm">
                         {% include "ogdch/article_info.html" %}
@@ -28,7 +31,6 @@
                     {% include 'includes/comment_count.html' %}
                     <!-- <span class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">more ...</span> -->
                 </div>
-                <i class="fa fa-book"></i>
               </div>
             </article>
             </a>

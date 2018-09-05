@@ -80,18 +80,6 @@
 
 {% block content %}
 
-  <div class="please-contribute alert alert-default" role="alert">
-    {% if article.draft %}
-    <em>
-      {% trans %}Please consider adding your expertise to this topic.{% endtrans %}
-    </em>
-    &nbsp;
-    <a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
-    	<i class="fa fa-inbox"></i>
-    	{% trans %}Topic enquiry{% endtrans %}</a>
-    {% endif %}
-  </div>
-
   {% if article.untranslated %}
   <div class="untranslated alert alert-info" role="alert">
     {% trans %}This topic has not yet been translated. Please contact us if you need this content in your language.{% endtrans %}
@@ -109,6 +97,17 @@
           {% if article.summary %}
             <div class="entry-summary">
               {{ article.summary }}
+            </div>
+          {% endif %}
+          {% if article.draft %}
+            <div class="please-contribute alert alert-default" role="alert">
+              <em>
+                {% trans %}Please consider adding your expertise to this topic.{% endtrans %}
+              </em>
+              &nbsp;
+              <a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
+              	<i class="fa fa-inbox"></i>
+              	{% trans %}Topic enquiry{% endtrans %}</a>
             </div>
           {% endif %}
           <ul class="resource-list list-unstyled">

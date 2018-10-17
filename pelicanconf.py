@@ -7,6 +7,8 @@ SITENAME = u'OGD Handbook'
 SITEMAIL = '@'.join(['opendata', 'bar.admin.ch'])
 SITEURL = ''
 
+EDITSOURCE = 'https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/'
+
 PATH = 'content'
 THEME = 'theme'
 CUSTOM_CSS = 'theme/ogdch/custom.css'

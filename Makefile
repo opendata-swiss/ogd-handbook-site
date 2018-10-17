@@ -39,6 +39,7 @@ help:
 	@echo '   make html                        (re)generate the web site          '
 	@echo '   make clean                       remove the generated files         '
 	@echo '   make regenerate                  regenerate files upon modification '
+	@echo '   make doc_export                  convert all pages to doc exports   '
 	@echo '   make publish                     generate using production settings '
 	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
 	@echo '   make devserver [PORT=8000]       start/restart develop_server.sh    '
@@ -84,6 +85,7 @@ stopserver:
 
 doc_export:
 	pandoc/docexport.sh $(INPUTDIR) $(OUTPUTDIR)
+	pandoc/doconvert.sh $(INPUTDIR) $(OUTPUTDIR)
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)

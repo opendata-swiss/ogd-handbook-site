@@ -68,10 +68,17 @@
     {% import 'includes/translations.html' as translations with context %}
     {{ translations.languages_box(article) }}
 
-    <a href="/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.odt" class="btn btn-default btn-sm" role="button">
-      <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %} ODT
-    </a>
-    <a href="/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.docx" class="btn btn-default btn-sm" role="button">
-      <i class="fa fa-arrow-circle-o-down"></i> DOCX
-    </a>
+    <div class="btn-group" role="group" aria-label="Downloads">
+      <a href="/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.odt" class="btn btn-default btn-sm" role="button">
+        <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %} ODT
+      </a>
+      <a href="/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.docx" class="btn btn-default btn-sm" role="button">
+        <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %} DOCX
+      </a>
+    </div>
+
+    <p>
+      {{ translations.editing_box(article) }}
+    </p>
+
 </footer><!-- /.post-info -->

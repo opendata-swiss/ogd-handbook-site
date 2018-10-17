@@ -46,8 +46,10 @@
             {% if page.summary %}
               <div class="lead">{{ page.summary }}</div>
             {% endif %}
-            <!--<a class="btn btn-default-inverted" href="{{ SITEURL }}/category/identify" role="button">
-              {% trans %}To the handbook{% endtrans %}</a>-->
+            <!--
+            <a class="btn btn-default-inverted" href="{{ SITEURL }}/category/identify" role="button">
+              {% trans %}Start here...{% endtrans %}</a>
+            -->
   				</div>
           <div class="col-md-5 text-md-right text-xs-center">
   					<div class="headline">
@@ -92,8 +94,8 @@
 
 {% block content %}
   <div class="row topicmap">
-    {% for category_name in ["identify", "prepare", "publish", "support"] %}
-    <div class="col-md-3">
+    {% for category_name in ["identify", "prepare", "publish"] %}
+    <div class="col-md-4">
       <a href="{{ SITEURL }}/category/{{ category_name }}">
         <div class="category-icon">
           {{ render_categories.icon_for(category_name) }}
@@ -114,6 +116,20 @@
     {% endfor %}
     <div style="margin:3em">&nbsp;</div>
   </div>
+
+  <section id="live" class="row">
+    <div class="col-md-12">
+      <h4>{% trans %}Latest updates{% endtrans %}</h4>
+      <div id="archives">
+        {% for article in articles[0:4] %}
+          <p>
+            <span class="categories-timestamp"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></span><br>
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.subtitle %} - {{ article.subtitle }}{% endif %}</a>
+          </p>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 
   <section id="content" class="body">
       <div class="entry-content">

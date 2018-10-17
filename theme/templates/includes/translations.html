@@ -1,5 +1,6 @@
 {% macro languages_box(article) %}
 {% if article.translations %}
+
 <span class="label label-default">
 	<i class="fa fa-globe"></i>
 	{% trans %}Translations{% endtrans %}</span>
@@ -7,11 +8,28 @@
 	<a class="btn btn-sm" href="{{ SITEURL }}/{{ translation.url }}">{{ translation.lang }}</a>
 {% endfor %}
 <br>
-<a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
-	<i class="fa fa-inbox"></i>
-	{% trans %}Topic enquiry{% endtrans %}</a>
-<a class="btn btn-success btn-sm" target="_blank" href="https://github.com/opendata-swiss/ogd-handbook-wiki/edit/master/handbook/{{ article.slug }}.{{ DEFAULT_LANG }}.md">
-	<i class="fa fa-edit"></i>
-	{% trans %}Edit{% endtrans %}</a>
+
+{% endif %}
+{% endmacro %}
+
+{% macro editing_box(article) %}
+{% if article.slug %}
+<div class="btn-group" role="group" aria-label="Editing">
+	{% if article.category == "Library" %}
+	<a class="btn btn-success btn-sm" target="_blank" href="{{ EDITSOURCE }}library/{{ article.slug }}.{{ DEFAULT_LANG }}.md">
+		<i class="fa fa-edit"></i>
+		{% trans %}Edit{% endtrans %}</a>
+	{% else %}
+	<a href="{{ EDITSOURCE }}handbook/{{ article.category|lower }}/{{ article.slug }}.{{ DEFAULT_LANG }}.md" class="btn btn-success btn-sm" target="_blank">
+		<i class="fa fa-edit"></i>
+		{% trans %}Edit{% endtrans %}</a>
+	{% endif %}
+	<a class="btn btn-primary btn-sm" href="{{ SITEURL }}/pages/contribute">
+		<i class="fa fa-info-circle"></i>
+		{% trans %}Instructions{% endtrans %}</a>
+	<a class="btn btn-default btn-sm" href="mailto:{{ SITEMAIL }}?subject=OGD-Handbook+-+{{ article.slug }}">
+		<i class="fa fa-inbox"></i>
+		{% trans %}Topic enquiry{% endtrans %}</a>
+</div>
 {% endif %}
 {% endmacro %}

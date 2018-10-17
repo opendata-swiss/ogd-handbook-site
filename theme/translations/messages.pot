@@ -1,19 +1,15 @@
-#: ../templates/article.html:86
-msgid "Please consider adding your expertise to this topic."
-msgstr ""
-
-#: ../templates/article.html:92 ../templates/ogdch/footer.html:23
-msgid "Instructions"
-msgstr ""
-
-#: ../templates/article.html:95 ../templates/includes/translations.html:15
-msgid "Edit"
-msgstr ""
-
-#: ../templates/article.html:100
+#: ../templates/article.html:85
 msgid ""
 "This topic has not yet been translated. Please contact us if you need "
 "this content in your language."
+msgstr ""
+
+#: ../templates/article.html:105
+msgid "Please consider adding your expertise to this topic."
+msgstr ""
+
+#: ../templates/article.html:110 ../templates/includes/translations.html:32
+msgid "Topic enquiry"
 msgstr ""
 
 #: ../templates/document.html:11 ../templates/front.html:67
@@ -23,7 +19,7 @@ msgid "Library"
 msgstr ""
 
 #: ../templates/front.html:50
-msgid "To the handbook"
+msgid "Start here..."
 msgstr ""
 
 #: ../templates/front.html:60
@@ -34,17 +30,21 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
+#: ../templates/front.html:121
+msgid "Latest updates"
+msgstr ""
+
 #: ../templates/tags.html:8
 msgid "Tags"
 msgstr ""
 
 #: ../templates/includes/article_info.html:4
-#: ../templates/ogdch/article_info.html:12
+#: ../templates/ogdch/article_info.html:10
 msgid "Published"
 msgstr ""
 
 #: ../templates/includes/article_info.html:12
-#: ../templates/ogdch/article_info.html:20
+#: ../templates/ogdch/article_info.html:18
 msgid "Modified"
 msgstr ""
 
@@ -53,21 +53,26 @@ msgid "Series"
 msgstr ""
 
 #: ../templates/includes/article_info.html:34
-#: ../templates/ogdch/article_info.html:41
+#: ../templates/ogdch/article_info.html:39
 msgid "Author(s)"
 msgstr ""
 
 #: ../templates/includes/article_info.html:43
-#: ../templates/ogdch/article_info.html:51
+#: ../templates/ogdch/article_info.html:49
 msgid "Category"
 msgstr ""
 
-#: ../templates/includes/translations.html:5
+#: ../templates/includes/translations.html:6
 msgid "Translations"
 msgstr ""
 
-#: ../templates/includes/translations.html:12
-msgid "Topic enquiry"
+#: ../templates/includes/translations.html:21
+#: ../templates/includes/translations.html:25
+msgid "Edit"
+msgstr ""
+
+#: ../templates/includes/translations.html:29 ../templates/ogdch/footer.html:23
+msgid "Instructions"
 msgstr ""
 
 #: ../templates/ogdch/annotate.html:4 ../templates/ogdch/annotate.html:10
@@ -96,11 +101,12 @@ msgstr ""
 msgid "Accept and continue"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:43
+#: ../templates/ogdch/article_info.html:41
 msgid "Open Government Data Switzerland"
 msgstr ""
 
-#: ../templates/ogdch/article_info.html:69 ../templates/ogdch/downloads.html:6
+#: ../templates/ogdch/article_info.html:73
+#: ../templates/ogdch/article_info.html:76 ../templates/ogdch/downloads.html:6
 #: ../templates/ogdch/downloads.html:16 ../templates/ogdch/downloads.html:26
 #: ../templates/ogdch/downloads.html:36
 msgid "Download"

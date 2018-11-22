@@ -69,11 +69,16 @@
     {{ translations.languages_box(article) }}
 
     <div class="btn-group" role="group" aria-label="Downloads">
+      {% if DOCEXPORT_ENABLED %}
       <a href="/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.odt" class="btn btn-default btn-sm" role="button">
         <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %} ODT
       </a>
       <a href="/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.docx" class="btn btn-default btn-sm" role="button">
         <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %} DOCX
+      </a>
+      {% endif %}
+      <a href="javascript:window.print()" class="btn btn-default btn-sm btn-print" role="button">
+        <i class="fa fa-print"></i> {% trans %}Print{% endtrans %}
       </a>
     </div>
 

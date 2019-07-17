@@ -162,14 +162,14 @@ msgid ""
 "wishing to publish open government data. It is designed as a wiki: "
 "contributions from organizations and individuals that have experience "
 "with open data are explicitly welcomed. handbook.opendata.swiss is "
-"operated by the Swiss Federal Archives."
+"operated by the Federal Statistical Office."
 msgstr ""
 "Le manuel OGD apporte une aide aux personnes et aux organisations "
 "souhaitant publier en libre accès des données de l’administration "
 "publique. Il est conçu comme un Wiki: les contributions d’organisations "
 "et de personnes expérimentées dans le domaine des OGD sont expressément "
-"recherchées. handbook.opendata.swiss est administré par les Archives "
-"fédérales suisses."
+"recherchées. handbook.opendata.swiss est administré par l'Office fédéral "
+"de la statistique."
 
 #: ../templates/ogdch/footer.html:29
 msgid "About us"
@@ -283,4 +283,3 @@ msgstr ""
 
 #~ msgid "To the handbook"
 #~ msgstr "Commencer à lire"
-

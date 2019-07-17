@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+pelican = "*"
+"beautifulsoup4" = "*"
+blinker = "*"
+docutils = "*"
+feedgenerator = "*"
+python-dateutil = "*"
+pytz = "*"
+six = "*"
+Babel = "*"
+"Jinja2" = "*"
+Markdown = "*"
+MarkupSafe = "*"
+Pygments = "*"
+Unidecode = "*"

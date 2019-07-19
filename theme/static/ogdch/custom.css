@@ -136,6 +136,19 @@ span.logo-color { color: #009688; }
   padding: 1em 0;
   margin: 1em 0;
 }
+@media print {
+
+  footer > div:nth-child(2),
+  .btn, .btn-group,
+  .alert-floating,
+  .alert { display: none; }
+
+  body .col-lg-12 > a:after,
+  .breadcrumb a[href]:after { content: none; }
+
+  a[href]:after { opacity: 0.5; }
+
+}
 
 /* Action buttons for articles */
 .post-info .article-actions {

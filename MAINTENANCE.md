@@ -4,10 +4,10 @@ These notes are part of the Operating Manual of the OGD Handbook project.
 
 The OGD Handbook is a static site running on a standard web hosting provider (METANET). Content changes are made to a set of formatted text files (Markdown) and hosted in an open source wiki-style repository in a cloud service (GitHub). A static site generator (Pelican) updates the site when changes are made to any of the content. This is an optimal, modern solution to hosting sites of this type in a secure and performant way. The project is currently in Beta and being actively further developed by the opendata.swiss team in consultation with Oleg Lavrovsky, Datalets.
 
-- The OGD Handbook is hosted at https://handbook.opendata.swiss 
-- All primary content sources are maintained at https://github.com/opendata-swiss/ogd-handbook-wiki 
+- The OGD Handbook is hosted at https://handbook.opendata.swiss
+- All primary content sources are maintained at https://github.com/opendata-swiss/ogd-handbook-wiki
 - The website generator and frontend assets are at https://github.com/opendata-swiss/ogd-handbook-site
-- User-facing instructions on editing the content are at https://handbook.opendata.swiss/en/pages/contribute 
+- User-facing instructions on editing the content are at https://handbook.opendata.swiss/en/pages/contribute
 - Web site administration and maintenance is done at https://quintus.metanet.ch:8443
 - Usage statistics can be found at https://handbook.opendata.swiss/plesk-stat/webstat/
 - Site generation is done on a server maintained by https://datalets.ch
@@ -36,11 +36,11 @@ Monitoring of content changes can be done using the tools provided by GitHub, i.
 
 A feature of the OGD Handbook is that all articles are also exported to LibreOffice (ODT) and Microsoft Office (DOCX) formats during site generation, using a custom script and document template which is processed in a headless (no GUI) version of LibreOffice running on the server. This is the most intensive part of the content generation, using considerable amounts of CPU and RAM to refresh the site if changes occur.
 
-There is a reasonable likelihood that the refresh job will fail. The person making changes – or more likely, approving them using GitHub Pull Requests – will notice that the site does not update. In the worst case, the update job aborts mid-way resulting in a partial upload. Currently there is no notification of success or failure, but options to do this are available. There are also now several providers of hosted Site Generators which could make a fully managed solution possible. 
+There is a reasonable likelihood that the refresh job will fail. The person making changes – or more likely, approving them using GitHub Pull Requests – will notice that the site does not update. In the worst case, the update job aborts mid-way resulting in a partial upload. Currently there is no notification of success or failure, but options to do this are available. There are also now several providers of hosted Site Generators which could make a fully managed solution possible.
 
 Statistics about hits and visits is currently handled by the Webalizer software provided by METANET. Metrics about the content and contributors is available from in the GitHub repositories. Integration with the Piwik web analytics service used at opendata.swiss has been foreseen, but not yet implemented.
 
-In case of errors, the primary contact for the project is the opendata.swiss team at the Swiss Federal Archives, via https://opendata.swiss/de/contact/ or https://www.bar.admin.ch/bar/en/home/about-us/contact.html
+In case of errors, the primary contact for the project is the opendata.swiss team, via https://opendata.swiss/en/contact/
 
 Currently the project is actively being developed by Oleg Lavrovsky, Datalets and the opendata.swiss team into a next phase. We are using Trello boards to coordinate tasks and set the roadmap.
 
@@ -79,11 +79,11 @@ During the initial development phase, complete project documentation (including 
 
 # 5 Support Process
 
-Currently there are no strictly defined support processes or roles. End-user support responsibilities are with the opendata.swiss team at the Swiss Federal Archives, who get technical support from Oleg Lavrovsky, Datalets. Several members of the technical team at Liip AG responsible for the opendata.swiss portal are also experienced in working with the OGD Handbook, however they are not currently supporting it.
+Currently there are no strictly defined support processes or roles. End-user support responsibilities are with the opendata.swiss team, who get technical support from Oleg Lavrovsky, Datalets. Several members of the technical team at Liip AG responsible for the opendata.swiss portal are also experienced in working with the OGD Handbook, however they are not currently supporting it.
 
 # 6 Change Management
 
-No Change Management Process or Roles have  been defined yet in this project. A series of workshops have been organized to share knowledge and introduce more people at the Swiss Federal Archives and the wider opendata.swiss community to the OGD Handbook and the way it operates, and could be a starting point.
+No Change Management Process or Roles have  been defined yet in this project. A series of workshops have been organized to share knowledge and introduce more people from Swiss Open Government Data projects and the wider open data community to the OGD Handbook and the way it operates, and could be a starting point.
 
 # 7 Security Notes
 

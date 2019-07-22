@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-05 22:22+0200\n"
+"POT-Creation-Date: 2019-07-17 10:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: ../templates/article.html:85
 msgid ""
@@ -34,25 +34,25 @@ msgstr "Brouillon: N’hésitez pas à apporter votre expertise à ce sujet."
 msgid "Topic enquiry"
 msgstr "Question sur le sujet"
 
-#: ../templates/document.html:11 ../templates/front.html:67
+#: ../templates/document.html:11 ../templates/front.html:69
 #: ../templates/ogdch/footer.html:24
 #: ../templates/ogdch/render_categories.html:11
 msgid "Library"
 msgstr "Bibliothèque"
 
-#: ../templates/front.html:50
+#: ../templates/front.html:51
 msgid "Start here..."
 msgstr "Démarrer ici..."
 
-#: ../templates/front.html:60
+#: ../templates/front.html:62
 msgid "Search topics..."
 msgstr "Rechercher des sujets..."
 
-#: ../templates/front.html:70 ../templates/ogdch/footer.html:30
+#: ../templates/front.html:72 ../templates/ogdch/footer.html:30
 msgid "Glossary"
 msgstr "Glossaire"
 
-#: ../templates/front.html:121
+#: ../templates/front.html:122
 msgid "Latest updates"
 msgstr "Actualités"
 
@@ -133,11 +133,15 @@ msgstr "Accepter et continuer"
 msgid "Open Government Data Switzerland"
 msgstr "Projet Open Government Data Suisse"
 
-#: ../templates/ogdch/article_info.html:73
-#: ../templates/ogdch/article_info.html:76 ../templates/ogdch/downloads.html:6
+#: ../templates/ogdch/article_info.html:74
+#: ../templates/ogdch/article_info.html:77 ../templates/ogdch/downloads.html:6
 #: ../templates/ogdch/downloads.html:16 ../templates/ogdch/downloads.html:26
 #: ../templates/ogdch/downloads.html:36
 msgid "Download"
+msgstr ""
+
+#: ../templates/ogdch/article_info.html:81
+msgid "Print"
 msgstr ""
 
 #: ../templates/ogdch/downloads.html:5
@@ -162,14 +166,14 @@ msgid ""
 "wishing to publish open government data. It is designed as a wiki: "
 "contributions from organizations and individuals that have experience "
 "with open data are explicitly welcomed. handbook.opendata.swiss is "
-"operated by the Swiss Federal Archives."
+"operated by the Federal Statistical Office."
 msgstr ""
 "Le manuel OGD apporte une aide aux personnes et aux organisations "
 "souhaitant publier en libre accès des données de l’administration "
 "publique. Il est conçu comme un Wiki: les contributions d’organisations "
 "et de personnes expérimentées dans le domaine des OGD sont expressément "
-"recherchées. handbook.opendata.swiss est administré par les Archives "
-"fédérales suisses."
+"recherchées. handbook.opendata.swiss est administré par l'Office fédéral "
+"de la statistique."
 
 #: ../templates/ogdch/footer.html:29
 msgid "About us"

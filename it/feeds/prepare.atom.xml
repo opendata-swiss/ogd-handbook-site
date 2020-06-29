@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>OGD Handbook - Prepare</title><link href="//handbook.opendata.swiss/it/" rel="alternate"></link><link href="//handbook.opendata.swiss/feeds/prepare.atom.xml" rel="self"></link><id>//handbook.opendata.swiss/it/</id><updated>2016-06-27T00:00:00+02:00</updated><entry><title>Verifiche giuridiche preliminari</title><link href="//handbook.opendata.swiss/it/prepare/frameworks.html" rel="alternate"></link><published>2016-06-27T00:00:00+02:00</published><updated>2016-06-27T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2016-06-27:/it/prepare/frameworks.html</id><summary type="html">&lt;p&gt;Prima di pubblicare dati su opendata.swiss, è imperativo accertare se sia lecito divulgarli come OGD.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Nell’amministrazione pubblica fa solitamente stato la base legale, ossia una legge o una relativa ordinanza che ne consenta, con eventuali limitazioni, la pubblicazione. Le condizioni d’uso si fondano sulla base legale. Per maggiori dettagli si veda il capitolo &lt;a href="/it/prepare/terms"&gt;Definizione delle condizioni d’uso&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Lo schema seguente spiega passo dopo passo come stabilire se un set di dati è idoneo a essere pubblicato come OGD.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Schema Arbeitshilfe-Publikation" src="../../images/chart-arbeitshilfe-publikation-it.png"&gt;&lt;/p&gt;
+&lt;p&gt;Per maggiori dettagli sui singoli passi, &lt;a href="/it/library/entscheid-rechtsgrundlagen"&gt;cliccare qui&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Il piano per le condizioni &lt;a href="/it/library/konzept-rechtliche-rahmen"&gt;quadro legali per la pubblicazione di dati come OGD&lt;/a&gt; offre una panoramica delle questioni giuridiche rilevanti per gli OGD.&lt;/p&gt;</content></entry><entry><title>Definizione delle condizioni d’uso</title><link href="//handbook.opendata.swiss/it/prepare/terms.html" rel="alternate"></link><published>2016-06-24T00:00:00+02:00</published><updated>2016-06-24T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2016-06-24:/it/prepare/terms.html</id><summary type="html">&lt;p&gt;Come spiegato nel capitolo «Verifiche giuridiche preliminari», in seno all’amministrazione pubblica le condizioni d’uso di un set di dati si fondano su una base legale.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I testi normativi sono tuttavia redatti in un linguaggio non sempre facilmente comprensibile per gli utenti, senza contare che è difficile avere una visione d’insieme delle molte leggi vigenti.&lt;/p&gt;
+&lt;p&gt;Per questa ragione, su opendata.swiss per ogni set di dati sono indicate &lt;a href="https://opendata.swiss/it/terms-of-use/"&gt;condizioni d’uso&lt;/a&gt; che con pochi simboli e frasi ne illustrano l’utilizzo ammesso. La base legale applicabile viene così espressa in una lingua unitaria e di facile comprensione. Prima della pubblicazione dei dati su opendata.swiss, le autorità sono pertanto tenute a scegliere le condizioni d’uso che rispecchiano correttamente le disposizioni della pertinente base legale.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://opendata.swiss/it/terms-of-use/"&gt;Qui&lt;/a&gt; è riportata una panoramica delle condizioni d’uso ammesse per opendata.swiss. In base all’esito della verifica &lt;a href="/it/prepare/frameworks"&gt;giuridica preliminare&lt;/a&gt; è ora possibile selezionare le condizioni che fanno al caso.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Esito della verifica giuridica preliminare&lt;/th&gt;
+&lt;th&gt;Condizioni d’uso&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Il set di dati può essere pubblicato su opendata.swiss senza limitazioni d’uso.&lt;/td&gt;
+&lt;td&gt;Libero utilizzo &lt;br&gt;&lt;img src="../../images/terms_open.svg" width="38" height="58"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Il set di dati può essere pubblicato su opendata.swiss, ma l’indicazione della fonte è obbligatoria.&lt;/td&gt;
+&lt;td&gt;Libero utilizzo. Indicazione della fonte obbligatoria. &lt;br&gt;&lt;img src="../../images/terms_by.svg" width="74" height="58"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Caso speciale: a tutte le domande dello schema – tranne quella sull’uso commerciale o eventualmente quella sull’indicazione della fonte – è stato risposto affermativamente (cfr. spiegazione sottostante).&lt;/td&gt;
+&lt;td&gt;Libero utilizzo. Utilizzo a fini commerciali ammesso soltanto previo consenso del titolare dei dati. &lt;br&gt;&lt;img src="../../images/terms_ask.svg" width="84" height="58"&gt; &lt;br&gt;&lt;br&gt; Oppure &lt;br&gt;&lt;br&gt; Libero utilizzo. Indicazione della fonte obbligatoria. Utilizzo a fini commerciali ammesso soltanto previo consenso del titolare dei dati. &lt;br&gt;&lt;img src="../../images/terms_by-ask.svg" width="120" height="58"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Non si tratta di OGD&lt;/td&gt;
+&lt;td&gt;Nessuna pubblicazione su opendata.swiss&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Caso speciale: se la base legale non ammette un uso commerciale, al momento i dati non possono essere pubblicati su opendata.swiss. Se l’uso commerciale è invece ammesso, ma richiede un consenso, ci si trova di fronte a un caso speciale. Se i dati vengono pubblicati su opendata.swiss, occorre stabilire in anticipo se consentirne l’uso commerciale. I dati soggetti a condizioni restrittive non vengono pubblicati su opendata.swiss.&lt;/p&gt;
+&lt;p&gt;Le condizioni d’uso e il rimando alla base legale serviranno in un secondo tempo per il caricamento dei &lt;a href="/it/publish/swiss"&gt;metadati nel catalogo di opendata.swiss&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Per maggiori dettagli sulle questioni giuridiche rilevanti per gli OGD, consultare il piano per le condizioni quadro legali per &lt;a href="/it/library/konzept-rechtliche-rahmen"&gt;la pubblicazione di dati come OGD&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Hosting di dati</title><link href="//handbook.opendata.swiss/it/prepare/hosting.html" rel="alternate"></link><published>2016-01-02T00:00:00+01:00</published><updated>2016-01-02T00:00:00+01:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2016-01-02:/it/prepare/hosting.html</id><summary type="html">&lt;p&gt;Per essere inseriti nel catalogo di opendata.swiss, i dati devono essere liberamente accessibili da qualche parte. Sul portale vengono pubblicati unicamente i metadati e un link ai dati. L’hosting di dati vero e proprio è tuttavia responsabilità del fornitore.&lt;/p&gt;</summary><content type="html">&lt;p&gt;L’hosting di dati è oggi relativamente economico e semplice da gestire, anche in seno alle organizzazioni che non dispongono ancora di apposite soluzioni. È però importante tenere conto di alcuni aspetti prima della pubblicazione.&lt;/p&gt;
+&lt;p&gt;Questo articolo è &lt;a href="/en/publish/hosting"&gt;disponibile in inglese&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>

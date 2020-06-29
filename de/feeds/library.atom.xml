@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>OGD Handbook - Library</title><link href="//handbook.opendata.swiss/de/" rel="alternate"></link><link href="//handbook.opendata.swiss/feeds/library.atom.xml" rel="self"></link><id>//handbook.opendata.swiss/de/</id><updated>2018-01-30T00:00:00+01:00</updated><entry><title>Mapping ISO-19139_che to DCAT-AP Switzerland</title><link href="//handbook.opendata.swiss/de/library/iso-19139-che-dcat.html" rel="alternate"></link><published>2018-01-30T00:00:00+01:00</published><updated>2018-01-30T00:00:00+01:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2018-01-30:/de/library/iso-19139-che-dcat.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Dieses Dokument ist derzeit nur in &lt;a href="/en/library/iso-19139-che-dcat"&gt;englischer Sprache verfügbar&lt;/a&gt;.&lt;/p&gt;</content><category term="publish"></category></entry><entry><title>Advanced Search</title><link href="//handbook.opendata.swiss/de/library/advanced-search.html" rel="alternate"></link><published>2017-07-20T00:00:00+02:00</published><updated>2017-07-20T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2017-07-20:/de/library/advanced-search.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Dieses Dokument ist derzeit nur in &lt;a href="/en/library/advanced-search"&gt;englischer Sprache verfügbar&lt;/a&gt;.&lt;/p&gt;</content><category term="support"></category></entry><entry><title>Leitfaden - Open Government Data für Geodaten</title><link href="//handbook.opendata.swiss/de/library/geodaten-leitfaden.html" rel="alternate"></link><published>2017-06-22T00:00:00+02:00</published><updated>2017-06-22T00:00:00+02:00</updated><author><name>Manfred Loidold</name></author><id>tag:handbook.opendata.swiss,2017-06-22:/de/library/geodaten-leitfaden.html</id><summary type="html">&lt;p&gt;Arbeitsgruppe Geografische Informationssysteme der Schweizerischen Informatikkonferenz (SIK-GIS)&lt;/p&gt;</summary><content type="html">&lt;p&gt;Vermehrt werden Daten öffentlicher Institutionen als Open Government Data (OGD) zugänglich gemacht. Auch in der Schweiz hat der Bundesrat eine OGD-Strategie beschlossen und das OGD-Portal opendata.swiss ist in Betrieb gegangen. Ziel dieses Leitfadens ist es, Verantwortlichen für Geodaten bei Behörden aller föderalen Stufen den Weg der Publikation auf opendata.swiss aufzuzeigen, die erforderlichen Entscheide und deren Konsequenzen zu beschreiben.&lt;/p&gt;
+&lt;p&gt;Open Data bedeutet im Idealfall die Veröffentlichung zur freien Nutzung, Modifikation und Weitergabe zu jedem Zweck. Dies bedingt Muss-Anforderungen (z.B. maschinenlesbar) und die Möglichkeit,  Einschränkungen zu definieren (z.B. Pflicht zur Quel enangabe). Bei OGD gelten entsprechende Nutzungsbedingungen („Lizenzen“ basieren auf Privatrecht). Höhere technische Anforderungen stellt die Publikation als Linked Open Data, dafür trägt diese zum vol automatisierten Austausch und Aufbau  von Wissen bei (Semantic Web).&lt;/p&gt;</content><category term="publish"></category></entry><entry><title>Linked Open Data</title><link href="//handbook.opendata.swiss/de/library/linked-open-data.html" rel="alternate"></link><published>2017-03-30T00:00:00+02:00</published><updated>2017-03-30T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2017-03-30:/de/library/linked-open-data.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Dieses Dokument ist derzeit nur in &lt;a href="/en/library/linked-open-data"&gt;englischer Sprache verfügbar&lt;/a&gt;.&lt;/p&gt;</content><category term="publish semantic rdf"></category></entry><entry><title>Analysis of options for embedding datasets from opendata.swiss</title><link href="//handbook.opendata.swiss/de/library/embed.html" rel="alternate"></link><published>2016-12-19T00:00:00+01:00</published><updated>2016-12-19T00:00:00+01:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2016-12-19:/de/library/embed.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Dieses Dokument ist derzeit nur in &lt;a href="/en/library/embed"&gt;englischer Sprache verfügbar&lt;/a&gt;.&lt;/p&gt;</content><category term="support"></category></entry><entry><title>Publikation von Geodaten</title><link href="//handbook.opendata.swiss/de/library/geodaten-publikation.html" rel="alternate"></link><published>2016-06-24T00:00:00+02:00</published><updated>2016-06-24T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2016-06-24:/de/library/geodaten-publikation.html</id><summary type="html">&lt;p&gt;Nachdem Sie sich für eine Publikationsvariante entscheiden haben, können Sie ihre Daten publizieren. Falls Sie Geodaten publizieren möchten, geschieht das über geo.admin.ch.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Im Folgenden ist das Vorgehen beschrieben, wie valide Datensätze in geocat.ch erstellt werden, um sie anschliessend auf dem opendata-Portal zu publizieren.&lt;/p&gt;
+&lt;p&gt;Um Geodaten auf dem Portal &lt;a href="https://opendata.swiss/"&gt;opendata.swiss&lt;/a&gt; zu publizieren, müssen die Metadaten der betroffenen Daten zuerst im Katalog für Geometadaten &lt;a href="http://www.geocat.ch"&gt;geocat.ch&lt;/a&gt; publiziert werden. Von dort werden die benötigten Attribute dann durch einen automatisierten Prozess ins opendata-Portal überführt.&lt;/p&gt;
+&lt;h2&gt;1. Anmeldung bei geocat.ch&lt;/h2&gt;
+&lt;p&gt;Um auf geocat Metadaten zu publizieren, müssen zwei Kriterien erfüllt sein, die der Benutzer nicht selber einrichten kann, und die er somit durch die Administratoren von geocat.ch beantragen muss:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gruppe&lt;/strong&gt;, welche für die zu publizierenden Daten zuständig ist (z. Bsp. ein Kanton, ein Bundesamt etc.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Falls die Gruppe noch nicht in geocat.ch besteht, bitte Angaben zur Gruppe (genauer Name in den drei Landessprachen und Englisch, sowie ein Logo) per Mail an &lt;a href="mailto:geocat@swisstopo.ch"&gt;geocat@swisstopo.ch&lt;/a&gt; schicken.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Benutzerkonto&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Um dies einzurichten, bitte eine E-Mail an &lt;a href="mailto:geocat@swisstopo.ch"&gt;geocat@swisstopo.ch&lt;/a&gt; senden und Kontaktangaben zur Person (Name, Vorname und E-Mail) nennen. Für jede Gruppe wird durch die Administratoren von geocat.ch ein Konto eingerichtet, welches die Rechte eines „Benutzeradministrators“ hat. Diese Rolle berechtigt dazu, selber neue Benutzerkonten in der eigenen Gruppe einzurichten.&lt;/p&gt;
+&lt;p&gt;Ein Benutzeradmin kann wie folgt Benutzer einrichten:&lt;/p&gt;
+&lt;p&gt;1) Einloggen und unter „Metadatenmanagement“ auf „Admin Konsole“ klicken:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-geocat/1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;2) Auf der folgenden Seite „Users and groups“ anklicken:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-geocat/2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;3) Im folgenden Fenster „Manage users“, anschliessend „+ New user“ anklicken:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-geocat/3.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Anschliessend müssen die Rechte zugeordnet werden.&lt;/p&gt;
+&lt;p&gt;Folgende Benutzertypen bestehen in geocat.ch:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;„Registrierter Benutzer“: Benutzer kann Metadaten nicht bearbeiten/löschen, aber alle Metadaten der eigenen Gruppen sehen, auch die nicht publizierten&lt;/li&gt;
+&lt;li&gt;„Editor“: Benutzer kann Metadaten der Gruppe bearbeiten, löschen, neu erstellen, jedoch nicht publizieren&lt;/li&gt;
+&lt;li&gt;„Reviewer“: Benutzer kann Metadaten der Gruppe bearbeiten, löschen, neu erstellen und publizieren&lt;/li&gt;
+&lt;li&gt;„Benutzeradministrator“: Benutzer kann neue Benutzerkontos einrichten und ist unsere Ansprechperson für betroffene Gruppe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;„Is an administrator“ bitte nicht anwählen.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-geocat/4.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Sobald diese beiden Voraussetzungen erfüllt sind, kann der eingeloggte Benutzer selbständig Metadaten erfassen.&lt;/p&gt;
+&lt;h2&gt;2. Gibt es schon ein Metadatensatz in geocat.ch oder nicht?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;JA:&lt;/strong&gt; In vielen Fällen besteht bereits ein Metadatensatz in geocat.ch. Dieser muss einfach noch um die OGD-spezifischen Attribute angereichert werden. In diesem Fall bitte gleich zu Punkt 3 weitergehen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NEIN:&lt;/strong&gt; Besteht noch kein Metadatensatz, muss dieser neu erfasst werden. Dazu muss der Benutzer eingeloggt sein und auf Metadatenmanagement &amp;gt; „Neue Metadaten“ klicken:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-geocat/5.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Auf der folgenden Seite „Erstelle einen…“ Datensatz anklicken und das Template „opendata.swiss“ auswählen. Anschliessend müssen (mindestens) die für einen Metadateneintrag obligatorischen Elemente ausgefüllt werden, plus zusätzlich die in Punkt 3 beschriebenen OGD-spezifischen Attribute.&lt;/p&gt;
+&lt;p&gt;Obligatorisch für einen validen Metadatensatz gemäss ISO-Standard sind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Titel&lt;/li&gt;
+&lt;li&gt;Datumsangabe&lt;/li&gt;
+&lt;li&gt;Sprache&lt;/li&gt;
+&lt;li&gt;Kurzbeschreibung&lt;/li&gt;
+&lt;li&gt;Thematik (Kategorie)&lt;/li&gt;
+&lt;li&gt;Ausdehnung&lt;/li&gt;
+&lt;li&gt;Metadatenkontakt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. Ein Datensatz, der auf dem OGD-Portal publiziert wird, muss folgende Attribute enthalten:&lt;/h2&gt;
+&lt;table&gt;&lt;tr&gt;&lt;th&gt;
+Name Attribut in geocat.ch
+&lt;/th&gt;&lt;th&gt;
+Bemerkungen
+&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Metadatensatzidentifikator
+&lt;/th&gt;&lt;td&gt;
+wird automatisch generiert
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Titel
+&lt;/th&gt;&lt;td&gt;
+In deutsch und französisch
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Alternativtitel
+&lt;/th&gt;&lt;td&gt;
+In deutsch und französisch
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Datum
+&lt;/th&gt;&lt;td&gt;
+als Rolle “Publikation” wählen; es können mehrere Daten im Metadatensatz angegeben warden (Rollen: “Erstellung”, „Überarbeitung“, „Publikation“), für die Publikation in OGD wird jedoch nur das zuerst erfasste übernommen.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Kontakt für die Ressource
+&lt;/th&gt;&lt;td&gt;
+Als Rolle „Publisher“ wählen (korrekt? Im Moment häufig „Verantwortliche Stelle“). Optional können weitere Kontakte erfasst werden.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Thematik
+&lt;/th&gt;&lt;td&gt;
+Es muss eine Thematik ausgewählt werden. Handelt es sich um einen Geobasisdatensatz, muss dieselbe Thematik vergeben werden wie in der Sammlung der Geobasisdatensätze vorgesehen.
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Sprache
+&lt;/th&gt;&lt;td&gt;
+Sprache, in der die Dokumentation zum Datensatz vorliegen
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Digitale Transferoption
+&lt;/th&gt;&lt;td&gt;
+Es muss ein Link auf eine „landing page“ erstellt werden (= Informationsseite zum Datensatz). Dies geschieht über das Protokoll:
+&lt;ul&gt;
+&lt;li&gt;Webadresse URL: WWW:LINK-1.0-http--link
+&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Digitale Transferoption
+&lt;/th&gt;&lt;td&gt;
+Es **muss** mindestens eine (es dürfen aber auch mehrere) digitale Transferoption ausgewählt werden mit mindestens einem der folgenden Protokolle:
+&lt;ul&gt;
+&lt;li&gt;Datei via FTP zum Download: WWW:DOWNLOAD-1.0-ftp—download (Mapping: http..?)
+&lt;li&gt;Datei via URL zum Download: WWW:DOWNLOAD-URL
+&lt;/ul&gt;
+Spezialisiertes Geoportal: CHTOPO:specialised-geoportal
+&lt;ul&gt;
+&lt;li&gt;OGC-Web Map Service: OGC:WMS-http-get-map
+&lt;li&gt;OGC-WMS Capabilities Service: OGC:WMS-http-get-capabilities (falls Datensatz in WMS publiziert ist)
+&lt;li&gt;OGC-Web Map Tile Service: OGC:WMTS-http-get-capabilities
+&lt;li&gt;OGC-Web Feature Service: OGC:WFS-http-get-capabilities
+&lt;/ul&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Schlüsselwörter
+&lt;/th&gt;&lt;td&gt;
+opendata.swiss ist obligatorisch (löst das Harvesting des Metadatensatzes aus); weitere Schlüsselwörter sind fakultativ
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;
+Ausdehnung &amp;gt; zeitliche Ausdehnung
+&lt;/th&gt;&lt;td&gt;
+Falls der Datensatz zeitlich begrenzte Gültigkeit aufweist, kann dies über die Zeitliche Ausdehnung erfolten:
+
+Ausdehnung &amp;gt; „Nicht-geographischen Extent hinzufügen“ &amp;gt; zeitliche Ausdehnung &amp;gt; Zeitperiode &amp;gt; Beginn und Endzeitpunkt erfassen
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. Folgende Attribute &lt;strong&gt;sollten&lt;/strong&gt; erfasst sein: : s. Mapping: alles, was optional!&lt;/h2&gt;
+&lt;h2&gt;5. Metadaten validieren&lt;/h2&gt;
+&lt;p&gt;Um den erstellten Metadatensatz zu validieren, muss dieser im Bearbeitungsmodus geöffnet werden. In der Menüzeile auf „Überprüfen“ klicken. Gibt es keine Fehlermeldung betreffend…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;XST&lt;/li&gt;
+&lt;li&gt;ISO 19115&lt;/li&gt;
+&lt;li&gt;GM03&lt;/li&gt;
+&lt;li&gt;GeoNetwork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;…so ist der Metadatensatz valide. Ansonsten müssen angezeigte Fehler korrigiert werden.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-geocat/6.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;6. Metadaten publizieren&lt;/h2&gt;
+&lt;p&gt;Ob ein Datensatz in geocat.ch publiziert ist, kann an dem kleinen Schloss abgelesen werden. Ist es offen, ist der Datensatz publiziert.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-geocat/7.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Um einen Datensatz zu publizieren, entweder…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;auf das geschlossene Schloss klicken, oder…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;den kleinen Menüpfeil anwählen, dort „weitere“ und anschliessend „Berechtigungen“ anklicken:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-geocat/8.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Anschliessend den Datensatz für „alle“ freigeben.&lt;/p&gt;
+&lt;h2&gt;7. Anfrage machen für ein CSW-Endpoint&lt;/h2&gt;
+&lt;p&gt;&lt;a href="mailto:geocat@swisstopo.ch"&gt;geocat@swisstopo.ch&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;8. Anfrage machen, dass der CSW-Endpoint geharvestet sein soll&lt;/h2&gt;
+&lt;p&gt;&lt;a href="mailto:opendata@bar.admin.ch"&gt;@opendata.swiss&lt;/a&gt;&lt;/p&gt;</content><category term="publish"></category></entry><entry><title>Benutzerhandbuch opendata.swiss</title><link href="//handbook.opendata.swiss/de/library/opendataswiss-userguide.html" rel="alternate"></link><published>2016-06-20T00:00:00+02:00</published><updated>2016-06-20T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2016-06-20:/de/library/opendataswiss-userguide.html</id><summary type="html">&lt;p&gt;Im Benutzerhandbuch ist das System von opendata.swiss ausführlich dokumentiert.&lt;/p&gt;</summary><content type="html">&lt;h1 id="benutzerprofil-verwalten"&gt;Benutzerprofil verwalten&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s03.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pers&amp;ouml;nliche Optionen&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Admin language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;W&amp;auml;hlen Sie aus dem Dropdown-Menu die Sprache aus, in der Sie Ihr Administrations-Interface nutzen m&amp;ouml;chten.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Benutzername, Spitzname, etc. (* Pflichtfeld)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bis auf den Benutzernamen k&amp;ouml;nnen Sie alle Angaben selbst verwalten. Um diesen zu &lt;strong&gt;&amp;auml;ndern&lt;/strong&gt; oder weitere Benutzer zu &lt;strong&gt;erstellen&lt;/strong&gt;, wenden Sie sich an den Application-Manager.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Kontaktinfo&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;E-Mail-Adresse  (* Pflichtfeld)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Benutzerkonten-Verwaltung&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Neues Passwort  (* Pflichtfeld)  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Klicken Sie auf die Schaltfl&amp;auml;che 'Passwort generieren', um ein E-Mail mit einem Link zum Passwort-Erstellen zu erhalten.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;Auml;nderungen speichern&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Best&amp;auml;tigen Sie Ihre &amp;Auml;nderungen mit einem Klick auf die Schalt- fl&amp;auml;che '&lt;strong&gt;Profil aktualisieren&lt;/strong&gt;'.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="hinweise-zur-mehrsprachigkeit"&gt;Hinweise zur Mehrsprachigkeit&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Metadaten von Datens&amp;auml;tzen und Ressourcen, Organisations-Informationen&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Empfehlung: Wenn m&amp;ouml;glich sollten Sie versuchen, die Titel, Beschreibungen oder Schlagw&amp;ouml;rter in den vier Sprachen (EN/DE/FR/IT) zu erfassen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Das System gew&amp;auml;hrleistet &amp;uuml;ber einen 'Fallback', dass die Texte einer verf&amp;uuml;gbaren Sprache angezeigt werden, falls sie nicht in der vom Nutzer ausgew&amp;auml;hlten Sprache erfasst sind.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Die Reihenfolge des 'Fallback' ist: DE &amp;rarr; FR &amp;rarr; IT &amp;rarr; EN&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="hinweise-zu-umlauten-accents-leerzeichen"&gt;Hinweise zu Umlauten, Accents, Leerzeichen&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Schlagw&amp;ouml;rter und Names (Slugs)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Beim Erfassen normalisiert das System alle Angaben, welche f&amp;uuml;r 'Slugs' (Elemente von Links) ben&amp;ouml;tigt werden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Umlaute&lt;/strong&gt; (&amp;auml;, &amp;ouml;, &amp;uuml;) werden ersetzt durch a, o, u.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Accents&lt;/strong&gt; (&amp;agrave;, &amp;acirc;, &amp;ccedil;, &amp;eacute;, &amp;egrave;, &amp;ocirc;, &amp;ugrave;) werden ersetzt durch a, c, e, o, u.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Leerzeichen&lt;/strong&gt; werden ersetzt durch Divis (-).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="metadaten-via-formular-xml-import-verwalten_1"&gt;Metadaten via Formular / XML-Import verwalten&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s05.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;1) Neuen Datensatz &lt;strong&gt;via Formular&lt;/strong&gt; erstellen&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Klicken Sie auf die Schaltfl&amp;auml;che 'Erstellen', um das Metadaten- Formular (&amp;rarr; S. 4) zu &amp;ouml;ffnen.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2) Datensatz &lt;strong&gt;via Formular&lt;/strong&gt; bearbeiten&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Klicken Sie auf den Titel eines Datensatzes Ihrer Organisation, um die Metadaten im Formular (&amp;rarr; S. 4) zu bearbeiten.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;3) Status des Datensatzes&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wird kein Status (&amp;rarr; S. 11) angezeigt, ist der Datensatz publiziert.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;4) Massenbearbeitungs-Aktionen&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;W&amp;auml;hlen Sie mittels H&amp;auml;kchen in der Checkbox jene Datens&amp;auml;tze aus, f&amp;uuml;r die Sie eine gemeinsame Aktion durchf&amp;uuml;hren wollen.&lt;/li&gt;
+&lt;li&gt;W&amp;auml;hlen Sie aus dem Dropdown-Menu die Aktion aus:&lt;/li&gt;
+&lt;li&gt;'&lt;strong&gt;Bearbeiten&lt;/strong&gt;' Sie einzelne Metadaten mehrerer Datens&amp;auml;tze.&lt;/li&gt;
+&lt;li&gt;'&lt;strong&gt;Exportieren&lt;/strong&gt;' Sie alle Metadaten ein oder mehrerer Datens&amp;auml;tze als XML-Datei (&lt;a href="/de/library/ch-dcat-ap"&gt;DCAT-AP Switzerland Standard&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Zum Ausf&amp;uuml;hren klicken Sie auf die Schaltfl&amp;auml;che '&amp;Uuml;bernehmen'.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;5) Metadaten &lt;strong&gt;via XML-Import&lt;/strong&gt; verwalten&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;W&amp;auml;hlen Sie eine dem &lt;a href="/de/library/ch-dcat-ap"&gt;DCAT-AP Switzerland Standard&lt;/a&gt; entsprechende XML-Datei aus.&lt;/li&gt;
+&lt;li&gt;Klicken Sie auf die Schaltfl&amp;auml;che 'Importieren'.&lt;/li&gt;
+&lt;li&gt;Neue Datens&amp;auml;tze werden mit Status 'Entwurf' &lt;strong&gt;erstellt&lt;/strong&gt;. Metadaten bestehender Datens&amp;auml;tze werden &lt;strong&gt;aktualisiert&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="aufbau-des-metadaten-formulars"&gt;Aufbau des Metadaten-Formulars&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s06.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;1) &lt;a href="#S5"&gt;Datensatz-Information&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2a) &lt;a href="#S6"&gt;Daten&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2b) &lt;a href="#S7"&gt;Publisher-Informationen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3) &lt;a href="#S8"&gt;Weitere Informationen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4) &lt;a href="#S9"&gt;Ressourcen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5) &lt;a href="#S11"&gt;Sidebar&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ver&amp;ouml;ffentlichen und Aktualisieren&lt;/li&gt;
+&lt;li&gt;Schlagw&amp;ouml;rter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a name="S5"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="1-datensatz-informationen"&gt;1) Datensatz-Informationen&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s07.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Neuen Datensatz erstellen / bearbeiten&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Titel hier eingeben / bearbeiten Dieser Titel bezeichnet den Datensatz im Backend. Aus ihm wird der Permalink des Datensatzes gebildet. &lt;strong&gt;Ver&amp;auml;ndern Sie diesen Titel und den Permalink nicht mehr, nachdem der Datensatz publiziert ist!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Datensatz&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datensatz-Identifier *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Eindeutiger Identifier des Datensatzes verkn&amp;uuml;pft mit dem Publisher. Ein guter Weg, einen eindeutigen Identifier zu erhalten, ist es, wenn Sie die ID aus dem Quellsystem verwenden.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Titel (EN/DE/FR/IT) *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Geben Sie mindestens in einer Sprache einen Titel an.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Beschreibung (EN/DE/FR/IT) *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Geben Sie mindestens in einer Sprache eine Beschreibung an.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Pflichtfelder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2a-daten"&gt;2a) Daten&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s08.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Daten&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Erstellt *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Das Datum der ersten Publikation dieses Datensatzes. Falls dieses Datum nicht bekannt ist, verwenden Sie das Datum der ersten Publikation auf dem Portal opendata.swiss.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ge&amp;auml;ndert Das Datum, an dem der Datensatz (seit der ersten Publikation auf dem Portal) zuletzt ge&amp;auml;ndert wurde.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aktualisierungsintervall W&amp;auml;hlen Sie aus dem Dropdown-Menu das Intervall, in dem dieser Datensatz aktualisiert wird.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zeitliche Abdeckung Geben Sie eine oder mehrere Zeitperioden an, welche dieser Datensatz abdeckt.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(* Pflichtfeld)&lt;/p&gt;
+&lt;h3 id="2b-publisher-informationen"&gt;2b) Publisher-Informationen&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s09.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Publisher-Informationen&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Publisher *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ein oder mehrere Publisher dieses Datensatzes. Dieser kann der Organisation entsprechen, welche den Datensatz ver&amp;ouml;ffentlicht. Mindestens ein Publisher ist erforderlich.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Kontaktstellen *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Die Stelle, welche von den Daten-Nutzern kontaktiert wird, falls eine inhaltliche Frage zum Datensatz besteht. Mindestens eine Kontaktstelle mit E-Mail-Adresse ist erforderlich.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(* Pflichtfelder)&lt;/p&gt;
+&lt;h3 id="3-weitere-informationen"&gt;3) Weitere Informationen&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s10.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weitere Informationen&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kategorien&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;W&amp;auml;hlen Sie eine oder mehrere thematische Kategorien aus, denen dieser Datensatz zugeordnet wird.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Landing Page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Geben Sie eine Webseite an, auf der weitere Informationen zum Datensatz verf&amp;uuml;gbar sind.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Beziehungen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Weitere Informationen mit Bezug zu diesem Datensatz.&lt;/p&gt;
+&lt;p&gt;Verwenden Sie den Titel 'legal_basis', um bei Bedarf einen &lt;strong&gt;Link auf die gesetzliche Grundlage&lt;/strong&gt; dieses Datensatzes anzugeben. Der Link wird im Frontend dem Titel '&lt;strong&gt;Gesetzliche Grundlage&lt;/strong&gt;' hinterlegt.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Verwandte Datens&amp;auml;tze&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;W&amp;auml;hlen Sie mittels Dropdown-Menu andere auf dem Portal verf&amp;uuml;gbare Datens&amp;auml;tze aus, die eine inhaltliche Beziehung zu diesem Datensatz haben.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="4-ressourcen"&gt;4) Ressourcen&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s11.jpg"/&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identifier Identifier der Ressource im Quellsystem des Publishers.&lt;/li&gt;
+&lt;li&gt;Titel (EN/DE/FR/IT) Wird der Titel leer gelassen, wird der Titel des Datensatzes verwendet.&lt;/li&gt;
+&lt;li&gt;Beschreibung (EN/DE/FR/IT) Wird die Beschreibung leer gelassen, wird die Beschreibung des Datensatzes verwendet.&lt;/li&gt;
+&lt;li&gt;Sprache Sprachen, in denen diese Ressource vorliegt. Falls die Ressource sprachunabh&amp;auml;ngig ist, w&amp;auml;hlen Sie keine Sprache aus.&lt;/li&gt;
+&lt;li&gt;Erstellt * Das Datum der ersten Publikation dieser Ressource.&lt;/li&gt;
+&lt;li&gt;Ge&amp;auml;ndert Das Datum der letzten &amp;Auml;nderung dieser Ressource.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(* Pflichtfeld)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s12.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nutzungsbedingungen&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;W&amp;auml;hlen Sie aus dem Dropdown-Menu eine der Nutzungsbedingungen aus.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Alle Nutzungsbedingungen, die nicht mit einem Stern (*) markiert sind, gelten als 'Closed Data'.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zugangs-URL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Die URL, &amp;uuml;ber welche auf die Ressource zugegriffen werden kann. Dies kann entweder eine Download-URL, eine API-URL oder eine Landing-Page-URL sein. Falls die Ressource nur &amp;uuml;ber eine Landing Page verf&amp;uuml;gbar ist, muss dieses Feld die URL der Landing Page beinhalten. Falls eine Download-URL (siehe unten) f&amp;uuml;r diese Ressource angegeben wurde, muss diese ebenfalls in diesem Feld eingetragen werden.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download-URL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;URL der Datei, falls die Ressource heruntergeladen werden kann.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gr&amp;ouml;sse (in Bytes)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;W&amp;auml;hlen Sie aus dem Dropdown-Menu eines der Formate aus.&lt;/p&gt;
+&lt;p&gt;(* Pflichtfelder)&lt;/p&gt;
+&lt;h3 id="5-sidebar"&gt;5) Sidebar&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s13.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ver&amp;ouml;ffentlichen und Aktualisieren&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status Geben Sie den Status des Datensatzes an:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Entwurf&lt;/strong&gt;: Sie bearbeiten die Metadaten des Datensatzes weiter.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ver&amp;ouml;ffentlicht&lt;/strong&gt;: Der Datensatz ist auf opendata.swiss publiziert.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ver&amp;ouml;ffentlichen / Aktualisieren&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sofort ver&amp;ouml;ffentlichen&lt;/strong&gt;: Publizieren Sie den Datensatz mit einem Klick auf die Schaltfl&amp;auml;che 'Ver&amp;ouml;ffentlichen'.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ver&amp;ouml;ffentlichung planen&lt;/strong&gt;: Nutzen Sie die Datums- und Zeitangabe, um die Ver&amp;ouml;ffentlichung eines Datensatzes in der Zukunft zu festzulegen und klicken Sie auf die Schaltfl&amp;auml;che 'Planen'. Die Ver&amp;ouml;ffentlichung l&amp;auml;sst sich verl&amp;auml;sslich auf ein bestimmtes Datum planen; die Festlegung einer Uhrzeit kann um &amp;plusmn; 1 Stunde von der effektiven Publikation abweichen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aktualisieren&lt;/strong&gt;: Haben Sie Metadaten eines Datensatzes bearbeitet, der bereits publiziert ist, publizieren Sie Ihre &amp;Auml;nderungen mit einem Klick auf die Schaltfl&amp;auml;che 'Aktualisieren'.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Schlagw&amp;ouml;rter&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Schlagw&amp;ouml;rter (EN/DE/FR/IT) Geben Sie ein oder mehrere Schlagw&amp;ouml;rter zum Datensatz &amp;ndash; getrennt durch Kommas &amp;ndash; an oder w&amp;auml;hlen Sie per Klick ein oder mehrere h&amp;auml;ufig genutze Schlagw&amp;ouml;rter aus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="im-formular-begriffe-suchen_1"&gt;Im Formular Begriffe suchen&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s14.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wie &amp;ouml;ffnen Sie den Browser-Suchbalken?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dr&amp;uuml;cken Sie den Tastaturbefehl &lt;strong&gt;Ctrl+F&lt;/strong&gt;
+&lt;strong&gt;oder&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;W&amp;auml;hlen Sie im Browsermenu &lt;strong&gt;Edit &amp;gt; Find&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Geben Sie einen Begriff ins Textfeld des Suchbalkens ein und der Browser markiert den Begriff im Formular.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="detailansicht-eines-datensatzes"&gt;Detailansicht eines Datensatzes&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s15.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Informationen&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Titel des Datensatzes&lt;/li&gt;
+&lt;li&gt;Zuletzt aktualisiert&lt;/li&gt;
+&lt;li&gt;Nutzungsbedingungen&lt;/li&gt;
+&lt;li&gt;Datenpublizierende Organisation&lt;/li&gt;
+&lt;li&gt;Thematische Kategorien&lt;/li&gt;
+&lt;li&gt;Beschreibung des Datensatzes&lt;/li&gt;
+&lt;li&gt;Schlagw&amp;ouml;rter&lt;/li&gt;
+&lt;li&gt;Ressourcen / Formate&lt;/li&gt;
+&lt;li&gt;Zus&amp;auml;tzliche Informationen&lt;/li&gt;
+&lt;li&gt;Verwandte Datens&amp;auml;tze&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="detailansicht-einer-ressource"&gt;Detailansicht einer Ressource&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s16.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Informationen&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Titel der Ressource&lt;/li&gt;
+&lt;li&gt;Zuletzt aktualisiert&lt;/li&gt;
+&lt;li&gt;Nutzungsbedingungen&lt;/li&gt;
+&lt;li&gt;Datenpublizierende Organisation&lt;/li&gt;
+&lt;li&gt;Format der Ressource&lt;/li&gt;
+&lt;li&gt;Beschreibung der Ressource&lt;/li&gt;
+&lt;li&gt;Zus&amp;auml;tzliche Informationen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="organisations-informationen-verwalten_1"&gt;Organisations-Informationen verwalten&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s17.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;1) Titel / Name (Slug) Dieser Titel bezeichnet die Organisation im Backend. Aus ihm wird der 'Name (Slug)' der Organisation gebildet. &lt;strong&gt;Ver&amp;auml;ndern Sie diesen Titel und den 'Name (Slug)' nicht mehr, nachdem die Organisation Datens&amp;auml;tze publiziert hat!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2) Organisations-Informationen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Titel (EN/DE/FR/IT)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Geben Sie mindestens in einer Sprache einen Titel an. Dieser wird auf dem Portal angezeigt&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Beschreibung (EN/DE/FR/IT)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Geben Sie mindestens in einer Sprache eine Beschreibung an(nur Text). Diese wird auf dem Portal angezeigt&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;URL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Eine URL, welche zu weiteren Informationen dieser Organisation f&amp;uuml;hrt&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;3) Bild W&amp;auml;hlen Sie eine Bild-Datei aus und klicken Sie auf die Schaltfl&amp;auml;che 'Datei hinzuf&amp;uuml;gen oder hochladen'.&lt;/p&gt;
+&lt;p&gt;4) Ver&amp;ouml;ffentlichen / Aktualisieren Nachdem Sie die Informationen angegeben oder &amp;Auml;nderungen vorgenommen haben, publizieren bzw. aktualisieren Sie diese mit einem Klick auf die entsprechende Schaltfl&amp;auml;che.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pflichtfelder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="detailansicht-einer-organisation"&gt;Detailansicht einer Organisation&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Screenshot" src="../../images/anleitung-daten-publisher/s18.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Informationen&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Titel der Organisation&lt;/li&gt;
+&lt;li&gt;Beschreibung der Organisation&lt;/li&gt;
+&lt;li&gt;Link zu weiteren Informationen der Organisation&lt;/li&gt;
+&lt;li&gt;Bild der Organisation&lt;/li&gt;
+&lt;/ul&gt;</content><category term="support"></category></entry><entry><title>DCAT-AP for Switzerland format</title><link href="//handbook.opendata.swiss/de/library/ch-dcat-ap.html" rel="alternate"></link><published>2016-02-09T00:00:00+01:00</published><updated>2016-02-09T00:00:00+01:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2016-02-09:/de/library/ch-dcat-ap.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Dieses Dokument ist derzeit nur in &lt;a href="/en/library/ch-dcat-ap"&gt;englischer Sprache verfügbar&lt;/a&gt;.&lt;/p&gt;</content><category term="publish"></category></entry><entry><title>Nutzung des APIs (Schnittstelle)</title><link href="//handbook.opendata.swiss/de/library/ckan-api.html" rel="alternate"></link><published>2016-01-01T00:00:00+01:00</published><updated>2016-01-01T00:00:00+01:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2016-01-01:/de/library/ckan-api.html</id><summary type="html">&lt;p&gt;Eine Anleitung für das CKAN API&lt;/p&gt;</summary><content type="html">&lt;p&gt;Diese Seite ist in &lt;a href="/en/library/ckan-api"&gt;englischer Sprache verfügbar&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Empfehlungen für OGD Formate</title><link href="//handbook.opendata.swiss/de/library/empfehlungen-formate.html" rel="alternate"></link><published>2015-12-09T00:00:00+01:00</published><updated>2015-12-09T00:00:00+01:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2015-12-09:/de/library/empfehlungen-formate.html</id><summary type="html">&lt;p&gt;Damit Behördendaten einfach weiterverwendet werden können, müssen diese in den richtigen Formaten zur Verfügung stehen. Das vorliegende Dokument definiert Kriterien für die Publikation von Datensätzen auf opendata.swiss und gibt Empfehlungen zu spezifischen Formaten und Schnittstellen ab.&lt;/p&gt;</summary><content type="html">&lt;h2 id="1-einleitung"&gt;1 Einleitung&lt;/h2&gt;
+&lt;p&gt;Um das Potential von offenen Beh&amp;ouml;rdendaten nutzen zu k&amp;ouml;nnen, m&amp;uuml;ssen
+diese in Formaten&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; bereitgestellt werden, welche m&amp;ouml;glichst einfach zu
+verwenden sind. Unter offenen Beh&amp;ouml;rdendaten versteht man Datens&amp;auml;tze, die
+kostenfrei und im Idealfall in maschinenlesbarer Form zur
+Sekund&amp;auml;rnutzung allen Interessierten zur Verf&amp;uuml;gung stehen&lt;sup id="fnref-2"&gt;&lt;a class="footnote-ref" href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. Das
+vorliegende Dokument definiert Kriterien f&amp;uuml;r die Publikation von
+Datens&amp;auml;tzen im OGD Portal und gibt Empfehlungen zu spezifischen Formaten
+und Schnittstellen ab.&lt;/p&gt;
+&lt;p&gt;Die OGD-Strategie Schweiz definiert die drei Ziele &amp;bdquo;Freigabe von
+Beh&amp;ouml;rdendaten&amp;ldquo;, &amp;bdquo;Koordinierte Publikation und Bereitstellung der
+Beh&amp;ouml;rdendaten&amp;ldquo; und &amp;bdquo;Etablierung einer Open-Data-Kultur&amp;ldquo; (siehe &lt;a href="#referenzen"&gt;#1, OGD
+Strategie Schweiz 2014 &amp;ndash; 2018&lt;/a&gt;). F&amp;uuml;r die zu verwendenden
+Formate werden im Ziel &amp;bdquo;Freigabe von Beh&amp;ouml;rdendaten&amp;ldquo; klare Vorgaben
+gemacht:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;bdquo;Der Bund stellt der &amp;Ouml;ffentlichkeit seine f&amp;uuml;r OGD geeigneten Daten in
+&lt;em&gt;maschinenlesbaren&lt;/em&gt; und &lt;em&gt;offenen Formaten&lt;/em&gt; zur freien Weiterverwendung
+zur Verf&amp;uuml;gung.&amp;ldquo; (#1, S. 3499)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Diese Kriterien finden ihre Entsprechung im Grundsatz 2 &amp;bdquo;Offene und
+wiederverwendbare Beh&amp;ouml;rdendaten&amp;ldquo;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;bdquo;Die Daten werden in &lt;em&gt;maschinenlesbarer Form&lt;/em&gt; angeboten, verst&amp;auml;ndlich
+und zweckm&amp;auml;ssig beschrieben und dauerhaft zur Verf&amp;uuml;gung gestellt. Es
+sollen m&amp;ouml;glichst &lt;em&gt;offene Formate&lt;/em&gt; angewandt werden.&amp;ldquo; (#1, S. 3502)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Im vorliegenden Dokument werden die Kriterien &amp;bdquo;maschinenlesbar&amp;ldquo; und
+&amp;bdquo;offen&amp;ldquo; genauer beschrieben sowie die Bedeutung von "verst&amp;auml;ndlich und
+zweckm&amp;auml;ssig beschrieben" erl&amp;auml;utert. Davon abgeleitet werden Empfehlungen
+zur Publikation von Datens&amp;auml;tzen abgegeben.&lt;/p&gt;
+&lt;h2 id="2-ziel-des-dokuments-zielpublikum"&gt;2 Ziel des Dokuments &amp;amp; Zielpublikum&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Ziel des Dokuments&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dieses Dokument beschreibt die Kriterien f&amp;uuml;r Formate und
+Austauschformen, in denen die Daten auf der OGD-Plattform zug&amp;auml;nglich
+sein sollen, und gibt Empfehlungen bez&amp;uuml;glich der zu verwendenden Formate
+ab. Die Liste der empfohlenen Formate ist nicht abschliessend. Es gilt
+der Grundsatz, dass eine Datenpublikation in irgendeinem Format
+w&amp;uuml;nschenswerter ist als keine Publikation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zielpublikum&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Das Dokument richtet sich an Datenproduzenten und Datenlieferanten bzw.
+die Institutionen, die Daten als OGD zur Verf&amp;uuml;gung stellen wollen.&lt;/p&gt;
+&lt;h2 id="3-grundlagen-auswahlkriterien"&gt;3 Grundlagen &amp;amp; Auswahlkriterien&lt;/h2&gt;
+&lt;p&gt;&amp;Uuml;blicherweise wird zur Illustration in der Diskussion um &lt;em&gt;Open Data&lt;/em&gt; und
+&lt;em&gt;Linked Data&lt;/em&gt; auf das F&amp;uuml;nf-Sterne-Modell von Tim Berners-Lee verwiesen
+(siehe &lt;a href="#referenzen"&gt;#4, Berners Lee, Tim, Linked Data&lt;/a&gt;). Gem&amp;auml;ss diesem
+Modell lassen sich &lt;em&gt;Open Data&lt;/em&gt; in f&amp;uuml;nf Stufen unterteilen, wobei die
+ersten drei Stufen im Wesentlichen &lt;em&gt;Open Data&lt;/em&gt; und die zwei letzten
+&lt;em&gt;Linked Open Data&lt;/em&gt; beschreiben. Das Sterne-Modell hat aber Schw&amp;auml;chen, so
+sind darin beispielsweise Webservices oder Application Programming
+Interfaces (APIs) nur ungen&amp;uuml;gend abgedeckt.&lt;/p&gt;
+&lt;p&gt;Die OGD Strategie Schweiz konzentriert sich zurzeit darauf, die
+Kategorie ★★★ zu erreichen, d.h. die Publikation der Daten in offenen
+Formaten sicherzustellen.&lt;/p&gt;
+&lt;p&gt;Datens&amp;auml;tze, die nicht der Kategorie ★★★ entsprechen, sollen dennoch auf
+dem OGD Portal publiziert werden k&amp;ouml;nnen. Das OGD-Portal wird mit den
+entsprechenden Datenlieferanten Migrationspl&amp;auml;ne erarbeiten, um
+langfristig die Kategorie ★★★ zu erreichen.&lt;/p&gt;
+&lt;pre&gt;
+  ★       Datenpublikation mit offener Lizenz in irgendeinem Format
+  ------- ------------------------------------------------------------------------------------
+  ★★      Datenpublikation in einem strukturierten Format (bspw. Excel statt Tabelle in PDF)
+  ★★★     Datenpublikation in einem offenen Format (bspw. CSV statt Excel)
+  ★★★★    Verwendung von eindeutigen Identifikatoren (URI) f&amp;uuml;r Entit&amp;auml;ten
+  ★★★★★   Verlinkung der publizierten Daten mit anderen Daten, um Kontext zu schaffen
+&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Tabelle 1: Aus &lt;a href="#referenzen"&gt;#2, Open Government Data &amp;ndash; Grundlagenstudie Schweiz, S.
+86&lt;/a&gt;; &lt;a href="#referenzen"&gt;#5, 5 ★ Open Data (Webseite)&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Am wichtigsten ist, dass die Datens&amp;auml;tze mit offener Lizenz publiziert
+werden. F&amp;uuml;r verschiedene Nutzer k&amp;ouml;nnen hingegen verschiedene Formate
+angeboten werden, um den spezifischen Anforderungen der Nutzer gerecht
+zu werden.&lt;/p&gt;
+&lt;p&gt;Die zentralen Kriterien f&amp;uuml;r die Datenpublikation im OGD-Portal sind
+Maschinenlesbarkeit und Offenheit (siehe &lt;a href="#referenzen"&gt;#1 OGD Strategie
+Schweiz&lt;/a&gt;). Diese Kriterien Maschinenlesbarkeit und
+Offenheit sind im Folgenden rot gekennzeichnet.&lt;/p&gt;
+&lt;h4&gt;(1) Maschinenlesbarkeit&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;font color="red"&gt;&lt;strong&gt;Maschinenlesbarkeit&lt;/strong&gt;&lt;/font&gt;&lt;/th&gt;
+&lt;th&gt;Das Format und die enthaltenen Daten k&amp;ouml;nnen von einem Programm automatisiert verarbeitet werden.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;"Maschinenlesbar ist ein [...] Format, das so strukturiert ist, dass Softwareanwendungen konkrete Daten, einschlie&amp;szlig;lich einzelner Sachverhaltsdarstellungen und deren interner Struktur, leicht identifizieren, erkennen und extrahieren k&amp;ouml;nnen"&lt;sup id="fnref-3"&gt;&lt;a class="footnote-ref" href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Mit dieser Definition ist beispielsweise eine Textdatei erst dann maschinenlesbar, wenn die darin enthaltenen Daten so strukturiert dargestellt sind, dass sie mit einem passenden Algorithmus (Programm) korrekt interpretiert und verarbeitet werden k&amp;ouml;nnen. Ein (X)HTML-Text (eine Webseite) ist demnach nicht maschinenlesbar - ein Browser kann die Inhalte nur f&amp;uuml;r Menschen lesbar auf dem Bildschirm darstellen. Erst wenn die Inhalte der Webseite semantisch strukturiert ausgezeichnet werden (z.B. unter Verwendung des Vokabulars schema.org), k&amp;ouml;nnen die Inhalte von einem Programm als Datenstrukturen erkannt und entsprechend verarbeitet werden. Ausserdem ist bei textbasierten Formaten eine standardisierte Zeichenkodierung notwendig (wenn m&amp;ouml;glich UTF-8), um auch spezielle Zeichen (z.B. Umlaute) korrekt interpretieren zu k&amp;ouml;nnen.&lt;/p&gt;
+&lt;p&gt;Um einen passenden Algorithmus zur Verarbeitung der strukturierten Daten programmieren zu k&amp;ouml;nnen, ist das maschinenlesbare Format noch nicht ausreichend. Die Daten m&amp;uuml;ssen zus&amp;auml;tzlich "verst&amp;auml;ndlich und zweckm&amp;auml;ssig beschrieben" sein. Falls die Struktur der Daten einem Standard folgt, gen&amp;uuml;gt die Angabe des betreffenden Standards (z.B. schema.org). Andernfalls muss die Beschreibung der Datenstruktur in die Metadaten integriert werden.&lt;/p&gt;
+&lt;h4&gt;(2) Offenheit&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;font color="red"&gt;&lt;strong&gt;Offenheit&lt;/strong&gt;&lt;/font&gt;&lt;sup id="fnref-4"&gt;&lt;a class="footnote-ref" href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/th&gt;
+&lt;th&gt;Die Spezifikation des Formats ist offen gelegt und &amp;ouml;ffentlich zug&amp;auml;nglich.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;"Offen ist ein Dateiformat, das plattformunabh&amp;auml;ngig ist und der &amp;Ouml;ffentlichkeit ohne Einschr&amp;auml;nkungen, die der Weiterverwendung von Dokumenten hinderlich w&amp;auml;ren, zug&amp;auml;nglich gemacht wird"&lt;sup id="fnref-5"&gt;&lt;a class="footnote-ref" href="#fn-5"&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Die Offenheit bzw. die Zug&amp;auml;nglichkeit der Spezifikation ist f&amp;uuml;r die l&amp;uuml;ckenlose Interpretierbarkeit der durch das Format kodierten Information entscheidend. Dazu geh&amp;ouml;rt auch, dass der Standard verst&amp;auml;ndlich, &amp;uuml;berschaubar und eindeutig sein soll; dass dieser Standard lizenzfrei ist und weit verbreitet ist.\
+Dieses Kriterium muss erf&amp;uuml;llt sein, damit ein Format als offen gelten kann.&lt;/p&gt;
+&lt;p&gt;Beide Kriterien Maschinenlesbarkeit und Offenheit weisen mehrere
+Dimensionen auf, die im Folgenden beschrieben werden. Die nachfolgenden,
+blau gekennzeichneten Dimensionen, sollen von den Datenlieferanten bei
+der Auswahl geeigneter Formate, bzw. Austauschformen f&amp;uuml;r ihre Datens&amp;auml;tze
+mitber&amp;uuml;cksichtigt werden.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;font color="blue"&gt;&lt;strong&gt;Standard&lt;/strong&gt;&lt;/font&gt;&lt;/th&gt;
+&lt;th&gt;Das Format wird durch ein Standardgremium periodisch &amp;uuml;berpr&amp;uuml;ft und aktualisiert (international, national).&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Die Standards von (inter-)nationalen Organisationen sind langlebiger und weniger revisionsanf&amp;auml;llig, verleihen einem Format also Stabilit&amp;auml;t. Ein Standardgremium ist grunds&amp;auml;tzlich unabh&amp;auml;ngiger und glaubw&amp;uuml;rdiger als eine einzelne Firma, welche die Rechte an einem Format besitzt.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;font color="blue"&gt;&lt;strong&gt;Lizenzfrei&lt;/strong&gt;&lt;/font&gt;&lt;/th&gt;
+&lt;th&gt;Formate sind nicht durch auferlegte Lizenzen in der Herstellung oder Benutzung limitiert.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Verhinderung einer Herstellerabh&amp;auml;ngigkeit. Verminderung bzw. Ausschaltung des potentiellen Risikos, dass der Lizenzinhaber jederzeit &amp;Auml;nderungen vornehmen und durchsetzen kann.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;font color="blue"&gt;&lt;strong&gt;Verbreitung&lt;/strong&gt;&lt;/font&gt;&lt;/th&gt;
+&lt;th&gt;Das Format ist weit verbreitet.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Grosse Verbreitung bedeutet eine zum heutigen Zeitpunkt absch&amp;auml;tzbare relativ grosse Benutzerzahl wie auch eine gewisse Diversit&amp;auml;t der Benutzer, eine grosse Anzahl existierender Dateien im entsprechenden Format, Unterst&amp;uuml;tzung des Formats durch viele voneinander unabh&amp;auml;ngige Applikationen und Programmbibliotheken. Ebenso ist die geografische Verbreitung gemeint.&lt;/p&gt;
+&lt;h2 id="4-anwendungsfalle-und-formate"&gt;4 Anwendungsf&amp;auml;lle und Formate&lt;/h2&gt;
+&lt;p&gt;Je nach Anwendungsfall k&amp;ouml;nnen offene Daten ganz unterschiedliche Formate
+aufweisen. H&amp;auml;ufig werden die Daten in Tabellenform vorliegen. Aber auch
+Bilder, Tonaufnahmen oder Videos k&amp;ouml;nnen Datens&amp;auml;tze oder Bestandteile von
+Datens&amp;auml;tzen darstellen. Entsprechend gross ist die Vielfalt von
+Formaten, in denen Daten auf dem OGD Portal ver&amp;ouml;ffentlicht werden
+k&amp;ouml;nnen.&lt;/p&gt;
+&lt;p&gt;Die folgende Tabelle listet die wichtigsten, f&amp;uuml;r die Publikation auf dem
+OGD Portal in Frage kommenden offenen Formate zusammen mit dem Verweis
+auf den jeweiligen Standard auf.&lt;/p&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" class="Table7" width="96%"&gt;&lt;colgroup&gt;&lt;col width="346"/&gt;&lt;col width="325"/&gt;&lt;/colgroup&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A1" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T23"&gt;Anwendungsf&amp;auml;lle und Datenformate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_A1" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T23"&gt;Verweis auf Standard / Quasi-Standard &lt;/span&gt;&lt;span class="T6"&gt;(wenn verf&amp;uuml;gbar)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A2" colspan="2" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T25"&gt;Strukturierte&lt;/span&gt;&lt;span class="T23"&gt; Daten&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A3" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T6"&gt;Comma Separated Values (CSV)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B3" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="https://tools.ietf.org/html/rfc4180"&gt;&lt;span class="T14"&gt;RFC 4180&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A4" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;JavaScript Object Notation (JSON)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B4" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://tools.ietf.org/html/rfc4627"&gt;&lt;span class="T15"&gt;RFC 4627&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A5" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;Extensible Markup Language (XML)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B5" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.w3.org/TR/2008/REC-xml-20081126/"&gt;&lt;span class="T15"&gt;W3C REC&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A6" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;Resource Description Framework (RDF)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B6" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.w3.org/standards/techs/rdf#w3c_all"&gt;&lt;span class="T15"&gt;W3C REC&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A7" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T19"&gt;Office Open XML Spreadsheet (XLSX)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B7" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/catalogue_detail?csnumber=51463"&gt;&lt;span class="T14"&gt;ISO/IEC 29500&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A8" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T6"&gt;Open Document Spreadsheet (ODS)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B8" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=66363"&gt;&lt;span class="T8"&gt;ISO/IEC 26300-1:2015&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A2" colspan="2" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T21"&gt;Textdokumente / Berichte&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A10" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T19"&gt;Text (TXT)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B10" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P17"&gt;&lt;span class="T17"&gt;ISO Latin-1 (&lt;/span&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=28245"&gt;&lt;span class="T17"&gt;ISO 8859-1&lt;/span&gt;&lt;/a&gt;&lt;span class="T17"&gt;) und &lt;br/&gt;ISO Latin-9 (&lt;/span&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=29505"&gt;&lt;span class="T17"&gt;ISO 8859-15&lt;/span&gt;&lt;/a&gt;&lt;span class="T17"&gt;) &lt;/span&gt;&lt;/p&gt;&lt;p class="P17"&gt;&lt;span class="T13"&gt;Universal Coded Character Set (UCS) (&lt;/span&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=63182"&gt;&lt;span class="T13"&gt;ISO 10646&lt;/span&gt;&lt;/a&gt;&lt;span class="T13"&gt;) &lt;/span&gt;&lt;/p&gt;&lt;p class="P4"&gt;&lt;span class="T13"&gt;US-ASCII (ANSI X3.4-1986, &lt;/span&gt;&lt;span class="T12"&gt;bzw. ISO/IEC 646-US oder ISO/IEC 646:1991-IRV&lt;/span&gt;&lt;span class="T13"&gt;): &amp;nbsp;&lt;/span&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=4777"&gt;&lt;span class="T13"&gt;ISO/IEC 646:1991 &lt;/span&gt;&lt;/a&gt;&lt;span class="T13"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A11" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T19"&gt;Extensible Hypertext Markup Language (XHTML)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B11" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.w3.org/TR/2001/REC-xhtml11-20010531/"&gt;&lt;span class="T13"&gt;W3C REC&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A12" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T31"&gt;Portable&lt;/span&gt;&lt;span class="T29"&gt; Document Format (PDF)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B12" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=51502"&gt;&lt;span class="T8"&gt;ISO 32000-1:2008&lt;/span&gt;&lt;/a&gt;&lt;span class="T8"&gt; (nur PDF 1.7), &lt;/span&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/catalogue_detail?csnumber=38920"&gt;&lt;span class="T8"&gt;ISO 19005&lt;/span&gt;&lt;/a&gt;&lt;span class="T8"&gt; (PDF/A)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A13" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;Office Open XML Document (DOCX)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B13" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/catalogue_detail?csnumber=51463"&gt;&lt;span class="T14"&gt;ISO/IEC 29500&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A14" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;Open Document Text (ODT)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B14" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=66363"&gt;&lt;span class="T8"&gt;ISO/IEC 26300-1:2015&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A2" colspan="2" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P13"&gt;&lt;span class="T30"&gt;Geodaten&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A16" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;GeoJSON (JSON)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B16" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://geojson.org"&gt;&lt;span class="T15"&gt;http://geojson.org&lt;/span&gt;&lt;/a&gt;&lt;span class="T15"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A17" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;KML (XML)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B17" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.opengeospatial.org/standards/kml"&gt;&lt;span class="T15"&gt;OGC KML&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A18" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;GML (Geography Markup Language)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B18" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.opengeospatial.org/standards/gml"&gt;&lt;span class="T15"&gt;OGC GML&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A19" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T45"&gt;INTERLIS&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B19" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.interlis.ch"&gt;&lt;span class="T15"&gt;http://www.interlis.ch&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A20" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T45"&gt;INTERLIS/GML (gem&amp;auml;ss eCH-0118)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B20" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.ech.ch/vechweb/page?p=dossier&amp;amp;documentNumber=eCH-0118"&gt;&lt;span class="T15"&gt;eCH-0118&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A21" style="text-align:left;width:7.922cm; "&gt;&lt;div class="P5"&gt;&lt;span class="T29"&gt;ESRI Shapefile&lt;/span&gt;&lt;span class="T29"&gt;&lt;span class="Footnote_20_anchor" title="Footnote:  Weit verbreitetes Format, jedoch propriet&amp;auml;r (ESRI ArcGIS-Software). Es existieren Programmbibliotheken."&gt;&lt;a href="#ftn6" id="body_ftn6"&gt;6&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="Table7_B21" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf"&gt;&lt;span class="T15"&gt;ESRI Shapefile Technical Description&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A22" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;GeoPackage&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B22" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.geopackage.org/"&gt;&lt;span class="T15"&gt;OGC GeoPackage&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A23" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;GeoTIFF&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B23" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://trac.osgeo.org/geotiff"&gt;&lt;span class="T15"&gt;http://trac.osgeo.org/geotiff&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A2" colspan="2" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T30"&gt;Bild-/Grafikformate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A25" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T31"&gt;TIFF (Tagged Image File Format)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B25" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf"&gt;&lt;span class="T8"&gt;TIFF Revision 6.0&lt;/span&gt;&lt;/a&gt;&lt;span class="T9"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A26" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;JPEG2000&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B26" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=37674"&gt;&lt;span class="T15"&gt;ISO/IEC 15444-1&amp;nbsp;:2004&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A27" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;PNG&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B27" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=29581"&gt;&lt;span class="T15"&gt;ISO/IEC 15948:2004&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A28" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;SVG&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B28" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="http://www.w3.org/TR/2003/REC-SVG11-20030114/"&gt;&lt;span class="T15"&gt;W3C REC&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A2" colspan="2" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P13"&gt;&lt;span class="T30"&gt;Audio-/Videodaten&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A30" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;FLAC&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B30" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="https://xiph.org/flac/format.html"&gt;&lt;span class="T15"&gt;FLAC Format Spezifikation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A31" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;WebM&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B31" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;span class="T15"&gt;Web M &lt;/span&gt;&lt;a class="Internet_20_link" href="http://www.webmproject.org/docs/"&gt;&lt;span class="T15"&gt;Documentation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A32" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;Ogg Vorbis&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B32" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P12"&gt;&lt;a class="Internet_20_link" href="https://gever.edi.intra.admin.ch/edi/fscasp/content/bin/fscvext.dll?&amp;amp;cx=YBXkwy-nRRWNpd2F&amp;amp;tz=-120&amp;amp;cs=COO.1.1001.1.91460&amp;amp;pv=12080030&amp;amp;hx=D4-BE-D9-4F-DC-FF;CM010797;400&amp;amp;ax=COO.1.1001.1.32498&amp;amp;fscargs=COO.1.1001.1.48791;1;;venv_object%3DCOO.2080.100.3.154178"&gt;&lt;span class="T15"&gt;Vorbis I specification&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A33" style="text-align:left;width:7.922cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T29"&gt;MPEG4&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table7_B33" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P41"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=61490"&gt;&lt;span class="T12"&gt;ISO/IEC 14496-10&lt;/span&gt;&lt;/a&gt;&lt;span class="T12"&gt; Coding of audio-visual objects -- Part 10: Advanced Video Coding &lt;/span&gt;&lt;/p&gt;&lt;p class="P41"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=53943"&gt;&lt;span class="T12"&gt;ISO/IEC 14496-3&lt;/span&gt;&lt;/a&gt;&lt;span class="T12"&gt; Coding of audio-visual objects -- Part 3: Audio &lt;/span&gt;&lt;/p&gt;&lt;p class="P41"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=53943"&gt;&lt;span class="T12"&gt;ISO/IEC 14496-14&lt;/span&gt;&lt;/a&gt;&lt;span class="T12"&gt; Coding of audio-visual objects -- Part 14: MP4 file format &lt;/span&gt;&lt;/p&gt;&lt;p class="P10"&gt;&lt;a class="Internet_20_link" href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=39478"&gt;&lt;span class="T32"&gt;ISO/IEC 14496-17&lt;/span&gt;&lt;/a&gt;&lt;span class="T32"&gt; Coding of audio-visual objects -- Part 17: Timed Text subtitle format &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table71"&gt;&lt;td class="Table7_A34" style="text-align:left;width:7.922cm; "&gt;&lt;div class="P5"&gt;&lt;span class="T29"&gt;Wave&lt;/span&gt;&lt;span class="T29"&gt;&lt;span class="Footnote_20_anchor" title="Footnote:  Es existiert kein publizierter Standard f&amp;uuml;r WAVE Dateien. Das WAVE-Format ist eine Implementierung des Ressource Interchange Formats (RIFF). Dieses ist als gemeinsame Publikation von IBM Corporation und Microsoft Corporation, August 1991 freigegeben (http://www-mmsp.ece.mcgill.ca/documents/audioformats/wave/Docs/riffmci.pdf)."&gt;&lt;a href="#ftn7" id="body_ftn7"&gt;7&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="Table7_B34" style="text-align:left;width:7.437cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.kk.iij4u.or.jp/~kondo/wave/mpidata.txt"&gt;&lt;span class="T15"&gt;Multimedia Programming Interface and Data Specifications 1.0&lt;/span&gt;&lt;/a&gt;&lt;span class="T15"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p class="Standard"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" class="Table8" width="96%"&gt;&lt;colgroup&gt;&lt;col width="346"/&gt;&lt;col width="325"/&gt;&lt;/colgroup&gt;&lt;tr class="Table81"&gt;&lt;td class="Table8_A1" colspan="2" style="text-align:left;width:7.927cm; "&gt;&lt;p class="P14"&gt;&lt;span class="T30"&gt;Weitere &lt;/span&gt;&lt;span class="T23"&gt;Austauschformen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table81"&gt;&lt;td class="Table8_A2" style="text-align:left;width:7.927cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T34"&gt;WMS (Web Map Service) - nur eine Darstellung der Geodaten&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table8_B2" style="text-align:left;width:7.433cm; "&gt;&lt;p class="P11"&gt;&lt;a class="Internet_20_link" href="http://www.opengeospatial.org/standards/wms"&gt;&lt;span class="T8"&gt;WMS-Beschreibung des OGS (Open Geospatial Consortium)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table81"&gt;&lt;td class="Table8_A3" style="text-align:left;width:7.927cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T19"&gt;WFS (Web Feature Service) f&amp;uuml;r Geodaten&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table8_B3" style="text-align:left;width:7.433cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.opengeospatial.org/standards/wfs"&gt;&lt;span class="T16"&gt;OGC WFS&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table81"&gt;&lt;td class="Table8_A4" style="text-align:left;width:7.927cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T6"&gt;SPARQL (Protokoll und Abfragesprache)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table8_B4" style="text-align:left;width:7.433cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.w3.org/TR/sparql11-overview/"&gt;&lt;span class="T8"&gt;W3C SPARQL&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table81"&gt;&lt;td class="Table8_A5" style="text-align:left;width:7.927cm; "&gt;&lt;p class="P5"&gt;&lt;span class="T6"&gt;ODATA (Open Data Protocol)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table8_B5" style="text-align:left;width:7.433cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.odata.org"&gt;&lt;span class="T9"&gt;http://www.odata.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Tabelle 3: Quelle: &lt;a href="#referenzen"&gt;#2, Open Government Data &amp;ndash; Grundlagenstudie Schweiz&lt;/a&gt;, S. 88; Eigene Erg&amp;auml;nzungen&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Gepackte Dateien im ZIP Format sind grunds&amp;auml;tzlich erw&amp;uuml;nscht, sofern der
+Inhalt in einem geeigneten offenen Format vorliegt. Bei gr&amp;ouml;sseren
+Datens&amp;auml;tzen im CSV oder JSON Format ist eine ZIP-Komprimierung zu
+empfehlen.&lt;/p&gt;
+&lt;h2 id="5-empfehlungen"&gt;5 Empfehlungen&lt;/h2&gt;
+&lt;p&gt;Grunds&amp;auml;tzlich sind im OGD-Portal strukturierte Daten zu verwenden.
+Textdokumente und Berichte dienen der Erl&amp;auml;uterung der strukturierten
+Daten. Es sind Formate zu verwenden, welche f&amp;uuml;r den Inhalt der Daten
+angemessen sind und die der Benutzer sinnvoll weiterverwenden kann.&lt;sup id="fnref-8"&gt;&lt;a class="footnote-ref" href="#fn-8"&gt;8&lt;/a&gt;&lt;/sup&gt;
+Es ist erlaubt, den gleichen Datensatz in mehreren Datenformaten auf dem
+OGD Portal zu publizieren.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;F&amp;uuml;r &lt;strong&gt;strukturierte Daten&lt;/strong&gt; sind &amp;bdquo;einfache&amp;ldquo; Formate wie CSV, XML
+    oder JSON komplexeren Formaten wie ODS und XSLX vorzuziehen. Bei
+    regelm&amp;auml;ssiger Publikation kann die Bereitstellung einer
+    programmierbaren Schnittstelle (API)/eines Webdienstes erheblichen
+    Zusatznutzen stiften.\
+    Propriet&amp;auml;re, nicht-offene Formate (wie XLS) sind zu vermeiden. Dies
+    auch, weil nicht davon ausgegangen werden kann, dass der Benutzer
+    eine entsprechende Applikation zur Anzeige oder Weiterverarbeitung
+    der Daten besitzt.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;F&amp;uuml;r &lt;strong&gt;Textdokumente und Berichte&lt;/strong&gt; sind (X)HTML, XML, ODT
+    vorzuziehen. Falls eine maschinelle Weiterverarbeitung des Texts
+    angestrebt wird (&amp;bdquo;Natural Language Processing&amp;ldquo;), ist HTML/XML
+    vorzuziehen. Dokumentationen zu angebotenen Datens&amp;auml;tzen
+    (Datenmodelle, Codelisten etc.) k&amp;ouml;nnen als ODT, PDF oder DOCX
+    publiziert werden. Falls es sich um einen Bericht handelt, der
+    strukturierte Daten interpretiert und darstellt, sollten die
+    zugrunde liegenden strukturierten Daten in angemessenen Formaten
+    ebenfalls publiziert werden. Zu vermeiden sind &amp;auml;ltere, propriet&amp;auml;re
+    Formate wie DOC.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;F&amp;uuml;r &lt;strong&gt;vektorielle Geodaten&lt;/strong&gt; wird idealerweise ein modellkonformer
+    Austausch vorgesehen, der mit INTERLIS oder INTERLIS/GML (gem&amp;auml;ss
+    eCH-0118) sichergestellt werden kann. Zus&amp;auml;tzlich kann f&amp;uuml;r einen
+    vereinfachten Zugang zu den Geodaten ein anderes Format des Kapitels
+    4 zur Verf&amp;uuml;gung gestellt werden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;F&amp;uuml;r &lt;strong&gt;Raster-Geodaten&lt;/strong&gt; wird GeoTIFF empfohlen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="6-referenzen"&gt;6 Referenzen&lt;/h2&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" class="Table9"&gt;&lt;colgroup&gt;&lt;col width="44"/&gt;&lt;col width="236"/&gt;&lt;col width="429"/&gt;&lt;/colgroup&gt;&lt;tr class="Table91"&gt;&lt;td class="Table9_A1" style="text-align:left;width:0.998cm; "&gt;&lt;p class="P18"&gt;&lt;span class="T5"&gt;#&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_A1" style="text-align:left;width:5.394cm; "&gt;&lt;p class="P18"&gt;&lt;span class="T5"&gt;Titel&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_A1" style="text-align:left;width:9.807cm; "&gt;&lt;p class="P18"&gt;&lt;span class="T5"&gt;Quelle, Link&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table91"&gt;&lt;td class="Table9_A2" style="text-align:left;width:0.998cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T7"&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_B2" style="text-align:left;width:5.394cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T7"&gt;OGD Strategie Schweiz &lt;br/&gt;2014 &amp;ndash; 2018&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_C2" style="text-align:left;width:9.807cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.egovernment.ch/umsetzung/00881/00883/index.html?lang=de"&gt;http://www.egovernment.ch/umsetzung/00881/00883/index.html?lang=de&lt;/a&gt;&lt;span class="T48"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table91"&gt;&lt;td class="Table9_A3" style="text-align:left;width:0.998cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_B3" style="text-align:left;width:5.394cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T7"&gt;Open Government Data &amp;ndash; Grundlagenstudie Schweiz&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_C3" style="text-align:left;width:9.807cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.egovernment.ch/umsetzung/00881/00883/index.html?lang=de"&gt;http://www.egovernment.ch/umsetzung/00881/00883/index.html?lang=de&lt;/a&gt;&lt;span class="T48"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table91"&gt;&lt;td class="Table9_A4" style="text-align:left;width:0.998cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_B4" style="text-align:left;width:5.394cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;G8 Open Data Charter &lt;br/&gt;(Englisch)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_C4" style="text-align:left;width:9.807cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/207772/Open_Data_Charter.pdf"&gt;&lt;span class="T50"&gt;https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/207772/Open_Data_Charter.pdf&lt;/span&gt;&lt;/a&gt;&lt;span class="T51"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table91"&gt;&lt;td class="Table9_A5" style="text-align:left;width:0.998cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;4&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_B5" style="text-align:left;width:5.394cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;Berners Lee, Tim, Linked Data&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_C5" style="text-align:left;width:9.807cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.w3.org/DesignIssues/LinkedData.html"&gt;&lt;span class="T50"&gt;http://www.w3.org/DesignIssues/LinkedData.html&lt;/span&gt;&lt;/a&gt;&lt;span class="T51"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table91"&gt;&lt;td class="Table9_A6" style="text-align:left;width:0.998cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_B6" style="text-align:left;width:5.394cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;5 &lt;/span&gt;&lt;span class="T41"&gt;★&lt;/span&gt;&lt;span class="T20"&gt; Open Data (Webseite)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_C6" style="text-align:left;width:9.807cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://5stardata.info/"&gt;&lt;span class="T48"&gt;http://5stardata.info/&lt;/span&gt;&lt;/a&gt;&lt;span class="T49"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table91"&gt;&lt;td class="Table9_A7" style="text-align:left;width:0.998cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;6&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_B7" style="text-align:left;width:5.394cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;Choosing appropriate formats&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_C7" style="text-align:left;width:9.807cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="https://www.gov.uk/service-manual/user-centred-design/choosing-appropriate-formats.html"&gt;&lt;span class="T50"&gt;https://www.gov.uk/service-manual/user-centred-design/choosing-appropriate-formats.html&lt;/span&gt;&lt;/a&gt;&lt;span class="T51"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table91"&gt;&lt;td class="Table9_A8" style="text-align:left;width:0.998cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T20"&gt;7&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_B8" style="text-align:left;width:5.394cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T7"&gt;Konzeptbericht Ellipse &amp;ndash; Archivierung von Geodaten&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table9_C8" style="text-align:left;width:9.807cm; "&gt;&lt;p class="P6"&gt;&lt;a class="Internet_20_link" href="http://www.bar.admin.ch/themen/00876/00939/index.html?lang=de"&gt;http://www.bar.admin.ch/themen/00876/00939/index.html?lang=de&lt;/a&gt;&lt;span class="T48"&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id="7-anhang"&gt;7 Anhang&lt;/h2&gt;
+&lt;h2 id="71-formate-in-der-ogd-praxis"&gt;7.1 Formate in der OGD Praxis&lt;/h2&gt;
+&lt;p&gt;Die folgende Tabelle zeigt die am meisten bereitgestellten Formate in
+den nationalen OGD-Portalen in den USA, UK, D, A und CH:&lt;/p&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" class="Table10"&gt;&lt;colgroup&gt;&lt;col width="104"/&gt;&lt;col width="94"/&gt;&lt;col width="99"/&gt;&lt;col width="99"/&gt;&lt;col width="99"/&gt;&lt;col width="99"/&gt;&lt;col width="99"/&gt;&lt;/colgroup&gt;&lt;tr class="Table101"&gt;&lt;td class="Table10_A1" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P20"&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_A1" colspan="5" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P19"&gt;&lt;span class="T7"&gt;Portal&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_A1" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P20"&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table101"&gt;&lt;td class="Table10_A2" style="text-align:left;width:2.39cm; "&gt;&lt;div class="P7"&gt;&lt;span class="T24"&gt;Format&lt;/span&gt;&lt;span class="T24"&gt;&lt;span class="Footnote_20_anchor" title="Footnote:  Wo m&amp;ouml;glich und sinnvoll wurden verschiedene Formatbezeichnungen zusammengefasst. So kennt beispielsweise das US Portal die Bezeichnungen &amp;bdquo;xls&amp;ldquo;, &amp;bdquo;xlsx&amp;ldquo; und &amp;bdquo;excel&amp;ldquo;. Das deutsche Portal kennt sowohl die MIME Typen &amp;bdquo;application/csv&amp;ldquo; wie auch die Kurzbezeichnung &amp;bdquo;csv&amp;ldquo;. Im US Portal an zweiter Stelle steht das bin&amp;auml;re Format &amp;bdquo;Originator Data Format&amp;ldquo; mit 27&amp;lsquo;793 Datens&amp;auml;tzen, welches auschliesslich von der National Oceanic and Atmospheric Administration (NOAA) produziert wird. Dieses Format wurde hier nicht ber&amp;uuml;cksichtigt."&gt;&lt;a href="#ftn9" id="body_ftn9"&gt;9&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="Table10_B2" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T24"&gt;US&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C2" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T24"&gt;UK&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D2" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T24"&gt;EU&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E2" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T24"&gt;DE&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F2" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T24"&gt;CH&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G2" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T24"&gt;Summe&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A3" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;html&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B3" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;29&lt;/span&gt;&lt;span class="T23"&gt;'&lt;/span&gt;&lt;span class="T5"&gt;877&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C3" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1'747&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D3" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;2'335&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E3" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;5'204&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F3" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;11&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G3" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T26"&gt;39'174&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A4" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;xml&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B4" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;27&lt;/span&gt;&lt;span class="T23"&gt;'&lt;/span&gt;&lt;span class="T5"&gt;255&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C4" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;338&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D4" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;3'409&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E4" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;438&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F4" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G4" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T26"&gt;31'441&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A5" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;csv&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B5" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;9'302&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C5" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;3'797&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D5" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;10'899&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E5" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;7'177&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F5" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;17&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G5" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T26"&gt;31'192&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A6" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;pdf&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B6" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;15'379&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C6" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1'041&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D6" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1'527&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E6" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1'917&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F6" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;16&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G6" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T26"&gt;19'880&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A7" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;zip&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B7" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;13'309&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C7" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;193&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D7" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1'263&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E7" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;265&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F7" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;19&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G7" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T26"&gt;15'049&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A8" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;xls&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B8" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;4'463&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C8" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1'835&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D8" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;6'211&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E8" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;510&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F8" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G8" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T26"&gt;13'021&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A9" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;json&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B9" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;8'418&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C9" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D9" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;2'567&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E9" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;132&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F9" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G9" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T26"&gt;11'117&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A10" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;wms&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B10" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;5'077&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C10" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1'453&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D10" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;595&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E10" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;3'811&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F10" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;95&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G10" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T26"&gt;11'031&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A11" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;rdf&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B11" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;5'849&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C11" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;278&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D11" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;2'032&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E11" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F11" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G11" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P15"&gt;&lt;span class="T26"&gt;8'164&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A12" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;xlsx&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B12" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;165&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C12" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;0&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D12" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;54&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E12" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;5'944&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F12" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;6&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G12" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P15"&gt;&lt;span class="T26"&gt;6'169&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A13" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;Weitere&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B13" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;63'824&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C13" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;292&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D13" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;6'426&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E13" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;7'597&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F13" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T5"&gt;1'738&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G13" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P15"&gt;&lt;span class="T26"&gt;79'877&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="Table103"&gt;&lt;td class="Table10_A14" style="text-align:left;width:2.39cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T23"&gt;Gesamtdaten&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_B14" style="text-align:left;width:2.147cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T23"&gt;182'918&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_C14" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T23"&gt;10'974&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_D14" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T23"&gt;37'318&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_E14" style="text-align:left;width:2.268cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T23"&gt;33'000&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_F14" style="text-align:left;width:2.267cm; "&gt;&lt;p class="P7"&gt;&lt;span class="T23"&gt;1'905&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td class="Table10_G14" style="text-align:left;width:2.27cm; "&gt;&lt;p class="P15"&gt;&lt;span class="T23"&gt;266'115&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Tabelle 2: Anzahl Formate in div. Portalen, sortiert nach Gesamtsumme
+mit Stichtag 23.04.2015&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Das Containerformat ZIP wird vor allem im US-Portal verwendet.
+Betrachtet man nur diese f&amp;uuml;nf ausgew&amp;auml;hlten europ&amp;auml;ischen Portale, tritt
+an die Stelle von ZIP die deutsche Eigenheit &amp;bdquo;Kartenviewer&amp;ldquo;, was im
+wesentlichen Links auf Darstellungsdienste f&amp;uuml;r Geoinformationen sind.&lt;/p&gt;
+&lt;p&gt;Ein wichtiges Format in der Schweiz ist das Open Document Spreadsheet
+(ODS) mit 1'701 Datens&amp;auml;tzen, mehrheitlich vom Bundesamt f&amp;uuml;r Statistik.&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-1"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-2"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-3"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-4"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-5"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-6"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-7"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-8"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a name="footnote-9"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr/&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;
+&lt;p&gt;Der Begriff &amp;bdquo;Format&amp;ldquo; bezieht sich auf das Element
+&lt;strong&gt;dcat:mediaType&lt;/strong&gt; in der Metadatenformat-Definition von
+&lt;strong&gt;DCAT:Distribution&lt;/strong&gt; im Projekt &amp;bdquo;OGD Schweiz&amp;ldquo;
+(&lt;a href="../customXml/item1.xml"&gt;Projektergebnisse&lt;/a&gt;)&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-2"&gt;
+&lt;p&gt;FAQ Open Government Data,
+http://www.opendata.admin.ch/de/faq#was-ist-open-government-data&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-2" title="Jump back to footnote 2 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-3"&gt;
+&lt;p&gt;RICHTLINIE 2013/37/EU DES EUROP&amp;Auml;ISCHEN PARLAMENTS UND DES RATES
+vom 26. Juni 2013 zur &amp;Auml;nderung der Richtlinie 2003/98/EG &amp;uuml;ber die
+Weiterverwendung von Informationen des &amp;ouml;ffentlichen Sektors
+(http://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32013L0037&amp;amp;from=DE)&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-3" title="Jump back to footnote 3 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-4"&gt;
+&lt;p&gt;Die Kriterien zur Offenheit stammen aus dem Konzeptbericht
+Ellipse, siehe &lt;a href="#referenzen"&gt;#9, Konzeptbericht Ellipse zur Archivierung von
+Geodaten&lt;/a&gt;.&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-4" title="Jump back to footnote 4 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-5"&gt;
+&lt;p&gt;RICHTLINIE 2013/37/EU DES EUROP&amp;Auml;ISCHEN PARLAMENTS UND DES RATES
+vom 26. Juni 2013 zur &amp;Auml;nderung der Richtlinie 2003/98/EG &amp;uuml;ber die
+Weiterverwendung von Informationen des &amp;ouml;ffentlichen Sektors
+(http://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32013L0037&amp;amp;from=DE)&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-5" title="Jump back to footnote 5 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-6"&gt;
+&lt;p&gt;Weit verbreitetes Format, jedoch propriet&amp;auml;r (ESRI
+ArcGIS-Software). Es existieren Programmbibliotheken.&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-6" title="Jump back to footnote 6 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-7"&gt;
+&lt;p&gt;Es existiert kein publizierter Standard f&amp;uuml;r WAVE Dateien. Das
+WAVE-Format ist eine Implementierung des Ressource Interchange
+Formats (RIFF). Dieses ist als gemeinsame Publikation von IBM
+Corporation und Microsoft Corporation, August 1991 freigegeben
+(http://www-mmsp.ece.mcgill.ca/documents/audioformats/wave/Docs/riffmci.pdf).&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-7" title="Jump back to footnote 7 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-8"&gt;
+&lt;p&gt;Dieser Abschnitt wurde stark von der britischen L&amp;ouml;sung inspiriert,
+siehe &lt;a href="#referenzen"&gt;#6, Choosing appropriate formats&lt;/a&gt;&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-8" title="Jump back to footnote 8 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-9"&gt;
+&lt;p&gt;Wo m&amp;ouml;glich und sinnvoll wurden verschiedene Formatbezeichnungen
+zusammengefasst. So kennt beispielsweise das US Portal die
+Bezeichnungen &amp;bdquo;xls&amp;ldquo;, &amp;bdquo;xlsx&amp;ldquo; und &amp;bdquo;excel&amp;ldquo;. Das deutsche Portal kennt
+sowohl die MIME Typen &amp;bdquo;application/csv&amp;ldquo; wie auch die Kurzbezeichnung
+&amp;bdquo;csv&amp;ldquo;.\
+Im US Portal an zweiter Stelle steht das bin&amp;auml;re Format &amp;bdquo;Originator
+Data Format&amp;ldquo; mit 27&amp;lsquo;793 Datens&amp;auml;tzen, welches auschliesslich von der
+National Oceanic and Atmospheric Administration (NOAA) produziert
+wird. Dieses Format wurde hier nicht ber&amp;uuml;cksichtigt.&amp;nbsp;&lt;a class="footnote-backref" href="#fnref-9" title="Jump back to footnote 9 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="publish"></category></entry><entry><title>DCAT Distribution</title><link href="//handbook.opendata.swiss/de/library/dcat-distribution.html" rel="alternate"></link><published>2015-10-08T00:00:00+02:00</published><updated>2015-10-08T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2015-10-08:/de/library/dcat-distribution.html</id><summary type="html">&lt;p&gt;Beschreibung der Publikationsform des betreffenden Datensatzes&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ein Metadaten-Record der Klasse dcat:Distribution (Distribution-Metadaten-Record) beschreibt eine Publikationsform des betreffenden Datensatzes. Das vorliegende Dokument erläutert die dcat:Distribution. &lt;/p&gt;</content><category term="publish"></category></entry><entry><title>DCAT Application Profile for Swiss data portals</title><link href="//handbook.opendata.swiss/de/library/dcat-application.html" rel="alternate"></link><published>2015-08-10T00:00:00+02:00</published><updated>2015-08-10T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2015-08-10:/de/library/dcat-application.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Die vorliegende Präsentation erklärt das DCAT Application Profile, welches für opendata.swiss verwendet wird.&lt;/p&gt;</content><category term="publish"></category></entry><entry><title>DCAT Catalog</title><link href="//handbook.opendata.swiss/de/library/dcat-catalog.html" rel="alternate"></link><published>2015-05-29T00:00:00+02:00</published><updated>2015-05-29T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2015-05-29:/de/library/dcat-catalog.html</id><summary type="html">&lt;p&gt;Kuratierte Sammlung von Metadaten-Records über offene Daten&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ein Katalog, der dem DCAT Application Profile for Swiss data portals entspricht, ist eine kuratierte Sammlung von Metadaten-Records über offene Daten. Das vorliegende Dokument erklärt diesen Katalog.&lt;/p&gt;</content><category term="publish"></category></entry><entry><title>DCAT Dataset</title><link href="//handbook.opendata.swiss/de/library/dcat-dataset.html" rel="alternate"></link><published>2015-05-29T00:00:00+02:00</published><updated>2015-05-29T00:00:00+02:00</updated><author><name>Open Government Data Switzerland</name></author><id>tag:handbook.opendata.swiss,2015-05-29:/de/library/dcat-dataset.html</id><summary type="html">&lt;p&gt;Beschreibung eine einzelne, thematisch geschlossene Datensammlung&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ein Metadaten-Eintrag der Klasse dcat:Dataset (Dataset-Metadaten-Record) beschreibt eine einzelne, thematisch geschlossene Datensammlung. Das vorliegende Dokument erklärt diesen Metadaten-Eintrag.&lt;/p&gt;</content><category term="publish"></category></entry><entry><title>Bericht über Datenbestände des Bundes</title><link href="//handbook.opendata.swiss/de/library/bericht-datenbestaende-bund.html" rel="alternate"></link><published>2015-04-23T00:00:00+02:00</published><updated>2015-04-23T00:00:00+02:00</updated><author><name>Adelheid Bürgi-Schmelz</name></author><id>tag:handbook.opendata.swiss,2015-04-23:/de/library/bericht-datenbestaende-bund.html</id><summary type="html">&lt;p&gt;Grundlagen für ein Inventar&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ein Dateninventar gibt eine Übersicht über die vorhandenen Daten und erleichtert die Auswahl der als OGD geeigneten Daten. Der Bericht über die Datenbestände des Bundes wurde 2015 erstellt. Er liefert einen ersten Überblick über die Daten beim Bund, zeigt Schwierigkeiten auf und schlägt Varianten für das weitere Vorgehen vor.&lt;/p&gt;</content><category term="identify"></category></entry><entry><title>Arbeitshilfe für Behörden zur Publikation von Daten als OGD</title><link href="//handbook.opendata.swiss/de/library/arbeitshilfe-publikation.html" rel="alternate"></link><published>2015-03-13T00:00:00+01:00</published><updated>2015-03-13T00:00:00+01:00</updated><author><name>Anne Wiedmer</name></author><id>tag:handbook.opendata.swiss,2015-03-13:/de/library/arbeitshilfe-publikation.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Die vorliegende Arbeitshilfe soll Behörden bei der Publikation von Datensätzen auf OGD unterstützen. Das darin enthaltene Schema zeigt auf, welche Prüfschritte von den Behörden vorzunehmen sind, bevor ein Datenbestand im Rahmen von OGD publiziert werden kann.&lt;/p&gt;</content><category term="identify"></category><category term="Prüfschritte"></category><category term="Datenbestand"></category><category term="Gesetzliche Grundlage"></category><category term="Personendaten"></category><category term="Personenschütz"></category><category term="Urheberrechte"></category><category term="Gebührenfrei"></category><category term="Rechtssatz"></category><category term="Gesetz"></category><category term="Normstufe"></category><category term="Kostenlos"></category><category term="Kommerziell"></category><category term="Quellenangabe"></category><category term="Anonymisieren"></category><category term="Weiternutzung"></category></entry><entry><title>Entscheidgrundlage - Weiteres Vorgehen bezüglich Rechtsgrundlagen für die Publikation von Daten als OGD</title><link href="//handbook.opendata.swiss/de/library/entscheid-rechtsgrundlagen.html" rel="alternate"></link><published>2015-03-13T00:00:00+01:00</published><updated>2015-03-13T00:00:00+01:00</updated><author><name>Anne Wiedmer</name></author><id>tag:handbook.opendata.swiss,2015-03-13:/de/library/entscheid-rechtsgrundlagen.html</id><summary type="html">&lt;p&gt;OGD Schweiz, Bericht&lt;/p&gt;</summary><content type="html">&lt;p&gt;Die OGD-Strategie sieht vor, dass die rechtlichen Rahmenbedingungen dort angepasst werden sollen, wo sie eine Publikation von an sich geeigneten Daten als OGD verhindern. Die Strategie lässt jedoch offen, wie diese Anpassungen erfolgen sollen. Folgende zwei Dimensionen sind für die Anpassungen wichtig: Erstens kann die Anpassung entweder zentral oder dezentral erfolgen. Zweitens besteht einerseits die Möglichkeit, ein einheitliches Gesetz zu schaffen sowie andererseits, die einzelnen Spezialgesetze anzupassen.&lt;/p&gt;</content><category term="prepare"></category></entry><entry><title>Entscheidgrundlage - Nutzungsbedingungen</title><link href="//handbook.opendata.swiss/de/library/entscheidgrundlage-nutzungsbedingungen.html" rel="alternate"></link><published>2015-03-13T00:00:00+01:00</published><updated>2015-03-13T00:00:00+01:00</updated><author><name>Anne Wiedmer</name></author><id>tag:handbook.opendata.swiss,2015-03-13:/de/library/entscheidgrundlage-nutzungsbedingungen.html</id><summary type="html">&lt;p&gt;OGD Portal –Definition OGD&lt;/p&gt;</summary><content type="html">&lt;p&gt;Die OGD-Strategie sieht vor, dass OGD aller föderalen Ebenen unter möglichst einheitlichen Nutzungsbedingungen publiziert werden. Die nachfolgende Entscheidgrundlage fasst die Ergebnisse der Arbeiten der Arbeitsgruppe Recht OGD (AG Recht OGD) zur Frage der Nutzungsbedingungen für OGD zusammen. Sie zeigt bestehende gesetzliche Beschränkungen für die Nutzung von Behördendaten und ihre Konsequenzen auf. Basierend auf der Entscheidgrundlage hat der Projektausschuss des Projektes OGD-Schweiz über die in Kapitel 4 aufgeführten Punkte entschieden. Er hat damit definiert, welche Kriterien Daten erfüllen müssen, damit sie als OGD gelten.&lt;/p&gt;</content><category term="prepare"></category></entry><entry><title>Konzept - Rechtliche Rahmenbedingungen zur Publikation von Daten als Open Government Data (OGD)</title><link href="//handbook.opendata.swiss/de/library/konzept-rechtliche-rahmen.html" rel="alternate"></link><published>2015-03-13T00:00:00+01:00</published><updated>2015-03-13T00:00:00+01:00</updated><author><name>Anne Wiedmer</name></author><id>tag:handbook.opendata.swiss,2015-03-13:/de/library/konzept-rechtliche-rahmen.html</id><summary type="html">&lt;p&gt;OGD Schweiz, Bericht&lt;/p&gt;</summary><content type="html">&lt;p&gt;Das nachfolgende Konzept fasst die Ergebnisse der Arbeiten der Arbeitsgruppe Recht OGD (AG Recht OGD) zusammen und zeigt die rechtlichen Rahmenbedingungen auf, innerhalb derer die OGD Strategie umgesetzt werden soll. Weitere Lieferobjekte der AG Recht OGD sind Textbausteine für Standardformulierungen zur Nutzung der OGD Datensätze, ein Entwurfstext für die Rubrik "rechtliche Grundlagen" auf der Internetseite ("Disclaimer"), sowie eine Arbeitshilfe für Behörden, die Datensätze auf OGD publizieren möchten.&lt;/p&gt;</content><category term="prepare"></category></entry><entry><title>Rechtliche Grundlagen OGD (Disclaimer)</title><link href="//handbook.opendata.swiss/de/library/rechtliche-grundlagen-disclaimer.html" rel="alternate"></link><published>2015-03-13T00:00:00+01:00</published><updated>2015-03-13T00:00:00+01:00</updated><author><name>Corinna Seiberth</name></author><id>tag:handbook.opendata.swiss,2015-03-13:/de/library/rechtliche-grundlagen-disclaimer.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Dieses Dokument enthält den Disclaimer, der für im Projekt OGD Schweiz 2015 für das Portal opendata.swiss entworfen worden ist. Die aktuellen rechtlichen Hinweise für opendata.swiss sind &lt;a href="https://opendata.swiss/de/legal-framework/"&gt;hier zu finden&lt;/a&gt;.&lt;/p&gt;</content><category term="prepare"></category></entry><entry><title>Textbausteine für Standardformulierungen</title><link href="//handbook.opendata.swiss/de/library/textbausteine-standardformulierungen.html" rel="alternate"></link><published>2015-03-13T00:00:00+01:00</published><updated>2015-03-13T00:00:00+01:00</updated><author><name>Corinna Seiberth</name></author><id>tag:handbook.opendata.swiss,2015-03-13:/de/library/textbausteine-standardformulierungen.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Das vorliegende Dokument liefert Textbausteine für Standardformulierungen auf dem OGD-Portal. Die Nutzungsbedingungen für die OGD werden durch die jeweiligen gesetzlichen Grundlagen vorgegeben. Diese sind für die Nutzerinnen und Nutzer von OGD jedoch häufig schwierig verständlich. Deshalb sollen die für die Datennutzung relevanten Bestimmungen auf dem OGD-Portal in einfachen Standardformulierungen wiedergegeben werden. Die heute gültigen Nutzungsbedingungen auf opendata.swiss sind &lt;a href="https://opendata.swiss/de/terms-of-use/"&gt;hier zu finden&lt;/a&gt;.&lt;/p&gt;</content><category term="prepare"></category></entry><entry><title>Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen</title><link href="//handbook.opendata.swiss/de/library/bericht-abgrenzung-leistungen.html" rel="alternate"></link><published>2014-12-22T00:00:00+01:00</published><updated>2014-12-22T00:00:00+01:00</updated><author><name>Adelheid Bürgi-Schmelz</name></author><id>tag:handbook.opendata.swiss,2014-12-22:/de/library/bericht-abgrenzung-leistungen.html</id><summary type="html">&lt;p&gt;OGD Schweiz, Bericht&lt;/p&gt;</summary><content type="html">&lt;p&gt;Nicht alle Daten, welche die Verwaltung produziert, sind als OGD zu veröffentlichen. Insbesondere Leistungen die spezifisch für einen Kunden erbracht werden, müssen nicht als Open Data veröffentlicht werden. Der vorliegende Bericht liefert Kriterien zur Abgrenzung zwischen OGD und kundenspezifischen Leistungen.&lt;/p&gt;</content><category term="identify"></category></entry><entry><title>Für die Gebührenproblematik relevante offene Fragen</title><link href="//handbook.opendata.swiss/de/library/fragen-gebuehrenproblematik.html" rel="alternate"></link><published>2014-12-22T00:00:00+01:00</published><updated>2014-12-22T00:00:00+01:00</updated><author><name>Adelheid Bürgi-Schmelz</name></author><id>tag:handbook.opendata.swiss,2014-12-22:/de/library/fragen-gebuehrenproblematik.html</id><summary type="html"></summary><content type="html">&lt;p&gt;Die nachfolgenden Fragen entstanden im Zusammenhang mit der Erstellung und Kommentierung des Lieferobjekts L5.2 „Abgrenzung zwischen OGD und kundenspezifischen, individuellen Leistungen“. In einer ersten Version enthielt Kapitel 7 von L5.2 offene Fragen, die über den Fokus von L5.2 hinausgingen. Diese über die eigentlichen Abgrenzungsfragen hinausgehend identifizierten Fragenstellungen wurden als Grundlage für die Diskussion der weiteren Umsetzung von OGD ausgegliedert und im vorliegenden Dokument zusammengefasst.&lt;/p&gt;</content><category term="Benutzungsgebühren"></category><category term="Bearbeitungsgebühren"></category><category term="prepare"></category></entry></feed>

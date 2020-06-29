@@ -29,7 +29,6 @@ jobs:
         run: |
           make publish
           touch output/.nojekyll
-
       - name: Deploy To Master Branch
         uses: peaceiris/actions-gh-pages@v3
         with:

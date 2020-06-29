@@ -1,6 +1,8 @@
 # OGD Handbook Site #
 
-This repository contains web application source code for the OGD Handbook. For more information, visit http://handbook.opendata.swiss
+This repository contains web application source code for the **previous version of the OGD Handbook**, formerly hosted at http://handbook.opendata.swiss.
+
+This version of the Handbook site is currently deployed to http://opendata-swiss.github.io/ogd-handbook-site/pages/index for archiving.
 
 ## Overview ##
 
@@ -55,24 +57,18 @@ We accept pull requests to this repository for changes to the web site only.
 
 ### Deployment notes ###
 
-1) Set up LFTP for syncing (one time)
+The `master` branch of this repo is automatically deployed to GitHub Pages.
+
+Unfortunately, the deployment action seems to generate all the site pages in the root of the repository, instead of in the `output/` folder.
+This means that to make a change and deploy it, the following steps are necessary:
 
 ```
-sudo apt-get install lftp
-mkdir ~/.lftp
-echo "set ssl:verify-certificate no" > ~/.lftp/rc
+git checkout master && git pull
+git log
+git revert [id of most recent "deploy" commit]
 ```
 
-2) Run deployment script
-
-Re-run the publish command to ensure that assets are correctly formatted. Then upload to the server. You will be asked for an FTP password.
-
-```
-make publish
-make ftp_upload
-```
-
-After deployment, ensure links are working in the Topics page, else you may need to re-run your publishing steps.
+Then make and commit the required changes, and push the master branch.
 
 #### Document export ####
 

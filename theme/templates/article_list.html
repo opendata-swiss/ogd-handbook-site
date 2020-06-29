@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% import 'ogdch/render_categories.html' as render_categories with context -%}
+
+{% block content %}
+    {% if articles %}
+      <div class="row article-list">
+        {% if category %}
+        <div class="col-md-3">
+          <div class="wrapper">
+            <span class="category-banner category-{{ category|lower }}"></span>
+          </div>
+        </div>
+        {% endif %}
+        <div class="col-md-9">
+          {% for article in (articles_page.object_list if articles_page else articles) %}
+          {% if not article.hidden %}
+            <a href="{{ SITEURL }}/{{ article.url }}">
+            <article>
+              <div class="wrapper">
+                <h2>
+                  <i class="fa fa-book"></i>&nbsp;
+                  {{ article.title }}
+                </h2>
+                {% if DISPLAY_ARTICLE_INFO_ON_INDEX %}
+                    <div class="well well-sm">
+                        {% include "ogdch/article_info.html" %}
+                    </div>
+                {% endif %}
+                <div class="summary">{{ article.summary }}
+                    {% include 'includes/comment_count.html' %}
+                    <!-- <span class="btn btn-default btn-xs" href="{{ SITEURL }}/{{ article.url }}">more ...</span> -->
+                </div>
+              </div>
+            </article>
+            </a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      {% if category %}
+        {% set next_category = render_categories.next_category(category) -%}
+        {% if next_category %}
+        <br clear="all">
+        <div class="row topicmap" style="margin-top:1em">
+          <div class="col-md-9"></div>
+          <div class="col-md-3">
+            <a href="{{ SITEURL }}/category/{{ next_category|lower }}">
+              <div class="category-icon">
+                {{ render_categories.icon_for(next_category) }}
+              </div>
+              <div class="category-title">
+                {{ render_categories.translations_for(next_category) }}
+              </div>
+            </a>
+          </div>
+        </div>
+        {% endif %}
+      {% endif %}
+
+    {% endif %}
+
+    {% include 'includes/pagination.html' %}
+{% endblock content %}

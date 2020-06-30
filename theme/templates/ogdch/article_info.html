@@ -70,10 +70,10 @@
 
     <div class="btn-group" role="group" aria-label="Downloads">
       {% if DOCEXPORT_ENABLED %}
-      <a href="/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.odt" class="btn btn-default btn-sm" role="button">
+      <a href="{{ SITEURL }}/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.odt" class="btn btn-default btn-sm" role="button">
         <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %} ODT
       </a>
-      <a href="/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.docx" class="btn btn-default btn-sm" role="button">
+      <a href="{{ SITEURL }}/export/{{ article.slug }}.{{ DEFAULT_LANG }}.md.docx" class="btn btn-default btn-sm" role="button">
         <i class="fa fa-arrow-circle-o-down"></i> {% trans %}Download{% endtrans %} DOCX
       </a>
       {% endif %}

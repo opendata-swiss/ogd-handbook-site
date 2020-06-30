@@ -59,17 +59,6 @@ We accept pull requests to this repository for changes to the web site only.
 
 The `master` branch of this repo is automatically deployed to GitHub Pages.
 
-Unfortunately, the deployment action seems to generate all the site pages in the root of the repository, instead of in the `output/` folder.
-This means that to make a change and deploy it, the following steps are necessary:
-
-```
-git checkout master && git pull
-git log
-git revert [id of most recent "deploy" commit]
-```
-
-Then make and commit the required changes, and push the master branch.
-
 #### Document export ####
 
 To generate document versions of the Handbook pages, we use **pandoc**. The latest version (1.15+ is required) can be installed by downloading a binary [from this page](https://github.com/jgm/pandoc/releases/).

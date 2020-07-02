@@ -12,7 +12,7 @@
 				</button>
 				<ul class="dropdown-menu" role="menu" id="lang-switch">
           {% for lang, url in lang_siteurls.items() %}
-            <li lang="{{ lang }}"><a href="{{ main_siteurl }}{{ url }}/pages/index">{{ lang | lookup_lang_name }}</a></li>
+            <li lang="{{ lang }}"><a href="{{ url }}/pages/index">{{ lang | lookup_lang_name }}</a></li>
           {% endfor %}
 				</ul>
 			</div>

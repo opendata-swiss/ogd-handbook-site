@@ -1,6 +1,6 @@
 # OGD Handbook Site #
 
-This repository contains web application source code for the **previous version of the OGD Handbook**, formerly hosted at http://handbook.opendata.swiss.
+This repository contains web application source code for the **previous version of the OGD Handbook**. For the current OGD Handbook code, see https://github.com/opendata-swiss/ogdch-handbook.
 
 This version of the Handbook site is currently deployed to http://opendata-swiss.github.io/ogd-handbook-site/pages/index for archiving.
 

@@ -1435,13 +1435,13 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 &lt;h2 id="resource-description-framework-rdf"&gt;Resource Description Framework (RDF)&lt;/h2&gt;
 &lt;p&gt;Linked Data is based on the Resource Description Framework (RDF, &lt;a href="https://www.w3.org/TR/rdf-primer/"&gt;a W3C standard&lt;/a&gt;), a framework to represent information in the Web,  expressing information about any resource (people, things, anything).&lt;/p&gt;
 &lt;p&gt;RDF is a data model for "things" (resources) and their &amp;ldquo;relations&amp;rdquo;, where each piece of information is an RDF Statement (or RDF Triple) of the following structure:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;subject&amp;gt; &amp;lt;predicate&amp;gt; &amp;lt;object&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;subject&amp;gt; &amp;lt;predicate&amp;gt; &amp;lt;object&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Such a statement composed of three elements describes how a resource (the &lt;strong&gt;subject&lt;/strong&gt;) is linked by a property (the &lt;strong&gt;predicate&lt;/strong&gt;) to another resource or a value (the &lt;strong&gt;object&lt;/strong&gt;)&lt;/p&gt;
 &lt;p&gt;Example of triples:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;Eduard&amp;gt; &amp;lt;has-parent&amp;gt; &amp;lt;Albert&amp;gt;
-&amp;lt;Albert&amp;gt; &amp;lt;has-spouse&amp;gt; &amp;lt;Mileva&amp;gt;
-&amp;lt;Eduard&amp;gt; &amp;lt;birth-date&amp;gt; "1910-07-28"
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;Eduard&amp;gt; &amp;lt;has-parent&amp;gt; &amp;lt;Albert&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;&amp;lt;Albert&amp;gt; &amp;lt;has-spouse&amp;gt; &amp;lt;Mileva&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;&amp;lt;Eduard&amp;gt; &amp;lt;birth-date&amp;gt; "1910-07-28"&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Each triple can be represented visually as for instance:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1461,12 +1461,12 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 &lt;/blockquote&gt;
 &lt;p&gt;So where do IRIs, the foundation of the layercake, come into play ? Everywhere! Everything is identified by a URL (a specific form of IRI), except literal values, as "1910-07-28" in our running example. We did not mention any URL in the former presentations to make things simple and more readable.&lt;/p&gt;
 &lt;p&gt;Each resource is a URL, for example:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;Albert&amp;gt; -&amp;gt; &amp;lt;http://dbpedia.org/resource/Albert_Einstein&amp;gt;
-&amp;lt;Eduard&amp;gt; -&amp;gt; &amp;lt;http://dbpedia.org/resource/Eduard_Einstein&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;Albert&amp;gt; -&amp;gt; &amp;lt;http://dbpedia.org/resource/Albert_Einstein&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;&amp;lt;Eduard&amp;gt; -&amp;gt; &amp;lt;http://dbpedia.org/resource/Eduard_Einstein&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Each property is also a resource, and so:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;has-parent&amp;gt; -&amp;gt; &amp;lt;http://dbpedia.org/ontology/parent&amp;gt;
-&amp;lt;has-spouse&amp;gt; -&amp;gt; &amp;lt;http://dbpedia.org/ontology/spouse&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;has-parent&amp;gt; -&amp;gt; &amp;lt;http://dbpedia.org/ontology/parent&amp;gt;&lt;/span&gt;
+&lt;span class="err"&gt;&amp;lt;has-spouse&amp;gt; -&amp;gt; &amp;lt;http://dbpedia.org/ontology/spouse&amp;gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Here is the real RDF graph, with fully qualified URIs:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1489,19 +1489,19 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 &lt;li&gt;RDFa to add RDF inside HTML pages, the RDF data being not visible to end-users but at disposal for crawlers.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Turtle is a pretty simple format where each triple is written down. Our running example can be serialized in Turtle as follow:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;http://dbpedia.org/resource/Eduard_Einstein&amp;gt; &amp;lt;http://dbpedia.org/ontology/parent&amp;gt; &amp;lt;http://dbpedia.org/resource/Albert_Einstein&amp;gt; .
-&amp;lt;http://dbpedia.org/resource/Albert_Einstein&amp;gt; &amp;lt;http://dbpedia.org/ontology/spouse&amp;gt; &amp;lt;http://dbpedia.org/resource/Mileva_Mari%C4%87&amp;gt; .
-&amp;lt;http://dbpedia.org/resource/Eduard_Einstein&amp;gt; &amp;lt;http://dbpedia.org/property/birthDate&amp;gt; "1910-07-28"^^&amp;lt;http://www.w3.org/2001/XMLSchema#date&amp;gt; .
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;http://dbpedia.org/resource/Eduard_Einstein&amp;gt; &amp;lt;http://dbpedia.org/ontology/parent&amp;gt; &amp;lt;http://dbpedia.org/resource/Albert_Einstein&amp;gt; .&lt;/span&gt;
+&lt;span class="err"&gt;&amp;lt;http://dbpedia.org/resource/Albert_Einstein&amp;gt; &amp;lt;http://dbpedia.org/ontology/spouse&amp;gt; &amp;lt;http://dbpedia.org/resource/Mileva_Mari%C4%87&amp;gt; .&lt;/span&gt;
+&lt;span class="err"&gt;&amp;lt;http://dbpedia.org/resource/Eduard_Einstein&amp;gt; &amp;lt;http://dbpedia.org/property/birthDate&amp;gt; "1910-07-28"^^&amp;lt;http://www.w3.org/2001/XMLSchema#date&amp;gt; .&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In practice, some syntaxe shortcuts will be used and the final document will rather look like:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="k"&gt;prefix&lt;/span&gt; &lt;span class="nt"&gt;dbo&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;http&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="nt"&gt;dbpedia&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nt"&gt;ontology&lt;/span&gt;&lt;span class="o"&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="k"&gt;prefix&lt;/span&gt; &lt;span class="nt"&gt;dbp&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;http&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="nt"&gt;dbpedia&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nt"&gt;property&lt;/span&gt;&lt;span class="o"&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="k"&gt;prefix&lt;/span&gt; &lt;span class="nt"&gt;dbr&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;http&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="nt"&gt;dbpedia&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nt"&gt;resource&lt;/span&gt;&lt;span class="o"&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="k"&gt;prefix&lt;/span&gt; &lt;span class="nt"&gt;xsd&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;http&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="nt"&gt;www&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;w3&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nt"&gt;2001&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nt"&gt;XMLSchema&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;@prefix&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;dbo:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;&amp;lt;http://dbpedia.org/ontology/&amp;gt;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="k"&gt;@prefix&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;dbp:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;&amp;lt;http://dbpedia.org/property/&amp;gt;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="k"&gt;@prefix&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;dbr:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;&amp;lt;http://dbpedia.org/resource/&amp;gt;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="k"&gt;@prefix&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;xsd:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;&amp;lt;http://www.w3.org/2001/XMLSchema#&amp;gt;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="nt"&gt;dbr&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;Eduard_Einstein&lt;/span&gt; &lt;span class="nt"&gt;dbo&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;parent&lt;/span&gt; &lt;span class="nt"&gt;dbr&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;Albert_Einstein&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="nt"&gt;dbp&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;birthDate&lt;/span&gt; &lt;span class="s2"&gt;"1910-07-28"&lt;/span&gt;&lt;span class="o"&gt;^^&lt;/span&gt;&lt;span class="nt"&gt;xsd&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;date&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt;
-&lt;span class="nt"&gt;dbr&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;Albert_Einstein&lt;/span&gt; &lt;span class="nt"&gt;dbo&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;spouse&lt;/span&gt; &lt;span class="nt"&gt;dbr&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;Mileva_Mari&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nt"&gt;C4&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="nt"&gt;87&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt;
+&lt;span class="nn"&gt;dbr&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nt"&gt;Eduard_Einstein&lt;/span&gt; &lt;span class="nn"&gt;dbo&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nt"&gt;parent&lt;/span&gt; &lt;span class="nn"&gt;dbr&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nt"&gt;Albert_Einstein&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nn"&gt;dbp&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nt"&gt;birthDate&lt;/span&gt; &lt;span class="s"&gt;"1910-07-28"&lt;/span&gt;&lt;span class="p"&gt;^^&lt;/span&gt;&lt;span class="nn"&gt;xsd&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nt"&gt;date&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;
+&lt;span class="nn"&gt;dbr&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nt"&gt;Albert_Einstein&lt;/span&gt; &lt;span class="nn"&gt;dbo&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nt"&gt;spouse&lt;/span&gt; &lt;span class="nn"&gt;dbr&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nt"&gt;Mileva_Mari%C4%87&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id="ontologies-rdfs-and-owl_1"&gt;Ontologies, RDFs and OWL&lt;/h2&gt;
 &lt;p&gt;RDF was designed to represent data in a machine-friendly way, but we are still missing an important part of Information Modeling: a Data Model or Schema. In term of Linked Data and RDF, the data model is called a "vocabulary" or &amp;ldquo;ontology&amp;rdquo;. For that purpose, RDF has been extended by &lt;a href="https://www.w3.org/TR/rdf-schema/"&gt;RDFSchema (RDFs)&lt;/a&gt; and the &lt;a href="https://www.w3.org/TR/owl2-overview/"&gt;Ontology Web Language (OWL)&lt;/a&gt;. This is also where semantics is added to RDF.&lt;/p&gt;
@@ -1610,7 +1610,7 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nx"&gt;ck&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;datasets&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'#opendata-swiss'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'https://opendata.swiss/'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="nx"&gt;fq&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;       &lt;span class="s1"&gt;'organization:schweizerische-nationalbibliothek-nb'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
   &lt;span class="nx"&gt;lang&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;     &lt;span class="s1"&gt;'de'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-  &lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;     &lt;span class="mi"&gt;3&lt;/span&gt;
+  &lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;     &lt;span class="mf"&gt;3&lt;/span&gt;
 &lt;span class="p"&gt;});&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;In order to customize the presentation of the widget, you can use a custom template, for example like this code which fetches the most recently updated datasets:&lt;/p&gt;
@@ -1623,7 +1623,7 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
       &lt;span class="s1"&gt;'&amp;lt;p&amp;gt;&amp;lt;%= dso.publishers[0].label %&amp;gt;&amp;lt;/p&amp;gt;'&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;
       &lt;span class="s1"&gt;'&amp;lt;/div&amp;gt;'&lt;/span&gt;
     &lt;span class="p"&gt;),&lt;/span&gt;
-  &lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;
+  &lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;5&lt;/span&gt;
 &lt;span class="p"&gt;});&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; we recommend the use of our JavaScript widget for embedding &lt;em&gt;opendata.swiss&lt;/em&gt; datasets and search results. Full source code and deployment instructions are available on the &lt;a href="https://github.com/opendata-swiss/ckan-embed"&gt;ckan-embed project page&lt;/a&gt;.&lt;/p&gt;

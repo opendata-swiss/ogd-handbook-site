@@ -423,13 +423,13 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 <h2 id="resource-description-framework-rdf">Resource Description Framework (RDF)</h2>
 <p>Linked Data is based on the Resource Description Framework (RDF, <a href="https://www.w3.org/TR/rdf-primer/">a W3C standard</a>), a framework to represent information in the Web,  expressing information about any resource (people, things, anything).</p>
 <p>RDF is a data model for "things" (resources) and their &ldquo;relations&rdquo;, where each piece of information is an RDF Statement (or RDF Triple) of the following structure:</p>
-<div class="highlight"><pre><span></span>&lt;subject&gt; &lt;predicate&gt; &lt;object&gt;
+<div class="highlight"><pre><span></span><span class="err">&lt;subject&gt; &lt;predicate&gt; &lt;object&gt;</span>
 </pre></div>
 <p>Such a statement composed of three elements describes how a resource (the <strong>subject</strong>) is linked by a property (the <strong>predicate</strong>) to another resource or a value (the <strong>object</strong>)</p>
 <p>Example of triples:</p>
-<div class="highlight"><pre><span></span>&lt;Eduard&gt; &lt;has-parent&gt; &lt;Albert&gt;
-&lt;Albert&gt; &lt;has-spouse&gt; &lt;Mileva&gt;
-&lt;Eduard&gt; &lt;birth-date&gt; "1910-07-28"
+<div class="highlight"><pre><span></span><span class="err">&lt;Eduard&gt; &lt;has-parent&gt; &lt;Albert&gt;</span>
+<span class="err">&lt;Albert&gt; &lt;has-spouse&gt; &lt;Mileva&gt;</span>
+<span class="err">&lt;Eduard&gt; &lt;birth-date&gt; "1910-07-28"</span>
 </pre></div>
 <p>Each triple can be represented visually as for instance:</p>
 <blockquote>
@@ -449,12 +449,12 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 </blockquote>
 <p>So where do IRIs, the foundation of the layercake, come into play ? Everywhere! Everything is identified by a URL (a specific form of IRI), except literal values, as "1910-07-28" in our running example. We did not mention any URL in the former presentations to make things simple and more readable.</p>
 <p>Each resource is a URL, for example:</p>
-<div class="highlight"><pre><span></span>&lt;Albert&gt; -&gt; &lt;http://dbpedia.org/resource/Albert_Einstein&gt;
-&lt;Eduard&gt; -&gt; &lt;http://dbpedia.org/resource/Eduard_Einstein&gt;
+<div class="highlight"><pre><span></span><span class="err">&lt;Albert&gt; -&gt; &lt;http://dbpedia.org/resource/Albert_Einstein&gt;</span>
+<span class="err">&lt;Eduard&gt; -&gt; &lt;http://dbpedia.org/resource/Eduard_Einstein&gt;</span>
 </pre></div>
 <p>Each property is also a resource, and so:</p>
-<div class="highlight"><pre><span></span>&lt;has-parent&gt; -&gt; &lt;http://dbpedia.org/ontology/parent&gt;
-&lt;has-spouse&gt; -&gt; &lt;http://dbpedia.org/ontology/spouse&gt;
+<div class="highlight"><pre><span></span><span class="err">&lt;has-parent&gt; -&gt; &lt;http://dbpedia.org/ontology/parent&gt;</span>
+<span class="err">&lt;has-spouse&gt; -&gt; &lt;http://dbpedia.org/ontology/spouse&gt;</span>
 </pre></div>
 <p>Here is the real RDF graph, with fully qualified URIs:</p>
 <blockquote>
@@ -477,19 +477,19 @@ If necessary, the use of Unicode characters (non-ASCII characters) is possible a
 <li>RDFa to add RDF inside HTML pages, the RDF data being not visible to end-users but at disposal for crawlers.</li>
 </ul>
 <p>Turtle is a pretty simple format where each triple is written down. Our running example can be serialized in Turtle as follow:</p>
-<div class="highlight"><pre><span></span>&lt;http://dbpedia.org/resource/Eduard_Einstein&gt; &lt;http://dbpedia.org/ontology/parent&gt; &lt;http://dbpedia.org/resource/Albert_Einstein&gt; .
-&lt;http://dbpedia.org/resource/Albert_Einstein&gt; &lt;http://dbpedia.org/ontology/spouse&gt; &lt;http://dbpedia.org/resource/Mileva_Mari%C4%87&gt; .
-&lt;http://dbpedia.org/resource/Eduard_Einstein&gt; &lt;http://dbpedia.org/property/birthDate&gt; "1910-07-28"^^&lt;http://www.w3.org/2001/XMLSchema#date&gt; .
+<div class="highlight"><pre><span></span><span class="err">&lt;http://dbpedia.org/resource/Eduard_Einstein&gt; &lt;http://dbpedia.org/ontology/parent&gt; &lt;http://dbpedia.org/resource/Albert_Einstein&gt; .</span>
+<span class="err">&lt;http://dbpedia.org/resource/Albert_Einstein&gt; &lt;http://dbpedia.org/ontology/spouse&gt; &lt;http://dbpedia.org/resource/Mileva_Mari%C4%87&gt; .</span>
+<span class="err">&lt;http://dbpedia.org/resource/Eduard_Einstein&gt; &lt;http://dbpedia.org/property/birthDate&gt; "1910-07-28"^^&lt;http://www.w3.org/2001/XMLSchema#date&gt; .</span>
 </pre></div>
 <p>In practice, some syntaxe shortcuts will be used and the final document will rather look like:</p>
-<div class="highlight"><pre><span></span><span class="p">@</span><span class="k">prefix</span> <span class="nt">dbo</span><span class="o">:</span> <span class="o">&lt;</span><span class="nt">http</span><span class="o">://</span><span class="nt">dbpedia</span><span class="p">.</span><span class="nc">org</span><span class="o">/</span><span class="nt">ontology</span><span class="o">/&gt;</span>
-<span class="p">@</span><span class="k">prefix</span> <span class="nt">dbp</span><span class="o">:</span> <span class="o">&lt;</span><span class="nt">http</span><span class="o">://</span><span class="nt">dbpedia</span><span class="p">.</span><span class="nc">org</span><span class="o">/</span><span class="nt">property</span><span class="o">/&gt;</span>
-<span class="p">@</span><span class="k">prefix</span> <span class="nt">dbr</span><span class="o">:</span> <span class="o">&lt;</span><span class="nt">http</span><span class="o">://</span><span class="nt">dbpedia</span><span class="p">.</span><span class="nc">org</span><span class="o">/</span><span class="nt">resource</span><span class="o">/&gt;</span>
-<span class="p">@</span><span class="k">prefix</span> <span class="nt">xsd</span><span class="o">:</span> <span class="o">&lt;</span><span class="nt">http</span><span class="o">://</span><span class="nt">www</span><span class="p">.</span><span class="nc">w3</span><span class="p">.</span><span class="nc">org</span><span class="o">/</span><span class="nt">2001</span><span class="o">/</span><span class="nt">XMLSchema</span><span class="err">#</span><span class="o">&gt;</span>
+<div class="highlight"><pre><span></span><span class="k">@prefix</span><span class="w"> </span><span class="nn">dbo:</span><span class="w"> </span><span class="nv">&lt;http://dbpedia.org/ontology/&gt;</span><span class="w"></span>
+<span class="k">@prefix</span><span class="w"> </span><span class="nn">dbp:</span><span class="w"> </span><span class="nv">&lt;http://dbpedia.org/property/&gt;</span><span class="w"></span>
+<span class="k">@prefix</span><span class="w"> </span><span class="nn">dbr:</span><span class="w"> </span><span class="nv">&lt;http://dbpedia.org/resource/&gt;</span><span class="w"></span>
+<span class="k">@prefix</span><span class="w"> </span><span class="nn">xsd:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span><span class="w"></span>
 
-<span class="nt">dbr</span><span class="p">:</span><span class="nd">Eduard_Einstein</span> <span class="nt">dbo</span><span class="p">:</span><span class="nd">parent</span> <span class="nt">dbr</span><span class="p">:</span><span class="nd">Albert_Einstein</span> <span class="p">;</span>
-<span class="nt">dbp</span><span class="p">:</span><span class="nd">birthDate</span> <span class="s2">"1910-07-28"</span><span class="o">^^</span><span class="nt">xsd</span><span class="p">:</span><span class="nd">date</span> <span class="o">.</span>
-<span class="nt">dbr</span><span class="p">:</span><span class="nd">Albert_Einstein</span> <span class="nt">dbo</span><span class="p">:</span><span class="nd">spouse</span> <span class="nt">dbr</span><span class="p">:</span><span class="nd">Mileva_Mari</span><span class="o">%</span><span class="nt">C4</span><span class="o">%</span><span class="nt">87</span> <span class="o">.</span>
+<span class="nn">dbr</span><span class="p">:</span><span class="nt">Eduard_Einstein</span> <span class="nn">dbo</span><span class="p">:</span><span class="nt">parent</span> <span class="nn">dbr</span><span class="p">:</span><span class="nt">Albert_Einstein</span> <span class="p">;</span>
+<span class="nn">dbp</span><span class="p">:</span><span class="nt">birthDate</span> <span class="s">"1910-07-28"</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">date</span> <span class="p">.</span>
+<span class="nn">dbr</span><span class="p">:</span><span class="nt">Albert_Einstein</span> <span class="nn">dbo</span><span class="p">:</span><span class="nt">spouse</span> <span class="nn">dbr</span><span class="p">:</span><span class="nt">Mileva_Mari%C4%87</span> <span class="p">.</span>
 </pre></div>
 <h2 id="ontologies-rdfs-and-owl_1">Ontologies, RDFs and OWL</h2>
 <p>RDF was designed to represent data in a machine-friendly way, but we are still missing an important part of Information Modeling: a Data Model or Schema. In term of Linked Data and RDF, the data model is called a "vocabulary" or &ldquo;ontology&rdquo;. For that purpose, RDF has been extended by <a href="https://www.w3.org/TR/rdf-schema/">RDFSchema (RDFs)</a> and the <a href="https://www.w3.org/TR/owl2-overview/">Ontology Web Language (OWL)</a>. This is also where semantics is added to RDF.</p>

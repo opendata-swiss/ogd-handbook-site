@@ -225,7 +225,7 @@ Topic enquiry</a>
 <div class="highlight"><pre><span></span><span class="nx">ck</span><span class="p">.</span><span class="nx">datasets</span><span class="p">(</span><span class="s1">'#opendata-swiss'</span><span class="p">,</span> <span class="s1">'https://opendata.swiss/'</span><span class="p">,</span> <span class="p">{</span>
   <span class="nx">fq</span><span class="o">:</span>       <span class="s1">'organization:schweizerische-nationalbibliothek-nb'</span><span class="p">,</span>
   <span class="nx">lang</span><span class="o">:</span>     <span class="s1">'de'</span><span class="p">,</span>
-  <span class="nx">rows</span><span class="o">:</span>     <span class="mi">3</span>
+  <span class="nx">rows</span><span class="o">:</span>     <span class="mf">3</span>
 <span class="p">});</span>
 </pre></div>
 <p>In order to customize the presentation of the widget, you can use a custom template, for example like this code which fetches the most recently updated datasets:</p>
@@ -238,7 +238,7 @@ Topic enquiry</a>
       <span class="s1">'&lt;p&gt;&lt;%= dso.publishers[0].label %&gt;&lt;/p&gt;'</span> <span class="o">+</span>
       <span class="s1">'&lt;/div&gt;'</span>
     <span class="p">),</span>
-  <span class="nx">rows</span><span class="o">:</span> <span class="mi">5</span>
+  <span class="nx">rows</span><span class="o">:</span> <span class="mf">5</span>
 <span class="p">});</span>
 </pre></div>
 <p><strong>Summary:</strong> we recommend the use of our JavaScript widget for embedding <em>opendata.swiss</em> datasets and search results. Full source code and deployment instructions are available on the <a href="https://github.com/opendata-swiss/ckan-embed">ckan-embed project page</a>.</p>

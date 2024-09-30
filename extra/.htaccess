@@ -1,3 +1,4 @@
+Redirect 301 /test /en/pages/index
 Options +FollowSymLinks
 RewriteEngine on
 
@@ -38,12 +39,13 @@ RewriteRule ^/(..)/publish/harvester.*$ /$1/prepare/harvester [L,R=301]
 RewriteRule ^/(..)/publish/userguide.*$ /$1/library/opendataswiss-userguide [L,R=301]
 RewriteRule ^/(..)/support/api.*$ /$1/library/ckan-api [L,R=301]
 
+# Redirect old handbook URL to new URL
+RewriteCond %{HTTP_HOST} ^opendata-swiss\.github\.io$ [NC]
+RewriteRule ^en/library/ch-dcat-ap\.html$ https://handbook.opendata.swiss/en/content/glossar/bibliothek/dcat-ap-ch.html [L,R=301]
+
 # Finally, direct to appropriate html file
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
 
 Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch
-
-# Redirect old handbook URL to new URL
-RewriteRule ^ogd-handbook-site/en/library/ch-dcat-ap.html$ https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html [L,R=301]

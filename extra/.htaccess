@@ -44,3 +44,6 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
 
 Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch
+
+# Redirect old handbook URL to new URL
+RewriteRule ^ogd-handbook-site/en/library/ch-dcat-ap.html$ https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html [L,R=301]

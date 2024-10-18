@@ -39,7 +39,7 @@ RewriteRule ^/(..)/publish/userguide.*$ /$1/library/opendataswiss-userguide [L,R
 RewriteRule ^/(..)/support/api.*$ /$1/library/ckan-api [L,R=301]
 
 # Redirect old handbook URL to new URL
-RewriteRule ^/(..)/library/ch-dcat-ap.html$ https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html [L,R=301]
+RewriteRule ^/en/library/ch-dcat-ap.html$ https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html [L,R=301]
 
 # Finally, direct to appropriate html file
 RewriteCond %{REQUEST_FILENAME} !-d

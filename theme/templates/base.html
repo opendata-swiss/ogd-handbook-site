@@ -94,6 +94,11 @@
               title="{{ SITENAME }} {{ category }} ATOM Feed"/>
     {% endif %}
 
+    {% if SITEURL == "https://opendata-swiss.github.io/ogd-handbook-site/en/library/ch-dcat-ap.html" %}
+        <script type="text/javascript">
+            window.location.href = "https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html";
+        </script>
+    {% endif %}
 </head>
 <body class="page page-template-default{% if page %} page-{{ page.slug }}{% endif %}{% if article %} article-{{ article.slug }}{% endif %}">
 

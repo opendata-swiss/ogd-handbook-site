@@ -25,16 +25,14 @@
     <link rel="apple-touch-icon" href="{{ SITEURL }}/{{ TOUCHICON }}">
     {% endif %}
 
-    {% block canonical_rel %}
-        <link rel="canonical" href="{{ SITEURL }}{% if page.url %}/{{ page.url }}{% endif %}">
-    {% endblock %}
-
-    <!-- Add redirect script -->
-    {% if page.url == '/en/library/ch-dcat-ap.html' %}
+    <!-- Redirect logic in the head -->
+    {% if request.path == '/en/library/ch-dcat-ap.html' %}
         <script type="text/javascript">
             window.location.href = "https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html";
         </script>
     {% endif %}
+
+    {% block canonical_rel %}{% endblock %}
 
     {% block meta %}
         <meta name="author" content="{{ AUTHOR }}" />

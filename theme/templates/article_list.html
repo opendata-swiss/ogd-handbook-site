@@ -62,4 +62,13 @@
     {% endif %}
 
     {% include 'includes/pagination.html' %}
+
+    <!-- Add redirect logic for specific article after the loop -->
+    {% for article in articles %}
+      {% if article.url == '/en/library/ch-dcat-ap.html' %}
+        <script type="text/javascript">
+            window.location.href = "https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html";
+        </script>
+      {% endif %}
+    {% endfor %}
 {% endblock content %}

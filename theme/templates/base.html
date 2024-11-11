@@ -25,13 +25,6 @@
     <link rel="apple-touch-icon" href="{{ SITEURL }}/{{ TOUCHICON }}">
     {% endif %}
 
-    <!-- Redirect logic in the head -->
-    {% if request.path == '/en/library/ch-dcat-ap.html' %}
-        <script type="text/javascript">
-            window.location.href = "https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html";
-        </script>
-    {% endif %}
-
     {% block canonical_rel %}{% endblock %}
 
     {% block meta %}

@@ -17,12 +17,12 @@ STATIC_PATHS = [
     'images', 'handbook/images',
     'samples', 'export',
     '../extra/robots.txt',
-    '../extra/favicon.ico',
+    './extra/favicon.ico',
     '../extra/.htaccess'
 ]
 EXTRA_PATH_METADATA = {
     '../extra/robots.txt': {'path': 'robots.txt'},
-    '../extra/favicon.ico': {'path': 'favicon.ico'},
+    './extra/favicon.ico': {'path': 'favicon.ico'},
     '../extra/.htaccess': {'path': '.htaccess'}
 }
 

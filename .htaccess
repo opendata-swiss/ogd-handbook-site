@@ -1,3 +1,4 @@
+Redirect 301 /test /en/pages/index
 Options +FollowSymLinks
 RewriteEngine on
 
